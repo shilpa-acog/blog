@@ -9,7 +9,7 @@ dateCreated: 2025-02-17T15:43:44.619Z
 ---
 
 <div class="container mx-auto px-4">
-  <h1 class="text-4xl font-bold mb-6">Welcome to Our Company Wiki</h1>
+  <h1 class="text-4xl font-bold mb-6">Welcome to Our Company Aganitha</h1>
   
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <section>
