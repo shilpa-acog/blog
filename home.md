@@ -1,8 +1,8 @@
 ---
-title: Aganitha
+title: Home
 description: we make AI for science
 published: true
-date: 2025-02-19T07:01:49.002Z
+date: 2025-02-19T07:44:15.305Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
