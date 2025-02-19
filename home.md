@@ -1,8 +1,8 @@
 ---
 title: Home
-description: we make AI for science
+description: 
 published: true
-date: 2025-02-19T07:44:15.305Z
+date: 2025-02-19T07:46:25.268Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -10,6 +10,7 @@ dateCreated: 2025-02-17T15:43:44.619Z
 
 <div class="container mx-auto px-4">
   <h1 class="text-4xl font-bold mb-6">Welcome to Our Company Aganitha</h1>
+  <p>We make AI for Science<p>
 
   <section class="mb-8">
     <h2 class="text-2xl font-semibold mb-4">About Aganitha</h2>
