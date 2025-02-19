@@ -2,7 +2,7 @@
 title: Aganitha
 description: we make AI for science
 published: true
-date: 2025-02-19T06:34:04.037Z
+date: 2025-02-19T07:01:49.002Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -10,24 +10,20 @@ dateCreated: 2025-02-17T15:43:44.619Z
 
 <div class="container mx-auto px-4">
   <h1 class="text-4xl font-bold mb-6">Welcome to Our Company Aganitha</h1>
-  
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <section>
-      <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
-      <ul class="list-disc pl-5">
-        <li><a href="/kb">Knowledge Base</a></li>
-        <li><a href="/blogs">Blogs</a></li>
-        <li><a href="/about">About Us</a></li>
-      </ul>
-    </section>
-  </div>
-  
+
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">About Aganitha</h2>
+    <p>Aganitha is a technology-driven company specializing in AI, life sciences, and computational research. 
+       We focus on accelerating drug discovery, bioinformatics, and data-driven innovations through 
+       cutting-edge technology solutions.</p>
+  </section>
+
   <section class="mt-8">
     <h2 class="text-2xl font-semibold mb-4">Department Highlights</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <div class="border p-4 rounded">
         <h3 class="text-xl font-medium mb-2">IT</h3>
-        <p>The IT department is responsible for maintaining company infrastructure, security, and cloud services. 
+        <p>The IT department maintains company infrastructure, security, and cloud services. 
            Recent initiatives include migrating to a Kubernetes-based architecture and implementing 
            Zero Trust security measures.</p>
       </div>
