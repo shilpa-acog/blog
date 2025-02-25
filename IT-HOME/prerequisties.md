@@ -10,3 +10,10 @@ dateCreated: 2025-02-21T07:54:00.612Z
 
 # Prerequisites
 Applications
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
