@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T16:23:24.118Z
+date: 2025-02-26T16:36:06.169Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -98,5 +98,7 @@ For cloning the repository, we need to naviagte to the repository path, then we 
 ```sh
 git clone git@github.com:shilpa-acog/blog.git
 ```
-
-
+# Request Access to acog repo 🛗
+* After Completing all the above steps, you need to request access to acog repo through the google chat.
+* Go to **google chats > Search for ramana@aganitha.ai > send request**
+* Plese Send the request by Introducing yourself to him like 
