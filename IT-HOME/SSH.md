@@ -1,8 +1,8 @@
 ---
-title: ssh
+title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T09:41:26.857Z
+date: 2025-02-26T09:42:41.787Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
