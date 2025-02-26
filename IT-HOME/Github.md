@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T12:40:36.561Z
+date: 2025-02-26T13:30:29.049Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -44,6 +44,7 @@ cat ~/.ssh/id_rsa.pub
 * Your SSH key is now successfully added to GitHub! 🔑
 
 # Best Practices
+
 
 best practices
 to clone any one of our repo into your home directory of any server need to get the ssh github url link
