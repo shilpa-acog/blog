@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:53:37.620Z
+date: 2025-02-26T17:54:39.843Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -54,8 +54,16 @@ The engineering team is the powerhouse behind Aganitha’s AI-driven tools and p
 * Data engineering & big data analytics
 * API & microservices development
 ### 🖥 Technology Stack:
-
-
+```mermaid
+sequenceDiagram
+    participant AI
+    participant DataScience
+    participant Bioinformatics
+    AI->>DataScience: Model Training
+    DataScience-->>AI: Feedback Loop
+    AI->>Bioinformatics: Predictions
+    Bioinformatics-->>AI: Validation Data
+    ```
 ## 🔹 Science Department
 The science team collaborates closely with AI and engineering to ensure the biological and chemical relevance of computational models. Focus areas:
 * Molecular docking & simulations
