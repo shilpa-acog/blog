@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:51:47.010Z
+date: 2025-02-26T17:53:37.620Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -37,8 +37,15 @@ The IT team ensures a robust and scalable technological backbone to support AI a
 * Cybersecurity & compliance
 * High-performance computing (HPC) for AI workloads
 ### 📊 IT Workflow:
-
-
+```mermaid
+graph LR
+  A[January] -->|99.9%| B[February]
+  B -->|99.8%| C[March]
+  C -->|99.85%| D[April]
+  D -->|99.9%| E[May]
+  E -->|99.95%| F[June]
+  F -->|99.97%| G[End]
+  ```
 ## 🔹 Engineering Department
 The engineering team is the powerhouse behind Aganitha’s AI-driven tools and platforms. Key areas include:
 
