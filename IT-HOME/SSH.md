@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T09:43:31.955Z
+date: 2025-02-26T10:20:36.446Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -19,7 +19,21 @@ Basically, we log in to our servers using password and public key authentication
 
 The information for SSH login includes the user, port number, and domain name.
 Here are the dedicated servers that we have now. you can check them below:
-![screenshot_2025-02-26_at_2.35.05_pm.png](/screenshot_2025-02-26_at_2.35.05_pm.png)
+# Servers' Info
+
+```sh
+own1 ssh port: 2431 https port: none webserver: own1.aganitha.ai
+own2 ssh port: 2222 https port: none webserver: own2.aganitha.ai
+own3 ssh port: 2322 https port: none webserver: own3.aganitha.ai
+own4 ssh port: 2222 https port: 8443 webserver: own4.aganitha.ai:8443
+own5 ssh port: 2522 https port: 8543 webserver: own5.aganitha.ai:8543
+own6 ssh port: 2622 https port: 8643 webserver: own6.aganitha.ai:8643
+hpc2 ssh port: 2222 https port: none webserver: hpc2.aganitha.ai
+hpc3 ssh port: 2222 https port: none webserver: hpc3.aganitha.ai
+hpc4 ssh port: 2222 https port: none webserver: hpc4.aganitha.ai
+```
+
+---
 
 
 Below is the syntax for SSH login:
@@ -27,7 +41,7 @@ Below is the syntax for SSH login:
 ```sh
 ssh -p <port_number> <username>@<hostname>
 ```
-<button onclick="copyToClipboard('ssh -p <port_number> <username>@<hostname>')"></button>
+
 
 ### **Explanation:**
 
@@ -41,8 +55,6 @@ ssh -p <port_number> <username>@<hostname>
 ```sh
 ssh -p 2322 shilpa@own3.aganitha.ai
 ```
-<button onclick="copyToClipboard('ssh -p 2322 shilpa@own3.aganitha.ai')"></button>
-
 ---
 
 # 2. Key Pair: 
@@ -52,14 +64,12 @@ Check before generating the key pair using the following command:
 ```sh
 cat ~/.ssh/id_rsa.pub
 ```
-<button onclick="copyToClipboard('cat ~/.ssh/id_rsa.pub')"></button>
 
 If SSH keys are not generated, please generate them using the following command:
 
 ```sh
 ssh-keygen -t rsa -b 4096 -N "" -f "$USER"_rsa_key
 ```
-<button onclick="copyToClipboard('ssh-keygen')"></button>
 
 After generation, a key pair will be created in the ~/.ssh directory of your home  ~/<your_username>
 
@@ -76,7 +86,6 @@ To aacess any of our servers you need to send the public key to system admin by 
 ```sh
 ssh -i ~/.ssh/id_rsa.pub username@hostname
 ```
-<button onclick="copyToClipboard('ssh -i ~/.ssh/id_rsa username@hostname')"></button>
 
 ---
 
@@ -89,7 +98,6 @@ If the file doesn’t exist, create it:
 touch ~/.ssh/config
 chmod 600 ~/.ssh/config  # Set correct permissions
 ```
-<button onclick="copyToClipboard('touch ~/.ssh/config\nchmod 600 ~/.ssh/config')"></button>
 
 Basic Configuration Example:
 
@@ -99,24 +107,19 @@ Host own3
     User shilpa
     Port 2222
 ```
-<button onclick="copyToClipboard('Host own3\n    HostName own3.aganitha.ai\n    User shilpa\n    Port 2222')"></button>
 
 Now, instead of running:
 
 ```sh
 ssh -p 2322 shilpa@own3.aganitha.ai
 ```
-<button onclick="copyToClipboard('ssh -p 2222 shilpa@own3.aganitha.ai')"></button>
 
 You can simply use:
 
 ```sh
 ssh own3
 ```
-<button onclick="copyToClipboard('ssh own3')"></button>
-
 ---
-
 # 5. Adjust `.ssh` directory permissions:
 
 Proper permissions on your `~/.ssh` directory and its files are crucial for **security** and **successful authentication** when using SSH. If permissions are too open, SSH will **reject** your keys and prevent login.  
@@ -132,4 +135,6 @@ ls -lah ~/.ssh  # Check if everything is set correctly
 <button onclick="copyToClipboard('chmod 700 ~/.ssh\nchmod 600 ~/.ssh/id_rsa\nchmod 644 ~/.ssh/id_rsa.pub\nchmod 600 ~/.ssh/authorized_keys\nls -lah ~/.ssh')"></button>
 
 ---
-
+# Want to know more ? 🧐
+After Successfully login to the server you can work and also you can check more information about the server. You want to know more about that ? then, follow the below steps.
+* 
