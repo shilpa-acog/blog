@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:25:05.903Z
+date: 2025-02-26T17:33:59.557Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -29,3 +29,43 @@ Aganitha collaborates with global pharma and biotech companies to build AI-power
 * **AI-driven data analysis**
 # Department Highlights 🏬
 Aganitha operates at the intersection of IT, Engineering, and Science. Below are key highlights from each department:
+## 🔹 IT Department
+The IT team ensures a robust and scalable technological backbone to support AI and computational research. Core responsibilities include:
+
+* Cloud infrastructure management (AWS, GCP, Azure)
+* DevOps & CI/CD automation
+* Cybersecurity & compliance
+* High-performance computing (HPC) for AI workloads
+### 📊 IT Workflow:
+
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor': '#bbdefb', 'lineColor': '#000000'}}}%%
+line
+    title Server Uptime (%) Over 6 Months
+    Jan: 99.9
+    Feb: 99.8
+    Mar: 99.85
+    Apr: 99.9
+    May: 99.95
+    Jun: 99.97
+
+
+
+
+
+
+
+
+## 🔹 Engineering Department
+The engineering team is the powerhouse behind Aganitha’s AI-driven tools and platforms. Key areas include:
+
+* AI/ML model development
+* Software engineering for bioinformatics applications
+* Data engineering & big data analytics
+* API & microservices development
+### 🖥 Technology Stack:
+Participant AI
+  Participant Data Science
+  AI -> Data Science: Model Training
+  Data Science -> AI: Feedback Loop
+  AI -> Bioinformatics: Predictions
+  Bioinformatics -> AI: Validation Data
