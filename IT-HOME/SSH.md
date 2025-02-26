@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-26T11:23:50.567Z
+date: 2025-02-26T11:24:32.230Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -54,7 +54,10 @@ hpc3
   ssh port: 2222  
   webserver: hpc3.aganitha.ai
   https port: none
-hpc4 ssh port: 2222 https port: none webserver: hpc4.aganitha.ai
+hpc4 
+  ssh port: 2222  
+  webserver: hpc4.aganitha.ai
+  https port: none
 ```
 
 ---
