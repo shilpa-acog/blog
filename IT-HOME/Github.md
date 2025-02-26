@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T16:45:02.642Z
+date: 2025-02-26T16:48:51.733Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -111,5 +111,6 @@ I need access to the acog repository to work on [brief reason, e.g., a specific 
 
 awaiting for your response...
 ```
-* Whenever the 
+* Whenever the message reached to ramana He will add you in the acog repos. And You will receive the mail about ramana aaded you.
+* Now you can access our aganitha repos 👍
 
