@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T16:20:09.248Z
+date: 2025-02-26T16:20:45.723Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -98,13 +98,5 @@ For cloning the repository, we need to naviagte to the repository path, then we 
 ```sh
 git clone git@github.com:shilpa-acog/blog.git
 ```
-
-
-
-best practices
-to clone any one of our repo into your home directory of any server need to get the ssh github url link
-dont go for https cloning because it is deprecated for private github repos 
-
-basic github push and pull
 
 
