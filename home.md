@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:45:46.232Z
+date: 2025-02-26T17:50:36.366Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -37,17 +37,8 @@ The IT team ensures a robust and scalable technological backbone to support AI a
 * Cybersecurity & compliance
 * High-performance computing (HPC) for AI workloads
 ### 📊 IT Workflow:
-```mermaid
-%%{init: {'theme':'default'}}%%
-line
-  title Server Uptime (%) Over 6 Months
-  "Jan" : 99.9
-  "Feb" : 99.8
-  "Mar" : 99.85
-  "Apr" : 99.9
-  "May" : 99.95
-  "Jun" : 99.97
-```
+
+
 ## 🔹 Engineering Department
 The engineering team is the powerhouse behind Aganitha’s AI-driven tools and platforms. Key areas include:
 
@@ -56,14 +47,7 @@ The engineering team is the powerhouse behind Aganitha’s AI-driven tools and p
 * Data engineering & big data analytics
 * API & microservices development
 ### 🖥 Technology Stack:
-sequenceDiagram
-    participant AI
-    participant DataScience
-    participant Bioinformatics
-    AI->>DataScience: Model Training
-    DataScience-->>AI: Feedback Loop
-    AI->>Bioinformatics: Predictions
-    Bioinformatics-->>AI: Validation Data
+
 
 ## 🔹 Science Department
 The science team collaborates closely with AI and engineering to ensure the biological and chemical relevance of computational models. Focus areas:
@@ -71,3 +55,5 @@ The science team collaborates closely with AI and engineering to ensure the biol
 * Genomic data interpretation
 * AI-assisted drug design
 * Scientific data validation
+# Join Us
+Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at Aganitha Careers.
