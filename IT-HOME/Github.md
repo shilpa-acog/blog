@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T11:19:53.505Z
+date: 2025-02-26T11:28:37.565Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -36,5 +36,10 @@ dateCreated: 2025-02-26T10:50:40.536Z
 # Adding Public Key in Github Account:
 * Open your terminal 
 * Run the command:
+```sh
+cat ~/.ssh/id_rsa.pub
+```
+<a href="/IT-HOME/SSH"> To Know more about the ssh </a>
+
 
 
