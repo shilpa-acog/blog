@@ -1,8 +1,8 @@
 ---
 title: SSH
-description: ssh login
+description: ssh login to servers
 published: true
-date: 2025-02-26T10:38:04.906Z
+date: 2025-02-26T10:45:35.129Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -85,7 +85,7 @@ After generation, a key pair will be created in the ~/.ssh directory of your hom
 
 # 3. Public-key authentication:
 
-To aacess any of our servers you need to send the public key to system admin by copy paste or by adding the public key to your github profile and send the github username to him (**"username-acog"** Follow this naming convention to create a github account) add a github url
+To aacess any of our servers you need to send the public key to system admin by copy paste or by adding the public key to your github profile and send the github username to him (**"username-acog"** Follow this naming convention to <a href="/">create a github account</a>) add a github url
 
 ```sh
 ssh -i ~/.ssh/id_rsa.pub username@hostname
