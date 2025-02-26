@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:54:39.843Z
+date: 2025-02-26T17:55:28.939Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -63,7 +63,7 @@ sequenceDiagram
     DataScience-->>AI: Feedback Loop
     AI->>Bioinformatics: Predictions
     Bioinformatics-->>AI: Validation Data
-    ```
+ ```
 ## 🔹 Science Department
 The science team collaborates closely with AI and engineering to ensure the biological and chemical relevance of computational models. Focus areas:
 * Molecular docking & simulations
