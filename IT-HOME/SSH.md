@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T10:26:33.483Z
+date: 2025-02-26T10:27:04.931Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
