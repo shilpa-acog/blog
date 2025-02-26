@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T10:27:04.931Z
+date: 2025-02-26T10:31:23.399Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -22,7 +22,10 @@ Here are the dedicated servers that we have now. you can check them below:
 # Servers' Info
 
 ```sh
-own1 ssh port: 2431 https port: none webserver: own1.aganitha.ai
+own1 
+	ssh port: 2431 
+ 	webserver: own1.aganitha.ai
+  https port: none 
 own2 ssh port: 2222 https port: none webserver: own2.aganitha.ai
 own3 ssh port: 2322 https port: none webserver: own3.aganitha.ai
 own4 ssh port: 2222 https port: 8443 webserver: own4.aganitha.ai:8443
