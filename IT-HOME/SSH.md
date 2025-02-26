@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T10:20:36.446Z
+date: 2025-02-26T10:26:33.483Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -137,4 +137,15 @@ ls -lah ~/.ssh  # Check if everything is set correctly
 ---
 # Want to know more ? 🧐
 After Successfully login to the server you can work and also you can check more information about the server. You want to know more about that ? then, follow the below steps.
-* 
+* open your server in the browser https://own3.aganitha.ai/
+* you can see the page like this
+
+![screenshot_2025-02-26_3.31.25_pm.png](/screenshot_2025-02-26_3.31.25_pm.png)
+* There you can find the options **Home**, **Container List**, **Status**, **Reset**.
+* Navigate to **Status**.
+* You can find the more information like CPU Load, Disk Usage, Memory Usage and  Machine information.
+* Look at the pictures below...
+
+![screenshot_2025-02-26_3.35.56_pm.png](/screenshot_2025-02-26_3.35.56_pm.png)
+![screenshot_2025-02-26_3.36.15_pm.png](/screenshot_2025-02-26_3.36.15_pm.png)
+
