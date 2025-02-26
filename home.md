@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:56:43.782Z
+date: 2025-02-26T17:57:49.570Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -37,6 +37,8 @@ The IT team ensures a robust and scalable technological backbone to support AI a
 * Cybersecurity & compliance
 * High-performance computing (HPC) for AI workloads
 ### 📊 IT Workflow:
+
+
 ```mermaid
 graph LR
   A[January] -->|99.9%| B[February]
@@ -54,6 +56,8 @@ The engineering team is the powerhouse behind Aganitha’s AI-driven tools and p
 * Data engineering & big data analytics
 * API & microservices development
 ### 🖥 Technology Stack:
+
+
 ```mermaid
 sequenceDiagram
     participant AI
@@ -71,6 +75,8 @@ The science team collaborates closely with AI and engineering to ensure the biol
 * AI-assisted drug design
 * Scientific data validation
 ### 🧬 Drug Discovery Pipeline:
+
+
 ```mermaid
 graph TD;
   A[AI-Driven Research] -->|Molecular Discovery| B
