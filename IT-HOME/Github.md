@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T11:37:32.289Z
+date: 2025-02-26T11:44:23.736Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -41,7 +41,7 @@ cat ~/.ssh/id_rsa.pub
 ```
 <a href="/IT-HOME/SSH"> To Know more about the ssh </a>
 * Copy the displayed key.
-* Go to Github → Settins → SSH and GPG Keys 
+* Go to **Github > Settins > SSH and GPG Keys** 
 * There you can find the SSH Keys → Authentication keys
 * Paste the copied key into the Key field.
 * Click Add SSH Key
