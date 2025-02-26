@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login
 published: true
-date: 2025-02-26T10:31:23.399Z
+date: 2025-02-26T10:34:22.984Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -23,8 +23,8 @@ Here are the dedicated servers that we have now. you can check them below:
 
 ```sh
 own1 
-	ssh port: 2431 
- 	webserver: own1.aganitha.ai
+	ssh port: 2431
+  webserver: own1.aganitha.ai
   https port: none 
 own2 ssh port: 2222 https port: none webserver: own2.aganitha.ai
 own3 ssh port: 2322 https port: none webserver: own3.aganitha.ai
@@ -44,6 +44,7 @@ Below is the syntax for SSH login:
 ```sh
 ssh -p <port_number> <username>@<hostname>
 ```
+based on the project you've been assigned to, system admin will give access to  the servers accordingly...
 
 
 ### **Explanation:**
