@@ -2,7 +2,7 @@
 title: ssh
 description: ssh login
 published: true
-date: 2025-02-26T09:00:13.939Z
+date: 2025-02-26T09:04:39.272Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -19,7 +19,7 @@ The information for SSH login includes the user, port number, and domain name. B
 ```sh
 ssh -p <port_number> <username>@<hostname>
 ```
-<button onclick="copyToClipboard('ssh -p <port_number> <username>@<hostname>')">Copy</button>
+<button onclick="copyToClipboard('ssh -p <port_number> <username>@<hostname>')"></button>
 
 ### **Explanation:**
 
@@ -49,14 +49,14 @@ Check before generating the key pair using the following command:
 ```sh
 cat ~/.ssh/id_rsa.pub
 ```
-<button onclick="copyToClipboard('cat ~/.ssh/id_rsa.pub')">Copy</button>
+<button onclick="copyToClipboard('cat ~/.ssh/id_rsa.pub')"></button>
 
 If SSH keys are not generated, please generate them using the following command:
 
 ```sh
 ssh-keygen
 ```
-<button onclick="copyToClipboard('ssh-keygen')">Copy</button>
+<button onclick="copyToClipboard('ssh-keygen')"></button>
 
 Follow the prompts while generating the keys (press **Enter** to accept defaults). After generation, a key pair will be created.
 
@@ -85,7 +85,7 @@ If the file doesn’t exist, create it:
 touch ~/.ssh/config
 chmod 600 ~/.ssh/config  # Set correct permissions
 ```
-<button onclick="copyToClipboard('touch ~/.ssh/config\nchmod 600 ~/.ssh/config')">Copy</button>
+<button onclick="copyToClipboard('touch ~/.ssh/config\nchmod 600 ~/.ssh/config')"></button>
 
 Basic Configuration Example:
 
@@ -95,21 +95,21 @@ Host own3
     User shilpa
     Port 2222
 ```
-<button onclick="copyToClipboard('Host own3\n    HostName own3.aganitha.ai\n    User shilpa\n    Port 2222')">Copy</button>
+<button onclick="copyToClipboard('Host own3\n    HostName own3.aganitha.ai\n    User shilpa\n    Port 2222')"></button>
 
 Now, instead of running:
 
 ```sh
 ssh -p 2222 shilpa@own3.aganitha.ai
 ```
-<button onclick="copyToClipboard('ssh -p 2222 shilpa@own3.aganitha.ai')">Copy</button>
+<button onclick="copyToClipboard('ssh -p 2222 shilpa@own3.aganitha.ai')"></button>
 
 You can simply use:
 
 ```sh
 ssh own3
 ```
-<button onclick="copyToClipboard('ssh own3')">Copy</button>
+<button onclick="copyToClipboard('ssh own3')"></button>
 
 ---
 
@@ -125,24 +125,7 @@ chmod 644 ~/.ssh/id_rsa.pub
 chmod 600 ~/.ssh/authorized_keys
 ls -lah ~/.ssh  # Check if everything is set correctly
 ```
-<button onclick="copyToClipboard('chmod 700 ~/.ssh\nchmod 600 ~/.ssh/id_rsa\nchmod 644 ~/.ssh/id_rsa.pub\nchmod 600 ~/.ssh/authorized_keys\nls -lah ~/.ssh')">Copy</button>
+<button onclick="copyToClipboard('chmod 700 ~/.ssh\nchmod 600 ~/.ssh/id_rsa\nchmod 644 ~/.ssh/id_rsa.pub\nchmod 600 ~/.ssh/authorized_keys\nls -lah ~/.ssh')"></button>
 
 ---
 
-## **JavaScript Code for Copy Button Functionality:**
-
-```html
-<script>
-function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(() => {
-        alert('Copied to clipboard!');
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-    });
-}
-</script>
-```
-
----
-
-This will allow users to copy the commands easily with a single click. You can save this as a `.md` file, and when rendered in a web-based Markdown viewer (such as GitHub Pages or a Markdown-rendered website), the buttons will be functional.
