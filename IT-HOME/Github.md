@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T16:36:06.169Z
+date: 2025-02-26T16:45:02.642Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -102,3 +102,14 @@ git clone git@github.com:shilpa-acog/blog.git
 * After Completing all the above steps, you need to request access to acog repo through the google chat.
 * Go to **google chats > Search for ramana@aganitha.ai > send request**
 * Plese Send the request by Introducing yourself to him like 
+```sh
+Hi Ramana,
+
+I hope you're doing well. My name is [Your Name], and I recently joined [Your Team/Department] as a [Your Role].
+
+I need access to the acog repository to work on [brief reason, e.g., a specific project or task]. Could you please grant me the necessary permissions.
+
+awaiting for your response...
+```
+* Whenever the 
+
