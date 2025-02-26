@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-26T10:54:07.045Z
+date: 2025-02-26T11:23:50.567Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -26,13 +26,34 @@ own1
 	ssh port: 2431
   webserver: own1.aganitha.ai
   https port: none 
-own2 ssh port: 2222 https port: none webserver: own2.aganitha.ai
-own3 ssh port: 2322 https port: none webserver: own3.aganitha.ai
-own4 ssh port: 2222 https port: 8443 webserver: own4.aganitha.ai:8443
-own5 ssh port: 2522 https port: 8543 webserver: own5.aganitha.ai:8543
-own6 ssh port: 2622 https port: 8643 webserver: own6.aganitha.ai:8643
-hpc2 ssh port: 2222 https port: none webserver: hpc2.aganitha.ai
-hpc3 ssh port: 2222 https port: none webserver: hpc3.aganitha.ai
+own2 
+  ssh port: 2222 
+  webserver: own2.aganitha.ai
+  https port: none
+own3 
+  ssh port: 2322  
+  webserver: own3.aganitha.ai
+  https port: none
+own4 
+  ssh port: 2222  
+  webserver: own4.aganitha.ai:8443
+  https port: 8443
+own5 
+  ssh port: 2522  
+  webserver: own5.aganitha.ai:8543
+  https port: 8543
+own6 
+  ssh port: 2622  
+  webserver: own6.aganitha.ai:8643
+  https port: 8643
+hpc2 
+  ssh port: 2222  
+  webserver: hpc2.aganitha.ai
+  https port: none
+hpc3 
+  ssh port: 2222  
+  webserver: hpc3.aganitha.ai
+  https port: none
 hpc4 ssh port: 2222 https port: none webserver: hpc4.aganitha.ai
 ```
 
