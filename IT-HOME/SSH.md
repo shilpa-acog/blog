@@ -2,19 +2,27 @@
 title: ssh
 description: ssh login
 published: true
-date: 2025-02-26T09:05:01.941Z
+date: 2025-02-26T09:41:26.857Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
 ---
 
-# SSH
+# Intro:
 In this page, you can know briefly about how to login to a server using ssh.
+
 # SSH Login:
 
 Basically, we log in to our servers using password and public key authentication. Now we are using public key authentication by disabling password authentication.
 
-The information for SSH login includes the user, port number, and domain name. Below is the syntax for SSH login:
+**Note**: We disabled the password authentication, for now we are using only ssh login authentication.
+
+The information for SSH login includes the user, port number, and domain name.
+Here are the dedicated servers that we have now. you can check them below:
+![screenshot_2025-02-26_at_2.35.05_pm.png](/screenshot_2025-02-26_at_2.35.05_pm.png)
+
+
+Below is the syntax for SSH login:
 
 ```sh
 ssh -p <port_number> <username>@<hostname>
@@ -37,12 +45,7 @@ ssh -p 2322 shilpa@own3.aganitha.ai
 
 ---
 
-# 2. Server Responds and Key Exchange Happens:
-
-* The server checks if it supports the SSH **protocol version** of the client.  
-* They perform a **key exchange**.  
-* The server presents its **public key** to the client.  
-* If the client has connected before, it verifies the server's fingerprint using `~/.ssh/known_hosts`.  
+# 2. Key Pair: 
 
 Check before generating the key pair using the following command:
 
@@ -54,11 +57,12 @@ cat ~/.ssh/id_rsa.pub
 If SSH keys are not generated, please generate them using the following command:
 
 ```sh
-ssh-keygen
+ssh-keygen -t rsa -b 4096 -N "" -f "$USER"_rsa_key
 ```
 <button onclick="copyToClipboard('ssh-keygen')"></button>
 
-Follow the prompts while generating the keys (press **Enter** to accept defaults). After generation, a key pair will be created.
+After generation, a key pair will be created in the ~/.ssh directory of your home  ~/<your_username>
+
 
 * **Private key:** `~/.ssh/id_rsa` (**Keep this secret**)  
 * **Public key:** `~/.ssh/id_rsa.pub` (**Can be shared**)  
@@ -67,10 +71,10 @@ Follow the prompts while generating the keys (press **Enter** to accept defaults
 
 # 3. Public-key authentication:
 
-The client presents an SSH key instead of a password:
+To aacess any of our servers you need to send the public key to system admin by copy paste or by adding the public key to your github profile and send the github username to him (**"username-acog"** Follow this naming convention to create a github account) add a github url
 
 ```sh
-ssh -i ~/.ssh/id_rsa username@hostname
+ssh -i ~/.ssh/id_rsa.pub username@hostname
 ```
 <button onclick="copyToClipboard('ssh -i ~/.ssh/id_rsa username@hostname')"></button>
 
@@ -100,7 +104,7 @@ Host own3
 Now, instead of running:
 
 ```sh
-ssh -p 2222 shilpa@own3.aganitha.ai
+ssh -p 2322 shilpa@own3.aganitha.ai
 ```
 <button onclick="copyToClipboard('ssh -p 2222 shilpa@own3.aganitha.ai')"></button>
 
