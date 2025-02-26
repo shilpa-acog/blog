@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T11:44:23.736Z
+date: 2025-02-26T11:49:00.517Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -28,10 +28,6 @@ dateCreated: 2025-02-26T10:50:40.536Z
 * Solve the puzzle challenge to prove you're human.Click Create Account.
 * Click **Continue**.
 * Your GitHub account is now ready! 🎉
-# Request Access to acog repo:
-
-
-
 
 # Adding Public Key in Github Account:
 * Open your terminal 
@@ -41,13 +37,15 @@ cat ~/.ssh/id_rsa.pub
 ```
 <a href="/IT-HOME/SSH"> To Know more about the ssh </a>
 * Copy the displayed key.
-* Go to **Github > Settins > SSH and GPG Keys** 
-* There you can find the SSH Keys → Authentication keys
+* Go to **Github > Settings > SSH and GPG Keys** 
+* There you can find the **SSH Keys → Authentication keys**
 * Paste the copied key into the Key field.
-* Click Add SSH Key
+* Click Add **SSH Key**
 * Your SSH key is now successfully added to GitHub! 🔑
 
-
+best practices
+to clone any one of our repo into your home directory of any server need to get the ssh github url link
+dont go for https cloning because it is deprecated for private github repos 
 
 
 
