@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-26T11:24:32.230Z
+date: 2025-02-26T11:24:51.049Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
