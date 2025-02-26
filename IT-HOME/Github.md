@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T13:30:29.049Z
+date: 2025-02-26T16:20:09.248Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -43,7 +43,62 @@ cat ~/.ssh/id_rsa.pub
 * Click Add **SSH Key**
 * Your SSH key is now successfully added to GitHub! 🔑
 
-# Best Practices
+# Best Practices 🌟
+## Basic Git Commands
+1. Initialize a New Git Repository
+```sh
+git init
+```
+2. Clone an Existing Repository
+```sh
+git clone <repo_url>
+```
+3. Check Repository Status
+```sh
+git status
+```
+4. Add Files to Staging Area
+```sh
+git add .
+```
+5. Commit Changes
+```sh
+git commit -m "Your commit message"
+```
+6. Push Changes to Remote Repository
+```sh
+git push origin <branch_name>
+```
+7. Pull Latest Changes from Remote
+```sh
+git pull origin <branch_name>
+```
+## Git Clone:
+* Ensure Your SSH Key is Set Up (clearly discussed in the above > Adding public key in github account)
+* Test SSH Connection to GitHub by running the following command 
+```sh
+ssh -T git@github.com
+```
+you can see the output as follows
+> shilpamudusu@penguin ~ $ ssh -T git@github.com
+Hi shilpa-acog! You've successfully authenticated
+{.is-success}
+* Clone the Repository
+```sh
+git clone git@github.com:username/repository.git
+```
+For cloning the repository, we need to naviagte to the repository path, then we can find the code of the repository in three variants. They are **HTTPS**, **SSH**, **Github CLI**. You can see in the following image
+
+![screenshot_2025-02-26_9.41.43_pm.png](/screenshot_2025-02-26_9.41.43_pm.png)
+
+* **To Clone any one of our repo into your home directory of any server, you need to copy the ssh url and clone the repository**
+* Dont go for https cloning because it is deprecated for private github repos.
+## Example 
+* git clone using ssh url
+```sh
+git clone git@github.com:shilpa-acog/blog.git
+```
+
 
 
 best practices
