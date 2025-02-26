@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T12:23:33.314Z
+date: 2025-02-26T12:40:36.561Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -35,13 +35,15 @@ dateCreated: 2025-02-26T10:50:40.536Z
 ```sh
 cat ~/.ssh/id_rsa.pub
 ```
-<a href="/IT-HOME/SSH"> To Know more about the ssh </a>
+* <a href="/IT-HOME/SSH"> To Know more about the ssh </a>
 * Copy the displayed key.
 * Go to **Github > Settings > SSH and GPG Keys** 
 * There you can find the **SSH Keys > Authentication keys**
 * Paste the copied key into the Key field.
 * Click Add **SSH Key**
 * Your SSH key is now successfully added to GitHub! 🔑
+
+# Best Practices
 
 best practices
 to clone any one of our repo into your home directory of any server need to get the ssh github url link
