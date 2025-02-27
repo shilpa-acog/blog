@@ -2,7 +2,7 @@
 title: IT
 description: 
 published: true
-date: 2025-02-27T04:49:48.248Z
+date: 2025-02-27T04:53:10.980Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-21T12:08:07.419Z
@@ -20,13 +20,13 @@ This section covers GitHub usage, including repository management, access contro
 - Manage branches  
 - Handle pull requests efficiently  
 
-### 🔑 [LDAP (Lightweight Directory Access Protocol)](../ldap)  
+### 🔑 <a href="/IT-HOME/LDAP">LDAP (Lightweight Directory Access Protocol)</a>  
 A guide to LDAP, covering authentication, directory structures, and integration with other systems. This section explains:  
 - User management  
 - Access control  
 - Centralized identity management  
 
-### 🔐 [SSH (Secure Shell Protocol)](../ssh)  
+### 🔐 <a href="/IT-HOME/SSH">SSH (Secure Shell Protocol)</a>  
 Understand how to use SSH for secure remote access, authentication, and key management. Learn how to:  
 - Set up SSH keys  
 - Troubleshoot connection issues  
