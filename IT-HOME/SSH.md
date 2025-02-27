@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-27T05:22:25.296Z
+date: 2025-02-27T09:51:48.592Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -177,4 +177,6 @@ After Successfully login to the server you can work and also you can check more 
 ![screenshot_2025-02-26_3.35.56_pm.png](/screenshot_2025-02-26_3.35.56_pm.png)
 ![screenshot_2025-02-26_3.36.15_pm.png](/screenshot_2025-02-26_3.36.15_pm.png)
 
+> Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
+{.is-info}
 
