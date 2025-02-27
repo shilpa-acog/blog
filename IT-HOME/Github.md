@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T11:28:43.195Z
+date: 2025-02-27T11:39:29.206Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -79,7 +79,8 @@ rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
 ```sh
 rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub shilpa@own3:~/.ssh/
 ```
-* By adding these key pair into your server it will be easy to cloning authentication.
+* you need to add id_rsa.pub key in server as authosized_keys in .ssh directory for remote Access Authentication.
+* You need to add both public and private **id_rsa**, and **id_rsa.pub** key pair in .ssh directory in your server. it will be easy to cloning authentication.
 
 ## Git: basics you need to know:
 
