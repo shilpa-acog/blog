@@ -1,8 +1,8 @@
 ---
-title: LDAP
+title: Password Reset (LDAP, G-suite, Github)
 description: for centralized authentication !
 published: true
-date: 2025-02-26T16:58:17.161Z
+date: 2025-02-27T06:26:40.102Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T16:58:17.161Z
