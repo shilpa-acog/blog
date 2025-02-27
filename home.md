@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-27T05:08:49.105Z
+date: 2025-02-27T05:16:04.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -72,16 +72,17 @@ The science team collaborates closely with AI and engineering to ensure the biol
 * Scientific data validation
 ### 🧬 Drug Discovery Pipeline:
 
-
 ```mermaid
 graph TD;
-  A[AI-Driven Research] -->|Molecular Discovery| B
-  A -->|Structural Biology| C
-  A -->|Genomics| D
-  E[Computational Chemistry] -->|Quantum Mechanics| F
-  E -->|Molecular Dynamics| G
-  H[Bioinformatics] -->|Genomic Sequencing| I
-  H -->|Omics Data Analysis| J
-  ```
+  A[AI-Driven Research] -->|Molecular Discovery| B[Drug Design]
+  A -->|Structural Biology| C[Protein Folding]
+  A -->|Genomics| D[Gene Editing]
+  
+  E[Computational Chemistry] -->|Quantum Mechanics| F[Simulations]
+  E -->|Molecular Dynamics| G[Modeling]
+  
+  H[Bioinformatics] -->|Genomic Sequencing| I[Variants]
+  H -->|Omics Data Analysis| J[Integration]
+```
 # Join Us
 Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at Aganitha Careers.
