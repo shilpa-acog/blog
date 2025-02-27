@@ -2,7 +2,7 @@
 title: Password Reset (LDAP, G-suite, Github)
 description: for centralized authentication !
 published: true
-date: 2025-02-27T09:50:57.098Z
+date: 2025-02-27T12:07:45.311Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T16:58:17.161Z
@@ -15,6 +15,22 @@ dateCreated: 2025-02-26T16:58:17.161Z
 * Your github password is reset now.
 
 # Resetting Password for G-suite:
+
+
+# Enable 2-Step Verification:
+* 1. Open Google Security Settings
+     * Go to Your Account > Manage google account.
+     * Click on "Security" in the left sidebar.
+* 2. Enable 2-Step Verification
+     * Scroll down to the "How you sign in to Google" section.
+     * Click "2-Step Verification" and then "Get Started".
+* 3. Choose a Verification Method
+     * Google Prompt (Recommended) – A pop-up on your phone to approve logins.
+* 4. Verify & Activate
+     * Enter the received verification code to confirm.
+     * Click "Turn On" to enable 2FA.
+     * Add 2 step verification phone number.
+     * Add recovery phone and mail. 
 
 
 # LDAP Password Reset 🔑
