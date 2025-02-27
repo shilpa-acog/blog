@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T08:39:39.497Z
+date: 2025-02-27T09:37:13.349Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -46,14 +46,38 @@ cat ~/.ssh/id_rsa.pub
 # Best Practices 🌟
 To do the same git cloning on other servers as well you need to add/copy the key pair at the same path where you have generated the key pair in your local machine.
 
-**Note**: Remember, you can do this only when you get the login access to any server using rsync.  
-* Below is the command to copy the key in the server
+* Suppose you have your key pair in your local machine like
 ```sh
-rsync -av ~/.ssh/id_rsa.pub username@servername:~/.ssh/authorized_keys
+username@penguin .ssh $pwd
+/home/username/.ssh 
+```
+* Then you need to add your key pair in the same path of the Server like 
+```sh
+username@server .ssh $pwd 
+/home/username/.ssh.**
+```
+
+For example, 
+* This is the local machine path
+```sh
+shilpamudusu@penguin .ssh $ pwd
+/home/shilpamudusu/.ssh
+```
+* You should add the same keypair in the same path of the directory, like this
+```sh
+shilpa@own3 .ssh $ pwd
+/home/shilpa/.ssh	
+```
+> **Note**: Remember, you can do this only when you get the login access to any server using rsync.  
+* Below is the command to copy the key in the server
+
+
+```sh
+rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
 ```
 * For example,
 ```sh
-rsync -av ~/.ssh/id_rsa.pub shilpa@own:~/.ssh/authorized_keys
+rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub shilpa@own3:~/.ssh/
 ```
 
 
