@@ -2,17 +2,20 @@
 title: Password Reset (LDAP, G-suite, Github)
 description: for centralized authentication !
 published: true
-date: 2025-02-27T08:52:15.583Z
+date: 2025-02-27T08:59:43.279Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T16:58:17.161Z
 ---
 
-# Resetting Password for GitHub
+# Resetting Password for GitHub:
 * Sign in to **GitHub**.
 * Go to **Settings** > **Password and authentication** > **change password**
 * Enter your **current password**, then set a **new password**.
 * Your github password is reset now.
+
+# Resetting Password for G-suite:
+
 
 # LDAP Password Reset 🔑
 Hi Team,
