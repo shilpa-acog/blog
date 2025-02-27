@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-26T17:57:49.570Z
+date: 2025-02-27T05:04:14.823Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -19,13 +19,9 @@ Aganitha is a cutting-edge technology company that harnesses the power of AI and
 Aganitha collaborates with global pharma and biotech companies to build AI-powered solutions for:
 
 * **Molecular discovery**
-
 * **Structural biology**
-
 * **Computational chemistry**
-
 * **Genomics & bioinformatics**
-
 * **AI-driven data analysis**
 # Department Highlights 🏬
 Aganitha operates at the intersection of IT, Engineering, and Science. Below are key highlights from each department:
@@ -41,11 +37,11 @@ The IT team ensures a robust and scalable technological backbone to support AI a
 
 ```mermaid
 graph LR
-  A[January] -->|99.9%| B[February]
-  B -->|99.8%| C[March]
-  C -->|99.85%| D[April]
-  D -->|99.9%| E[May]
-  E -->|99.95%| F[June]
+  A[Sep] -->|99.9%| B[Oct]
+  B -->|99.8%| C[Nov]
+  C -->|99.85%| D[Dec]
+  D -->|99.9%| E[Jan]
+  E -->|99.95%| F[Feb]
   F -->|99.97%| G[End]
   ```
 ## 🔹 Engineering Department
