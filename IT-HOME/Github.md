@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T09:43:30.125Z
+date: 2025-02-27T09:49:39.362Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -69,6 +69,8 @@ shilpa@own3 .ssh $ pwd
 /home/shilpa/.ssh	
 ```
 > **Note**: Remember, you can do this only when you get the login access to any server using rsync.  
+{.is-warning}
+
 * Below is the command to copy the key in the server using rsync
 ```sh
 rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
@@ -77,6 +79,8 @@ rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
 ```sh
 rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub shilpa@own3:~/.ssh/
 ```
+* By adding these key pair into your server it will be easy to cloning authentication.
+
 ## Git: basics you need to know:
 
 * We are using github for our corporate use. Here is the way you work:
@@ -163,4 +167,6 @@ awaiting for your response...
 * You need to check the mail and when you receive the invitation mail, click on **join@aganitha.**
 * He will add you in the acog repos also. And You will receive the mail about ramana added you in a particular team or something.
 * Now you can access our aganitha repos 👍
+
+> Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
 
