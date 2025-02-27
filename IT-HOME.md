@@ -2,7 +2,7 @@
 title: IT
 description: 
 published: true
-date: 2025-02-27T04:53:10.980Z
+date: 2025-02-27T04:54:41.059Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-21T12:08:07.419Z
@@ -31,3 +31,19 @@ Understand how to use SSH for secure remote access, authentication, and key mana
 - Set up SSH keys  
 - Troubleshoot connection issues  
 - Enhance security with best practices  
+
+```mermaid
+graph TD;
+    A[IT-HOME] -->|Version Control| B[GitHub]
+    A -->|Authentication & Directory Service| C[LDAP]
+    A -->|Secure Remote Access| D[SSH]
+    
+    B --> B1[Repositories]
+    B --> B2[Branches & Pull Requests]
+    
+    C --> C1[User Authentication]
+    C --> C2[Access Control]
+    
+    D --> D1[Key Management]
+    D --> D2[Secure Connections]
+ ```
