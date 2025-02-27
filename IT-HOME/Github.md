@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T09:37:46.722Z
+date: 2025-02-27T09:43:30.125Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -69,9 +69,7 @@ shilpa@own3 .ssh $ pwd
 /home/shilpa/.ssh	
 ```
 > **Note**: Remember, you can do this only when you get the login access to any server using rsync.  
-* Below is the command to copy the key in the server
-
-
+* Below is the command to copy the key in the server using rsync
 ```sh
 rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
 ```
@@ -79,10 +77,6 @@ rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub username@servername:~/.ssh/
 ```sh
 rsync -av ~/.ssh/id_rsa ~/.ssh/id_rsa.pub shilpa@own3:~/.ssh/
 ```
-
-
-
-
 ## Git: basics you need to know:
 
 * We are using github for our corporate use. Here is the way you work:
