@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-26T11:49:44.863Z
+date: 2025-02-27T05:22:25.296Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -17,9 +17,8 @@ Basically, we log in to our servers using password and public key authentication
 
 **Note**: We disabled the password authentication, for now we are using only ssh login authentication.
 
-The information for SSH login includes the user, port number, and domain name.
 Here are the dedicated servers that we have now. you can check them below:
-# Servers' Info
+## Servers' Info
 
 ```sh
 own1 
@@ -62,6 +61,7 @@ hpc4
 
 ---
 
+The information for SSH login includes the user, port number, and domain name.
 
 Below is the syntax for SSH login:
 
