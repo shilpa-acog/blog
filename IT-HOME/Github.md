@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T07:07:13.148Z
+date: 2025-02-27T07:14:39.572Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -44,8 +44,8 @@ cat ~/.ssh/id_rsa.pub
 * Your SSH key is now successfully added to GitHub! 🔑
 
 # Best Practices 🌟
-to do the same git cloning on other servers as well you need to add/copy the key pair at the same path where you have generated the key pair in your local machine.
-**Note**: Remember, you can do this only when you get the login access to any server using rsync  
+To do the same git cloning on other servers as well you need to add/copy the key pair at the same path where you have generated the key pair in your local machine.
+**Note**: Remember, you can do this only when you get the login access to any server using rsync.  
 
 
 ## Git: basics you need to know:
@@ -113,7 +113,7 @@ For cloning the repository, we need to naviagte to the repository path, then we 
 * **To Clone any one of our repo into your home directory of any server, you need to copy the ssh url and clone the repository**
 * Dont go for https cloning because it is deprecated for private github repos.
 ## Example 
-* git clone using ssh url
+* example command for git clone using ssh url 
 ```sh
 git clone git@github.com:shilpa-acog/blog.git
 ```
@@ -130,6 +130,8 @@ could you please send me an invite so that I can join our github organisation's 
 
 awaiting for your response...
 ```
-* Whenever the message reached to ramana He will add you in the acog repos. And You will receive the mail about ramana aaded you.
+* Whenever the message reached to ramana, He will send you the Invitation mail to join the Aganitha Organisation.
+* You need to check the mail and when you receive the invitation mail, click on **join@aganitha.**
+* He will add you in the acog repos also. And You will receive the mail about ramana added you in a particular team or something.
 * Now you can access our aganitha repos 👍
 
