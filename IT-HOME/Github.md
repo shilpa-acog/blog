@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-26T16:48:51.733Z
+date: 2025-02-27T06:48:40.236Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -44,35 +44,32 @@ cat ~/.ssh/id_rsa.pub
 * Your SSH key is now successfully added to GitHub! 🔑
 
 # Best Practices 🌟
-## Basic Git Commands
-1. Initialize a New Git Repository
-```sh
-git init
-```
-2. Clone an Existing Repository
-```sh
-git clone <repo_url>
-```
-3. Check Repository Status
-```sh
-git status
-```
-4. Add Files to Staging Area
-```sh
-git add .
-```
-5. Commit Changes
-```sh
-git commit -m "Your commit message"
-```
-6. Push Changes to Remote Repository
-```sh
-git push origin <branch_name>
-```
-7. Pull Latest Changes from Remote
-```sh
-git pull origin <branch_name>
-```
+to do the same git cloning on other servers as well you need to add/copy the key pair at the same path where you have generated the key pair in your local machine.
+**Note**: Remember, you can do this only when you get the login access to any server using rsync  
+
+
+## Git: basics you need to know:
+
+We are using github for our corporate use. Here is the way you work:
+Ask for your project to be created with the right permissions. Since this is a flat hierarchy, do  not break it down to too small a project. 
+Make sure you start with the right template. Especially with the right .gitignore. If your template does not provide one, look for it here: https://github.com/github/gitignore. We do not want to check generated, transient files to git. 
+On branching:
+Do not create branches unnecessarily. You can work on your code and make it work and update the main branch.
+Usually, it is best to have just one branch – main. If you are making a release, tag the release so that you can get that release whenever you want. 
+Only justification for multiple parallel branches is when the same code is being used by different customers. Even then, try to manage with configuration even with different code bases.
+Sometimes we have main and dev branches. Do this only if your main branch is in production. That way, you can make quick fixes to the main branch while we continue to develop the dev branch.
+Here is the usual workflow:
+git clone <url> # ssh based. Works because you have your ssh key setup
+… edit your code …
+… test your code …
+Git add .
+Git commit -m “add a commit statement. Make it around 2 to 3 lines.”
+Git push 
+
+There is a lot more to learn. Start with GIT CHEAT SHEET ; if you are using it from the command line, you can use it with zsh. If you are using ohmyzsh, you can check out plugins for git and git extras etc.
+We already have seen how to use it from vscode and pycharm. For advanced material, you can turn to google.
+Note to remember: The default branch is main, not master, in github. When you are reading and practising a tutorial, watch out for it. 
+
 ## Git Clone:
 * Ensure Your SSH Key is Set Up (clearly discussed in the above > Adding public key in github account)
 * Test SSH Connection to GitHub by running the following command 
