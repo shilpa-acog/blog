@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T06:48:40.236Z
+date: 2025-02-27T07:07:13.148Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -50,25 +50,47 @@ to do the same git cloning on other servers as well you need to add/copy the key
 
 ## Git: basics you need to know:
 
-We are using github for our corporate use. Here is the way you work:
-Ask for your project to be created with the right permissions. Since this is a flat hierarchy, do  not break it down to too small a project. 
-Make sure you start with the right template. Especially with the right .gitignore. If your template does not provide one, look for it here: https://github.com/github/gitignore. We do not want to check generated, transient files to git. 
-On branching:
-Do not create branches unnecessarily. You can work on your code and make it work and update the main branch.
-Usually, it is best to have just one branch – main. If you are making a release, tag the release so that you can get that release whenever you want. 
-Only justification for multiple parallel branches is when the same code is being used by different customers. Even then, try to manage with configuration even with different code bases.
-Sometimes we have main and dev branches. Do this only if your main branch is in production. That way, you can make quick fixes to the main branch while we continue to develop the dev branch.
-Here is the usual workflow:
-git clone <url> # ssh based. Works because you have your ssh key setup
+* We are using github for our corporate use. Here is the way you work:
+* Ask for your project to be created with the right permissions. Since this is a flat hierarchy, do  not break it down to too small a project. 
+* Make sure you start with the right template. 
+* Especially with the right .gitignore. 
+* If your template does not provide one, look for it here:
+```sh
+https://github.com/github/gitignore.
+```
+* We do not want to check generated, transient files to git. 
+* **On branching:**
+* Do not create branches unnecessarily. 
+* You can work on your code and make it work and update the main branch.
+* Usually, it is best to have just one branch – main. If you are making a release, tag the release so that you can get that release whenever you want. 
+* Only justification for multiple parallel branches is when the same code is being used by different customers. 
+* Even then, try to manage with configuration even with different code bases.
+* Sometimes we have main and dev branches. 
+* Do this only if your main branch is in production. 
+* That way, you can make quick fixes to the main branch while we continue to develop the dev branch.
+* **Here is the usual workflow:**
+```sh
+git clone url # ssh based.
+```
+* **Works because you have your ssh key setup**
+
 … edit your code …
 … test your code …
+```sh
 Git add .
+```
+```sh
 Git commit -m “add a commit statement. Make it around 2 to 3 lines.”
-Git push 
-
-There is a lot more to learn. Start with GIT CHEAT SHEET ; if you are using it from the command line, you can use it with zsh. If you are using ohmyzsh, you can check out plugins for git and git extras etc.
-We already have seen how to use it from vscode and pycharm. For advanced material, you can turn to google.
-Note to remember: The default branch is main, not master, in github. When you are reading and practising a tutorial, watch out for it. 
+```
+```sh
+Git push
+```
+* There is a lot more to learn. Start with GIT CHEAT SHEET ; if you are using it from the command line, you can use it with ssh. 
+* If you are using ohmyzsh, you can check out plugins for git and git extras etc.
+* We already have seen how to use it from vscode and pycharm. 
+* For advanced material, you can turn to google.
+* **Note to remember:** The default branch is main, not master, in github.
+* When you are reading and practising a tutorial, watch out for it. 
 
 ## Git Clone:
 * Ensure Your SSH Key is Set Up (clearly discussed in the above > Adding public key in github account)
@@ -102,9 +124,9 @@ git clone git@github.com:shilpa-acog/blog.git
 ```sh
 Hi Ramana,
 
-I hope you're doing well. My name is [Your Name], and I recently joined [Your Team/Department] as a [Your Role].
+I hope you're doing well. My name is [Your Name], and I recently joined Aganitha as a [Your Role]. I have created my github account with the username **( your_name-acog )**
 
-I need access to the acog repository to work on [brief reason, e.g., a specific project or task]. Could you please grant me the necessary permissions.
+could you please send me an invite so that I can join our github organisation's repo 
 
 awaiting for your response...
 ```
