@@ -2,7 +2,7 @@
 title: IT
 description: 
 published: true
-date: 2025-02-28T12:17:34.531Z
+date: 2025-02-28T12:24:22.912Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-21T12:08:07.419Z
