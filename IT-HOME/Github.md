@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-28T10:33:55.988Z
+date: 2025-02-28T12:01:16.349Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -68,8 +68,7 @@ shilpamudusu@penguin .ssh $ pwd
 shilpa@own3 .ssh $ pwd
 /home/shilpa/.ssh	
 ```
-> **Note**: Remember, you can do this only when you get the login access to any server using rsync.  
-{.is-warning}
+ **Note**: Remember, you can do this only when you get the login access to any server using rsync.
 
 * Below is the command to copy the key in the server using rsync
 ```sh
