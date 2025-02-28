@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-28T12:34:18.388Z
+date: 2025-02-28T12:35:09.099Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -87,7 +87,7 @@ graph TD;
   H -->|Omics Data Analysis| J[Integration]
 ```
 # Join Us
-Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at [Aganitha Careers](https://www.aganitha.ai/careers/)
+Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at [Aganitha Careers](https://www.aganitha.ai/careers/){target=_blank}
 
 > Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
 {.is-info}
