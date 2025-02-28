@@ -2,7 +2,7 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-27T11:40:01.548Z
+date: 2025-02-28T10:33:55.988Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
@@ -29,7 +29,7 @@ dateCreated: 2025-02-26T10:50:40.536Z
 * Click **Continue**.
 * Your GitHub account is now ready! 🎉
 
-# Adding Public Key in Github Account 🔐
+# Adding Local Machine Public Key in Github Account 🔐
 * Open your terminal 
 * Run the command:
 ```sh
