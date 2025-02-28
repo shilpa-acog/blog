@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-28T11:09:58.955Z
+date: 2025-02-28T11:26:06.334Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -98,27 +98,23 @@ After generation, a key pair will be created in the ~/.ssh directory of your hom
 
 ---
 
-# 3. Public-key authentication:
+# 3. For public-key authentication:
 
-To access any of our servers you need to add the public key to your github profile and send the <a href="/IT-HOME/Github">github username</a> **"username-acog"** to system admin or send the same key to him
-
-```sh
-ssh -i ~/.ssh/id_rsa.pub username@hostname
-```
+To access any of our servers you need to <a href="/IT-HOME/Github">add the public key</a> to your github profile and provide the github username **"username-acog"** to the system admin or send the same key to him directly
 
 ---
 
-# 4. SSH Configuration (`~/.ssh/config`):
+# 4. For server access convenience:
 
-The **SSH config file** (`~/.ssh/config`) allows you to define custom settings for different SSH connections, making it easier to manage multiple servers.  
-If the file doesn’t exist, create it:
+You need to create **SSH config file** (`~/.ssh/config`) which allows you to define custom settings for different SSH server connections, making it easier to manage multiple servers.  
+create the file:
 
 ```sh
 touch ~/.ssh/config
 chmod 600 ~/.ssh/config  # Set correct permissions
 ```
 
-Basic Configuration Example:
+Basic Configuration Sample:
 
 ```sh
 Host own3
@@ -139,9 +135,9 @@ You can simply use:
 ssh own3
 ```
 ---
-# 5. Adjust `.ssh` directory permissions:
+# 5. Adjust `.ssh` permissions:
 
-Proper permissions on your `~/.ssh` directory and its files are crucial for **security** and **successful authentication** when using SSH. If permissions are too open, SSH will **reject** your keys and prevent login.  
+You also must adjust proper permissions on your `~/.ssh` directory and its files which are crucial for **security** and **successful authentication** when using SSH. If permissions are too open, SSH will **reject** your keys and prevent login.  
 The correct permissions are:
 
 ```sh
@@ -151,7 +147,8 @@ chmod 644 ~/.ssh/id_rsa.pub
 chmod 600 ~/.ssh/authorized_keys
 ls -lah ~/.ssh  # Check if everything is set correctly
 ```
-<button onclick="copyToClipboard('chmod 700 ~/.ssh\nchmod 600 ~/.ssh/id_rsa\nchmod 644 ~/.ssh/id_rsa.pub\nchmod 600 ~/.ssh/authorized_keys\nls -lah ~/.ssh')"></button>
+
+Now, you must be able to access any server using SSH
 
 ---
 # Want to know more ? 🧐
