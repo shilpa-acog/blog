@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-27T09:51:48.592Z
+date: 2025-02-28T05:18:06.755Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -133,7 +133,7 @@ Basic Configuration Example:
 Host own3
     HostName own3.aganitha.ai
     User shilpa
-    Port 2222
+    Port 2322
 ```
 
 Now, instead of running:
