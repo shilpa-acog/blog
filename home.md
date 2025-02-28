@@ -2,13 +2,15 @@
 title: Home
 description: 
 published: true
-date: 2025-02-27T05:18:03.741Z
+date: 2025-02-28T04:43:11.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
 ---
 
 # Aganitha.ai - Unlocking Science with AI 🧬
+
+
 ## About Aganitha ♾
 Aganitha is a cutting-edge technology company that harnesses the power of AI and computational sciences to accelerate drug discovery and life sciences research. The company bridges the gap between biology, chemistry, and artificial intelligence to drive innovation in pharmaceutical and biotech industries.
 ## Mission & Vision ✊
@@ -86,3 +88,6 @@ graph TD;
 ```
 # Join Us
 Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at Aganitha Careers.
+
+> Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
+{.is-info}
