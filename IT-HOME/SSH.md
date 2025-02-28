@@ -2,22 +2,37 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-28T11:06:46.513Z
+date: 2025-02-28T11:09:58.955Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
 ---
 
 # Intro:
-In this page, you can know briefly about how to login to a server using ssh.
+SSH is a basic command line tool to access any remote server. So, in this page, you will know briefly about how to login to any remote server using ssh 
 
 # SSH Login:
 
-Basically, we log in to our servers using password and public key authentication. Now we are using public key authentication by disabling password authentication.
+Basically, we login to our servers using public key authentication. 
 
-**Note**: We disabled the password authentication, for now we are using only ssh login authentication.
+Below is the syntax to login:
+
+```sh
+ssh -p <port_number> <username>@<hostname>
+```
+
+### **Explanation:**
+
+* `ssh` → The command to start an SSH connection.  
+* `-p <port_number>` → Specifies the port number to connect to (if it's not the default **22**).  
+* `<username>` → The user account you want to log in as on the remote machine.  
+* `<hostname>` → The IP address or domain name of the remote machine.  
+
+
+but based on the project you've been assigned to, system admin will give access to the servers later accordingly
 
 Here are the dedicated servers that we have now. you can check them below:
+
 ## Servers' Info
 
 ```sh
@@ -57,31 +72,11 @@ hpc4
 
 ---
 
-The information for SSH login includes the user, port number, and domain name.
-
-Below is the syntax for SSH login:
-
-```sh
-ssh -p <port_number> <username>@<hostname>
-```
-based on the project you've been assigned to, system admin will give access to  the servers accordingly...
-
-
-### **Explanation:**
-
-* `ssh` → The command to start an SSH connection.  
-* `-p <port_number>` → Specifies the port number to connect to (if it's not the default **22**).  
-* `<username>` → The user account you want to log in as on the remote machine.  
-* `<hostname>` → The IP address or domain name of the remote machine.  
-
-### **Example Usage:**
-
-```sh
-ssh -p 2322 shilpa@own3.aganitha.ai
-```
----
 
 # 2. Key Pair: 
+
+You must create a key pair(has .pub key) to first access a server if they are not generated
+
 
 Check before generating the key pair using the following command:
 
@@ -105,7 +100,7 @@ After generation, a key pair will be created in the ~/.ssh directory of your hom
 
 # 3. Public-key authentication:
 
-To aacess any of our servers you need to send the public key to system admin by copy paste or by adding the public key to your github profile and send the github username to him (**"username-acog"** Follow this naming convention to <a href="/IT-HOME/Github">create a github account</a>) add a github url
+To access any of our servers you need to add the public key to your github profile and send the <a href="/IT-HOME/Github">github username</a> **"username-acog"** to system admin or send the same key to him
 
 ```sh
 ssh -i ~/.ssh/id_rsa.pub username@hostname
