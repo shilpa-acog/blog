@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-28T10:22:11.986Z
+date: 2025-02-28T10:23:57.137Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -88,7 +88,7 @@ graph TD;
 ```
 # Join Us
 Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at <a href="https://www.aganitha.ai/careers" target="_blank">Aganitha Careers</a>
-[Aganitha Careers](https://www.aganitha.ai/careers)
+[Careers](/https://www.aganitha.ai/careers)
 
 > Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
 {.is-info}
