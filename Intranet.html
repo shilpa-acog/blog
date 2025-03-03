@@ -2,85 +2,143 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T10:55:44.847Z
+date: 2025-03-03T11:05:57.315Z
 tags: 
 editor: code
 dateCreated: 2025-03-03T08:59:32.503Z
 -->
 
-<!-- Example HTML structure to use with the magic border CSS -->
-<div class="magic-card-grid">
-  <!-- Start Here Card -->
-  <a href="/en/Intranet/startHere">
-  <div class="magic-card start-here">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">🚀</div>
-      <h3 class="magic-card-title">Start Here</h3>
-      <p class="magic-card-description">Get started with new user orientation and setup guides for your hardware.</p>
-    </div>
-    </a>
-  </div>
-  
-  <!-- FAQ Card -->
-  <div class="magic-card faq">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">❓</div>
-      <h3 class="magic-card-title">FAQ</h3>
-      <p class="magic-card-description">Find answers to common questions and troubleshooting guides.</p>
-    </div>
-  </div>
-  
-  <!-- Blogs Card -->
-  <div class="magic-card blogs">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">📝</div>
-      <h3 class="magic-card-title">Blogs</h3>
-      <p class="magic-card-description">Explore team insights, knowledge sharing, and latest updates.</p>
-    </div>
-  </div>
-  
-  <!-- Guides Card -->
-  <div class="magic-card guides">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">📚</div>
-      <h3 class="magic-card-title">Guides</h3>
-      <p class="magic-card-description">Access detailed documentation for company processes and tools.</p>
-    </div>
-  </div>
-  
-  <!-- News Card -->
-  <div class="magic-card news">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">📰</div>
-      <h3 class="magic-card-title">News</h3>
-      <p class="magic-card-description">Stay informed about company updates and announcements.</p>
-    </div>
-  </div>
-  
-  <!-- Project Portal Card -->
-  <div class="magic-card projects">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">📊</div>
-      <h3 class="magic-card-title">Project Portal</h3>
-      <p class="magic-card-description">Access all internal projects and GitHub repositories.</p>
-    </div>
-  </div>
-  
-  <!-- People Card -->
-  <div class="magic-card people">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">👥</div>
-      <h3 class="magic-card-title">People</h3>
-      <p class="magic-card-description">Connect with colleagues through employee profiles and contact info.</p>
-    </div>
-  </div>
-  
-  <!-- Common Resources Card -->
-  <div class="magic-card resources">
-    <div class="magic-card-content">
-      <div class="magic-card-icon">🔧</div>
-      <h3 class="magic-card-title">Common Resources</h3>
-      <p class="magic-card-description">Find setup guides, company policies, and brand resources.</p>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Intranet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Company Intranet</h1>
+        </div>
+        <div class="theme-toggle">
+            <button id="theme-switch">Toggle Dark Mode</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <!-- Start Here Section -->
+            <a href="start-here.html" class="grid-card">
+                <div class="card-content">
+                    <h2>Start Here</h2>
+                    <p>New user orientation and skills upgrading</p>
+                    <ul>
+                        <li>New user orientation</li>
+                        <li>Upgrading the skills</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- FAQ Section -->
+            <a href="faq.html" class="grid-card">
+                <div class="card-content">
+                    <h2>FAQ</h2>
+                    <p>Questions and answers with links guides</p>
+                </div>
+            </a>
+
+            <!-- Blogs Section -->
+            <a href="blogs.html" class="grid-card">
+                <div class="card-content">
+                    <h2>Blogs</h2>
+                    <p>Company blogs and articles</p>
+                    <ul>
+                        <li>How to add it</li>
+                        <li>Categories</li>
+                        <li>Example blog</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Guides Section -->
+            <a href="guides.html" class="grid-card">
+                <div class="card-content">
+                    <h2>Guides</h2>
+                    <p>Find out what guides are there</p>
+                </div>
+            </a>
+
+            <!-- News Section -->
+            <a href="news.html" class="grid-card">
+                <div class="card-content">
+                    <h2>News</h2>
+                    <p>Latest company news and updates</p>
+                    <ul>
+                        <li>Latest blogs</li>
+                        <li>Latest guides</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Internal Project Portal -->
+            <a href="internal-projects.html" class="grid-card">
+                <div class="card-content">
+                    <h2>Internal Project Portal</h2>
+                    <p>Project list with links to GitHub README</p>
+                </div>
+            </a>
+
+            <!-- People Section -->
+            <a href="people.html" class="grid-card">
+                <div class="card-content">
+                    <h2>People</h2>
+                    <p>Employee information</p>
+                    <ul>
+                        <li>Resume</li>
+                        <li>Photo</li>
+                        <li>Contact info</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Common Things Section -->
+            <a href="common-things.html" class="grid-card">
+                <div class="card-content">
+                    <h2>Common Things</h2>
+                    <p>Common things for all these users</p>
+                    <ul>
+                        <li>Mac M1 Setup & Installation</li>
+                        <li>Mac Intel Setup & Installation</li>
+                        <li>Chromebook Setup & Installation</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Company Intranet. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple theme toggle functionality
+        const themeSwitch = document.getElementById('theme-switch');
+        const body = document.body;
+        
+        // Check for saved theme preference or use default
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.classList.add(currentTheme);
+        
+        themeSwitch.addEventListener('click', () => {
+            if (body.classList.contains('light')) {
+                body.classList.replace('light', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.replace('dark', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    </script>
+</body>
+</html>
