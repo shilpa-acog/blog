@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-02-28T11:56:55.513Z
+date: 2025-03-03T04:25:12.677Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -75,7 +75,7 @@ hpc4
 
 # 2. Key Pair: 
 
-You must create a key pair(has .pub key) to first access a server if they are not generated
+You must create a key pair(has .pub key) to first access a server. if they are not generated
 
 
 Check before generating the key pair using the following command:
