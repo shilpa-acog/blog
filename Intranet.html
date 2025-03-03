@@ -2,7 +2,7 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T10:26:48.176Z
+date: 2025-03-03T10:29:48.172Z
 tags: 
 editor: code
 dateCreated: 2025-03-03T08:59:32.503Z
@@ -16,75 +16,82 @@ dateCreated: 2025-03-03T08:59:32.503Z
     <!-- Example HTML structure to use with the magic border CSS -->
     <div class="magic-card-grid">
         <!-- Start Here Card -->
-        <a href="/start-here.html" class="magic-card start-here">
+        <div class="magic-card start-here" onclick="navigateTo('/start-here.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">🚀</div>
                 <h3 class="magic-card-title">Start Here</h3>
                 <p class="magic-card-description">Get started with new user orientation and setup guides for your hardware.</p>
             </div>
-        </a>
+        </div>
 
         <!-- FAQ Card -->
-        <a href="/faq.html" class="magic-card faq">
+        <div class="magic-card faq" onclick="navigateTo('/faq.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">❓</div>
                 <h3 class="magic-card-title">FAQ</h3>
                 <p class="magic-card-description">Find answers to common questions and troubleshooting guides.</p>
             </div>
-        </a>
+        </div>
 
         <!-- Blogs Card -->
-        <a href="/blogs.html" class="magic-card blogs">
+        <div class="magic-card blogs" onclick="navigateTo('/blogs.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📝</div>
                 <h3 class="magic-card-title">Blogs</h3>
                 <p class="magic-card-description">Explore team insights, knowledge sharing, and latest updates.</p>
             </div>
-        </a>
+        </div>
 
         <!-- Guides Card -->
-        <a href="/guides.html" class="magic-card guides">
+        <div class="magic-card guides" onclick="navigateTo('/guides.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📚</div>
                 <h3 class="magic-card-title">Guides</h3>
                 <p class="magic-card-description">Access detailed documentation for company processes and tools.</p>
             </div>
-        </a>
+        </div>
 
         <!-- News Card -->
-        <a href="/news.html" class="magic-card news">
+        <div class="magic-card news" onclick="navigateTo('/news.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📰</div>
                 <h3 class="magic-card-title">News</h3>
                 <p class="magic-card-description">Stay informed about company updates and announcements.</p>
             </div>
-        </a>
+        </div>
 
         <!-- Project Portal Card -->
-        <a href="/projects.html" class="magic-card projects">
+        <div class="magic-card projects" onclick="navigateTo('/projects.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📊</div>
                 <h3 class="magic-card-title">Project Portal</h3>
                 <p class="magic-card-description">Access all internal projects and GitHub repositories.</p>
             </div>
-        </a>
+        </div>
 
         <!-- People Card -->
-        <a href="/people.html" class="magic-card people">
+        <div class="magic-card people" onclick="navigateTo('/people.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">👥</div>
                 <h3 class="magic-card-title">People</h3>
                 <p class="magic-card-description">Connect with colleagues through employee profiles and contact info.</p>
             </div>
-        </a>
+        </div>
 
         <!-- Common Resources Card -->
-        <a href="/resources.html" class="magic-card resources">
+        <div class="magic-card resources" onclick="navigateTo('/resources.html')">
             <div class="magic-card-content">
                 <div class="magic-card-icon">🔧</div>
                 <h3 class="magic-card-title">Common Resources</h3>
                 <p class="magic-card-description">Find setup guides, company policies, and brand resources.</p>
             </div>
-        </a>
+        </div>
     </div>
 </div>
+
+<!-- JavaScript to handle navigation -->
+<script>
+    function navigateTo(url) {
+        window.location.href = url;
+    }
+</script>
