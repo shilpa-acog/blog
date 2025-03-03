@@ -2,7 +2,7 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T11:06:32.125Z
+date: 2025-03-03T11:09:23.269Z
 tags: 
 editor: code
 dateCreated: 2025-03-03T08:59:32.503Z
@@ -15,128 +15,154 @@ dateCreated: 2025-03-03T08:59:32.503Z
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Intranet</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body class="light-theme">
     <header>
-        <div class="logo">
-            <h1>Company Intranet</h1>
-        </div>
-        <div class="theme-toggle">
-            <button id="theme-switch">Toggle Dark Mode</button>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Company Intranet</h1>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-switch">
+                    <i class="fas fa-moon"></i>
+                    <span>Toggle Theme</span>
+                </button>
+            </div>
         </div>
     </header>
 
     <main>
-        <div class="grid-container">
-            <!-- Start Here Section -->
-            <a href="start-here.html" class="grid-card">
-                <div class="card-content">
-                    <h2>Start Here</h2>
-                    <p>New user orientation and skills upgrading</p>
-                    <ul>
-                        <li>New user orientation</li>
-                        <li>Upgrading the skills</li>
-                    </ul>
-                </div>
-            </a>
+        <div class="container">
+            <h1 class="page-title">Welcome to the Company Intranet</h1>
+            <p class="page-description">Access all company resources and information in one place</p>
+            
+            <div class="magic-card-grid">
+                <!-- Start Here Section -->
+                <a href="start-here.html" class="magic-card start-here">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-flag-checkered"></i>
+                        </div>
+                        <h2 class="magic-card-title">Start Here</h2>
+                        <p class="magic-card-description">New user orientation and skills upgrading resources</p>
+                    </div>
+                </a>
 
-            <!-- FAQ Section -->
-            <a href="faq.html" class="grid-card">
-                <div class="card-content">
-                    <h2>FAQ</h2>
-                    <p>Questions and answers with links guides</p>
-                </div>
-            </a>
+                <!-- FAQ Section -->
+                <a href="faq.html" class="magic-card faq">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h2 class="magic-card-title">FAQ</h2>
+                        <p class="magic-card-description">Questions and answers with links to guides</p>
+                    </div>
+                </a>
 
-            <!-- Blogs Section -->
-            <a href="blogs.html" class="grid-card">
-                <div class="card-content">
-                    <h2>Blogs</h2>
-                    <p>Company blogs and articles</p>
-                    <ul>
-                        <li>How to add it</li>
-                        <li>Categories</li>
-                        <li>Example blog</li>
-                    </ul>
-                </div>
-            </a>
+                <!-- Blogs Section -->
+                <a href="blogs.html" class="magic-card blogs">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <h2 class="magic-card-title">Blogs</h2>
+                        <p class="magic-card-description">Company blogs, categories, and how to contribute</p>
+                    </div>
+                </a>
 
-            <!-- Guides Section -->
-            <a href="guides.html" class="grid-card">
-                <div class="card-content">
-                    <h2>Guides</h2>
-                    <p>Find out what guides are there</p>
-                </div>
-            </a>
+                <!-- Guides Section -->
+                <a href="guides.html" class="magic-card guides">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h2 class="magic-card-title">Guides</h2>
+                        <p class="magic-card-description">Find out what guides are available</p>
+                    </div>
+                </a>
 
-            <!-- News Section -->
-            <a href="news.html" class="grid-card">
-                <div class="card-content">
-                    <h2>News</h2>
-                    <p>Latest company news and updates</p>
-                    <ul>
-                        <li>Latest blogs</li>
-                        <li>Latest guides</li>
-                    </ul>
-                </div>
-            </a>
+                <!-- News Section -->
+                <a href="news.html" class="magic-card news">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <h2 class="magic-card-title">News</h2>
+                        <p class="magic-card-description">Latest company news and updates</p>
+                    </div>
+                </a>
 
-            <!-- Internal Project Portal -->
-            <a href="internal-projects.html" class="grid-card">
-                <div class="card-content">
-                    <h2>Internal Project Portal</h2>
-                    <p>Project list with links to GitHub README</p>
-                </div>
-            </a>
+                <!-- Internal Project Portal -->
+                <a href="internal-projects.html" class="magic-card projects">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h2 class="magic-card-title">Internal Project Portal</h2>
+                        <p class="magic-card-description">Project list with links to GitHub README</p>
+                    </div>
+                </a>
 
-            <!-- People Section -->
-            <a href="people.html" class="grid-card">
-                <div class="card-content">
-                    <h2>People</h2>
-                    <p>Employee information</p>
-                    <ul>
-                        <li>Resume</li>
-                        <li>Photo</li>
-                        <li>Contact info</li>
-                    </ul>
-                </div>
-            </a>
+                <!-- People Section -->
+                <a href="people.html" class="magic-card people">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h2 class="magic-card-title">People</h2>
+                        <p class="magic-card-description">Employee profiles, photos, and contact information</p>
+                    </div>
+                </a>
 
-            <!-- Common Things Section -->
-            <a href="common-things.html" class="grid-card">
-                <div class="card-content">
-                    <h2>Common Things</h2>
-                    <p>Common things for all these users</p>
-                    <ul>
-                        <li>Mac M1 Setup & Installation</li>
-                        <li>Mac Intel Setup & Installation</li>
-                        <li>Chromebook Setup & Installation</li>
-                    </ul>
-                </div>
-            </a>
+                <!-- Common Things Section -->
+                <a href="common-things.html" class="magic-card resources">
+                    <div class="magic-card-content">
+                        <div class="magic-card-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h2 class="magic-card-title">Common Things</h2>
+                        <p class="magic-card-description">Setup & installation guides for all devices</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Company Intranet. All rights reserved.</p>
+        <div class="footer-container">
+            <p>&copy; 2025 Company Intranet. All rights reserved.</p>
+        </div>
     </footer>
 
     <script>
-        // Simple theme toggle functionality
+        // Theme toggle functionality
         const themeSwitch = document.getElementById('theme-switch');
         const body = document.body;
+        const icon = themeSwitch.querySelector('i');
         
         // Check for saved theme preference or use default
-        const currentTheme = localStorage.getItem('theme') || 'light';
+        const currentTheme = localStorage.getItem('theme') || 'light-theme';
         body.classList.add(currentTheme);
         
+        // Update icon based on current theme
+        if (currentTheme === 'dark-theme') {
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
+        }
+        
         themeSwitch.addEventListener('click', () => {
-            if (body.classList.contains('light')) {
-                body.classList.replace('light', 'dark');
-                localStorage.setItem('theme', 'dark');
+            if (body.classList.contains('light-theme')) {
+                body.classList.replace('light-theme', 'dark-theme');
+                localStorage.setItem('theme', 'dark-theme');
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
             } else {
-                body.classList.replace('dark', 'light');
-                localStorage.setItem('theme', 'light');
+                body.classList.replace('dark-theme', 'light-theme');
+                localStorage.setItem('theme', 'light-theme');
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
             }
         });
     </script>
