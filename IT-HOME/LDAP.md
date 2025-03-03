@@ -2,7 +2,7 @@
 title: Password Reset (LDAP, G-suite, Github)
 description: for centralized authentication !
 published: true
-date: 2025-02-27T12:15:15.061Z
+date: 2025-03-03T05:42:01.406Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T16:58:17.161Z
@@ -34,7 +34,7 @@ https://support.google.com/accounts/answer/7682439?hl=en
      * Add recovery phone and mail. 
 
 
-# LDAP Password Reset 🔑
+# LDAP Password Reset
 Hi Team,
 
 To make it easier for you to manage your LDAP credentials, you can now reset your LDAP password independently. Follow these simple steps:
