@@ -2,7 +2,7 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T10:33:10.605Z
+date: 2025-03-03T10:41:05.047Z
 tags: 
 editor: code
 dateCreated: 2025-03-03T08:59:32.503Z
@@ -13,19 +13,18 @@ dateCreated: 2025-03-03T08:59:32.503Z
     <p>Our internal knowledge hub where you can find important resources, company updates, FAQs, and guides. Use the links below to explore different sections.</p>
     <link rel="stylesheet" href="/path-to-your-assets/magic-cards.css">
 
-    <!-- Magic Card Grid -->
     <div class="magic-card-grid">
         <!-- Start Here Card -->
-        <div class="magic-card start-here" data-url="/start-here.html">
+        <div class="magic-card" data-page="Start-Here">
             <div class="magic-card-content">
                 <div class="magic-card-icon">🚀</div>
                 <h3 class="magic-card-title">Start Here</h3>
-                <p class="magic-card-description">Get started with new user orientation and setup guides for your hardware.</p>
+                <p class="magic-card-description">Get started with new user orientation and setup guides.</p>
             </div>
         </div>
 
         <!-- FAQ Card -->
-        <div class="magic-card faq" data-url="/faq.html">
+        <div class="magic-card" data-page="FAQ">
             <div class="magic-card-content">
                 <div class="magic-card-icon">❓</div>
                 <h3 class="magic-card-title">FAQ</h3>
@@ -34,7 +33,7 @@ dateCreated: 2025-03-03T08:59:32.503Z
         </div>
 
         <!-- Blogs Card -->
-        <div class="magic-card blogs" data-url="/blogs.html">
+        <div class="magic-card" data-page="Blogs">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📝</div>
                 <h3 class="magic-card-title">Blogs</h3>
@@ -43,62 +42,12 @@ dateCreated: 2025-03-03T08:59:32.503Z
         </div>
 
         <!-- Guides Card -->
-        <div class="magic-card guides" data-url="/guides.html">
+        <div class="magic-card" data-page="Guides">
             <div class="magic-card-content">
                 <div class="magic-card-icon">📚</div>
                 <h3 class="magic-card-title">Guides</h3>
                 <p class="magic-card-description">Access detailed documentation for company processes and tools.</p>
             </div>
         </div>
-
-        <!-- News Card -->
-        <div class="magic-card news" data-url="/news.html">
-            <div class="magic-card-content">
-                <div class="magic-card-icon">📰</div>
-                <h3 class="magic-card-title">News</h3>
-                <p class="magic-card-description">Stay informed about company updates and announcements.</p>
-            </div>
-        </div>
-
-        <!-- Project Portal Card -->
-        <div class="magic-card projects" data-url="/projects.html">
-            <div class="magic-card-content">
-                <div class="magic-card-icon">📊</div>
-                <h3 class="magic-card-title">Project Portal</h3>
-                <p class="magic-card-description">Access all internal projects and GitHub repositories.</p>
-            </div>
-        </div>
-
-        <!-- People Card -->
-        <div class="magic-card people" data-url="/people.html">
-            <div class="magic-card-content">
-                <div class="magic-card-icon">👥</div>
-                <h3 class="magic-card-title">People</h3>
-                <p class="magic-card-description">Connect with colleagues through employee profiles and contact info.</p>
-            </div>
-        </div>
-
-        <!-- Common Resources Card -->
-        <div class="magic-card resources" data-url="/resources.html">
-            <div class="magic-card-content">
-                <div class="magic-card-icon">🔧</div>
-                <h3 class="magic-card-title">Common Resources</h3>
-                <p class="magic-card-description">Find setup guides, company policies, and brand resources.</p>
-            </div>
-        </div>
     </div>
 </div>
-
-<!-- JavaScript to handle navigation -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll(".magic-card").forEach(card => {
-            card.addEventListener("click", function () {
-                const url = this.getAttribute("data-url");
-                if (url) {
-                    window.location.href = url; // Navigate to the correct page
-                }
-            });
-        });
-    });
-</script>
