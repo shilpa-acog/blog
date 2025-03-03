@@ -2,7 +2,7 @@
 title: SSH
 description: ssh login to servers
 published: true
-date: 2025-03-03T04:25:12.677Z
+date: 2025-03-03T05:42:37.517Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T09:00:13.939Z
@@ -151,7 +151,7 @@ ls -lah ~/.ssh  # Check if everything is set correctly
 Now, you must be able to access any server using SSH
 
 ---
-# Want to know more ? 🧐
+# Want to know more ?
 After Successfully login to the server you can work and also you can check more information about the server. You want to know more about that ? then, follow the below steps.
 * open your server in the browser https://own3.aganitha.ai/
 * you can see the page like this
