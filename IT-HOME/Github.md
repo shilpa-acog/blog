@@ -2,16 +2,16 @@
 title: Github
 description: Create your account today !
 published: true
-date: 2025-02-28T12:01:35.553Z
+date: 2025-03-03T05:41:35.724Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-26T10:50:40.536Z
 ---
 
-# The Steps 🪜
+# The Steps
 * There are three steps involving in the creation Github. So you need to follow them. They are **Create a Github Account**, **Request access to acog repo**, **Adding public key in your account**.
 * Let's see more descriptively into the steps.
-# Create a Github Account 🧾
+# Create a Github Account
 * For Creating the github account, open your web browser.
 * Go to https://github.com/
 * Click on Sign up in the top-right corner.
@@ -29,7 +29,7 @@ dateCreated: 2025-02-26T10:50:40.536Z
 * Click **Continue**.
 * Your GitHub account is now ready! 🎉
 
-# Adding Local Machine Public Key in Github Account 🔐
+# Adding Local Machine Public Key in Github Account
 * Open your terminal 
 * Run the command:
 ```sh
@@ -43,7 +43,7 @@ cat ~/.ssh/id_rsa.pub
 * Click Add **SSH Key**
 * Your SSH key is now successfully added to GitHub! 🔑
 
-# Best Practices 🌟
+# Best Practices
 To do the same git cloning on other servers as well you need to add/copy the key pair at the same path where you have generated the key pair in your local machine.
 
 * Suppose you have your key pair in your local machine like
@@ -150,7 +150,7 @@ For cloning the repository, we need to naviagte to the repository path, then we 
 ```sh
 git clone git@github.com:shilpa-acog/blog.git
 ```
-# Request Access to acog repo 🛗
+# Request Access to acog repo
 * After Completing all the above steps, you need to request access to acog repo through the google chat.
 * Go to **google chats > Search for ramana@aganitha.ai > send request**
 * Plese Send the request by Introducing yourself to him like 
