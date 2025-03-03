@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-03-03T05:15:19.198Z
+date: 2025-03-03T05:19:34.177Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
@@ -44,9 +44,15 @@ The IT team ensures a robust and scalable technological backbone to support AI a
 -   High-performance computing (HPC) for AI workloads
 
 ### 📊 IT Workflow:
-
-graph LR A\[Sep\] -->|99.9%| B\[Oct\] B -->|99.8%| C\[Nov\] C -->|99.85%| D\[Dec\] D -->|99.9%| E\[Jan\] E -->|99.95%| F\[Feb\] F -->|99.97%| G\[End\]
-
+```mermaid
+graph LR
+    A["Sep"] -->|99.9%| B["Oct"]
+    B -->|99.8%| C["Nov"]
+    C -->|99.85%| D["Dec"]
+    D -->|99.9%| E["Jan"]
+    E -->|99.95%| F["Feb"]
+    F -->|99.97%| G["End"]
+```
 ## 🔹 Engineering Department
 
 The engineering team is the powerhouse behind Aganitha’s AI-driven tools and platforms. Key areas include:
