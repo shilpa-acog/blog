@@ -2,15 +2,92 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T11:43:23.722Z
+date: 2025-03-03T11:48:10.983Z
 tags: 
 editor: code
 dateCreated: 2025-03-03T08:59:32.503Z
 -->
 
-<a href="en/Intranet/starthere">
+<style>
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+</style>
+
+<div class="grid-container">
+  
+  <!-- Start Here -->
   <div class="card">
-    <h1>start here</h1>
-    <p>sample description</p>
+    <h3>Start Here</h3>
+    <p>New user orientation & skills</p>
+    <a href="/start-here">Go to Page</a>
   </div>
-</a>
+
+  <!-- FAQ -->
+  <div class="card">
+    <h3>FAQ</h3>
+    <p>Common questions & guides</p>
+    <a href="/faq">Go to Page</a>
+  </div>
+
+  <!-- Blogs -->
+  <div class="card">
+    <h3>Blogs</h3>
+    <p>Articles & categories</p>
+    <a href="/blogs">Go to Page</a>
+  </div>
+
+  <!-- Guides -->
+  <div class="card">
+    <h3>Guides</h3>
+    <p>How-to guides & documentation</p>
+    <a href="/guides">Go to Page</a>
+  </div>
+
+  <!-- News -->
+  <div class="card">
+    <h3>News</h3>
+    <p>Latest updates & announcements</p>
+    <a href="/news">Go to Page</a>
+  </div>
+
+  <!-- Internal Project Portal -->
+  <div class="card">
+    <h3>Project Portal</h3>
+    <p>GitHub links & projects</p>
+    <a href="/project-portal">Go to Page</a>
+  </div>
+
+  <!-- People -->
+  <div class="card">
+    <h3>People</h3>
+    <p>Team directory & contact info</p>
+    <a href="/people">Go to Page</a>
+  </div>
+
+</div>
