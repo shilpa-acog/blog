@@ -2,25 +2,25 @@
 title: Home
 description: 
 published: true
-date: 2025-03-03T05:21:07.447Z
+date: 2025-03-03T05:38:00.381Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T15:43:44.619Z
 ---
 
-# [Aganitha.ai](http://Aganitha.ai) - Unlocking Science with AI 🧬
+# [Aganitha.ai](http://Aganitha.ai) - Unlocking Science with AI
 
-## About Aganitha ♾
+## About Aganitha 
 
 Aganitha is a cutting-edge technology company that harnesses the power of AI and computational sciences to accelerate drug discovery and life sciences research. The company bridges the gap between biology, chemistry, and artificial intelligence to drive innovation in pharmaceutical and biotech industries.
 
-## Mission & Vision ✊
+## Mission & Vision 
 
 **Mission**: To transform drug discovery and life sciences using AI, computational sciences, and software engineering.
 
 **Vision**: To be the catalyst for a world where AI-driven research significantly reduces the time and cost of drug development.
 
-## What We Do 📃
+## What We Do
 
 Aganitha collaborates with global pharma and biotech companies to build AI-powered solutions for:
 
@@ -30,7 +30,7 @@ Aganitha collaborates with global pharma and biotech companies to build AI-power
 -   **Genomics & bioinformatics**
 -   **AI-driven data analysis**
 
-# Department Highlights 🏬
+# Department Highlights
 
 Aganitha operates at the intersection of IT, Engineering, and Science. Below are key highlights from each department:
 
@@ -84,11 +84,21 @@ The science team collaborates closely with AI and engineering to ensure the biol
 -   Scientific data validation
 
 ### 🧬 Drug Discovery Pipeline:
+```mermaid
+graph TD
+    A["AI-Driven Research"] -->|Molecular Discovery| B["Drug Design"]
+    A -->|Structural Biology| C["Protein Folding"]
+    A -->|Genomics| D["Gene Editing"]
 
-graph TD; A\[AI-Driven Research\] -->|Molecular Discovery| B\[Drug Design\] A -->|Structural Biology| C\[Protein Folding\] A -->|Genomics| D\[Gene Editing\] E\[Computational Chemistry\] -->|Quantum Mechanics| F\[Simulations\] E -->|Molecular Dynamics| G\[Modeling\] H\[Bioinformatics\] -->|Genomic Sequencing| I\[Variants\] H -->|Omics Data Analysis| J\[Integration\]
+    E["Computational Chemistry"] -->|Quantum Mechanics| F["Simulations"]
+    E -->|Molecular Dynamics| G["Modeling"]
 
+    H["Bioinformatics"] -->|Genomic Sequencing| I["Variants"]
+    H -->|Omics Data Analysis| J["Integration"]
+```
 # Join Us
 
 Aganitha is on a mission to reshape the future of drug discovery with AI. If you’re passionate about the intersection of AI, engineering, and life sciences, explore career opportunities at [Aganitha Careers](http://www.aganitha.ai/careers/)
 
 > Need Help? 🚀 If you encounter any issues or have any doubts, don't hesitate to ask! We're here to help troubleshoot any problems you face. Feel free to drop your questions or feedback in the comments section below—we’d love to hear from you! 💬✨
+{.is-info}
