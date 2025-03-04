@@ -2,10 +2,10 @@
 title: Intranet
 description: 
 published: true
-date: 2025-03-03T10:48:19.167Z
+date: 2025-03-04T12:34:29.391Z
 tags: 
 editor: markdown
-dateCreated: 2025-03-03T08:59:32.503Z
+dateCreated: 2025-03-04T12:34:28.113Z
 ---
 
 🚀
