@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-05T10:02:21.199Z
+date: 2025-03-05T10:13:48.432Z
 tags: 
 editor: code
 dateCreated: 2025-03-04T12:34:35.695Z
@@ -13,48 +13,50 @@ dateCreated: 2025-03-04T12:34:35.695Z
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Aganitha - FAQ</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Aganitha FAQ</title>
+    <link rel="stylesheet" href="faq-styles.css">
 </head>
 <body>
-    <header class="faq-header">
-        <h1>About Aganitha</h1>
-        <p>Find answers to the most commonly asked questions</p>
-        <input type="text" placeholder="Search for answers..." class="faq-search">
-    </header>
-    
-    <main class="faq-container">
-        <aside class="faq-categories">
-            <h3>Categories</h3>
-            <ul>
-                <li><a href="#getting-started">Getting Started</a></li>
-                <li><a href="#security">Security & Privacy</a></li>
-                <li><a href="#billing">Billing & Payments</a></li>
-                <li><a href="#support">Support & Contact</a></li>
-            </ul>
-        </aside>
+    <div class="life-calendar">
+        <div class="calendar-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <button class="create-calendar">Create my Calendar</button>
+    </div>
+
+    <div class="faq-container">
+        <h1>Have any questions?</h1>
         
-        <section class="faq-content">
-            <h2 id="getting-started">Getting Started</h2>
+        <div class="faq-tabs">
+            <button class="tab active">GENERAL</button>
+            <button class="tab">AI SOLUTIONS</button>
+            <button class="tab">RESEARCH</button>
+            <button class="tab">CONSULTING</button>
+            <button class="tab">PARTNERSHIPS</button>
+        </div>
+
+        <div class="faq-content">
             <div class="faq-item">
-                <h3>How does Aganitha work?</h3>
-                <p>Aganitha provides AI-powered solutions to enhance business efficiency and innovation.</p>
+                <h3>What is Aganitha's core expertise?</h3>
+                <p>Aganitha specializes in advanced AI solutions, leveraging cutting-edge machine learning and deep learning technologies to solve complex business and scientific challenges across various industries.</p>
             </div>
             <div class="faq-item">
-                <h3>What do I need to get started?</h3>
-                <p>You need to sign up for an account and explore our documentation for onboarding.</p>
+                <h3>How do you approach AI consulting?</h3>
+                <p>We provide end-to-end AI consulting, from strategic assessment to implementation, helping organizations integrate AI technologies to drive innovation, efficiency, and competitive advantage.</p>
             </div>
-            
-            <h2 id="security">Security & Privacy</h2>
-            <div class="faq-item">
-                <h3>How secure is Aganitha?</h3>
-                <p>We implement industry-standard security protocols to keep your data safe.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How do I reset my password?</h3>
-                <p>You can reset your password via the login page or contact our support team.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+
+        <div class="scroll-indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9l6 6 6-6"/>
+            </svg>
+        </div>
+    </div>
 </body>
 </html>
