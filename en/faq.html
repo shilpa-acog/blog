@@ -2,48 +2,59 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-05T09:44:37.372Z
+date: 2025-03-05T09:54:02.100Z
 tags: 
 editor: code
 dateCreated: 2025-03-04T12:34:35.695Z
 -->
 
-<!-- FAQ Page -->
-<div class="faq-container">
-  <h1>About Aganitha - FAQ</h1>
-  <input type="text" class="faq-search" placeholder="Search FAQs...">
-  
-  <!-- FAQ Categories -->
-  <div class="faq-category">
-    <h2>General Information</h2>
-    <div class="faq-item">
-      <input type="checkbox" id="faq1">
-      <label for="faq1" class="faq-question">What is Aganitha?</label>
-      <div class="faq-answer">Aganitha is a company focused on applying the latest scientific and technological advances to accelerate R&D and drive revenue growth.</div>
-    </div>
-    <div class="faq-item">
-      <input type="checkbox" id="faq2">
-      <label for="faq2" class="faq-question">Where is Aganitha located?</label>
-      <div class="faq-answer">Our headquarters are based in [Location], but we operate globally.</div>
-    </div>
-  </div>
-  
-  <div class="faq-category">
-    <h2>Technical Support</h2>
-    <div class="faq-item">
-      <input type="checkbox" id="faq3">
-      <label for="faq3" class="faq-question">How can I reset my password?</label>
-      <div class="faq-answer">You can reset your password by clicking "Forgot Password" on the login page and following the instructions.</div>
-    </div>
-    <div class="faq-item">
-      <input type="checkbox" id="faq4">
-      <label for="faq4" class="faq-question">Who do I contact for technical issues?</label>
-      <div class="faq-answer">You can reach out to our IT support team at support@aganitha.com.</div>
-    </div>
-  </div>
-   <!-- Contact Support -->
-  <div class="faq-support">
-    <h2>Need More Help?</h2>
-    <p>If you couldn’t find the answer you were looking for, please <a href="/contact-support">contact our support team</a>.</p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Aganitha - FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="faq-header">
+        <h1>About Aganitha</h1>
+        <p>Find answers to the most commonly asked questions</p>
+        <input type="text" placeholder="Search for answers..." class="faq-search">
+    </header>
+    
+    <main class="faq-container">
+        <aside class="faq-categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#getting-started">Getting Started</a></li>
+                <li><a href="#security">Security & Privacy</a></li>
+                <li><a href="#billing">Billing & Payments</a></li>
+                <li><a href="#support">Support & Contact</a></li>
+            </ul>
+        </aside>
+        
+        <section class="faq-content">
+            <h2 id="getting-started">Getting Started</h2>
+            <div class="faq-item">
+                <h3>How does Aganitha work?</h3>
+                <p>Aganitha provides AI-powered solutions to enhance business efficiency and innovation.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What do I need to get started?</h3>
+                <p>You need to sign up for an account and explore our documentation for onboarding.</p>
+            </div>
+            
+            <h2 id="security">Security & Privacy</h2>
+            <div class="faq-item">
+                <h3>How secure is Aganitha?</h3>
+                <p>We implement industry-standard security protocols to keep your data safe.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I reset my password?</h3>
+                <p>You can reset your password via the login page or contact our support team.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
