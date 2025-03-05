@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-05T10:29:20.791Z
+date: 2025-03-05T10:37:34.428Z
 tags: 
 editor: code
 dateCreated: 2025-03-04T12:34:35.695Z
@@ -13,34 +13,45 @@ dateCreated: 2025-03-04T12:34:35.695Z
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aganitha FAQ</title>
-    <link rel="stylesheet" href="faq-styles.css">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="faq-container">
-        <h1>Have any questions?</h1>
+        <h1 class="faq-title">Have any questions?</h1>
         
-        <div class="faq-tabs">
-            <button class="tab active" data-category="general">GENERAL</button>
-            <button class="tab" data-category="ai-solutions">AI SOLUTIONS</button>
-            <button class="tab" data-category="research">RESEARCH</button>
-            <button class="tab" data-category="consulting">CONSULTING</button>
-            <button class="tab" data-category="partnerships">PARTNERSHIPS</button>
+        <div class="category-nav">
+            <button class="category-btn active">GENERAL</button>
+            <button class="category-btn">POSTER</button>
+            <button class="category-btn">PAYMENTS</button>
+            <button class="category-btn">SHIPPING</button>
+            <button class="category-btn">RETURNS</button>
+            <button class="category-btn">REFUNDS</button>
         </div>
 
-        <div class="faq-content" id="faqContent">
-            <!-- FAQs will be dynamically loaded here -->
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is your shipping policy?
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="faq-answer">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta felis pretium est ultricies tincidunt. Praesent non quam in leo consequat rutrum eu quis risus. Nulla sit amet euismod dolor.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I change the color of the frame?
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="faq-answer">
+                    Vestibulum tempus magna eget. Nullam id felis et ipsum bibendum ullamcorper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                </div>
+            </div>
         </div>
 
-        <div class="faq-footer">
-            <div class="page-info">
-                <span id="currentPage">Page 1</span> of <span id="totalPages">1</span>
-            </div>
-            <div class="navigation-buttons">
-                <button id="prevButton" class="nav-btn" disabled>Previous</button>
-                <button id="nextButton" class="nav-btn">Next</button>
-            </div>
-        </div>
+        <button class="load-more-btn">Load More</button>
     </div>
 </body>
 </html>
