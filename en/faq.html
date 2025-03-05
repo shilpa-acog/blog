@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-05T10:13:48.432Z
+date: 2025-03-05T10:23:35.529Z
 tags: 
 editor: code
 dateCreated: 2025-03-04T12:34:35.695Z
@@ -34,29 +34,24 @@ dateCreated: 2025-03-04T12:34:35.695Z
         <h1>Have any questions?</h1>
         
         <div class="faq-tabs">
-            <button class="tab active">GENERAL</button>
-            <button class="tab">AI SOLUTIONS</button>
-            <button class="tab">RESEARCH</button>
-            <button class="tab">CONSULTING</button>
-            <button class="tab">PARTNERSHIPS</button>
+            <button class="tab active" data-category="general">GENERAL</button>
+            <button class="tab" data-category="ai-solutions">AI SOLUTIONS</button>
+            <button class="tab" data-category="research">RESEARCH</button>
+            <button class="tab" data-category="consulting">CONSULTING</button>
+            <button class="tab" data-category="partnerships">PARTNERSHIPS</button>
         </div>
 
-        <div class="faq-content">
-            <div class="faq-item">
-                <h3>What is Aganitha's core expertise?</h3>
-                <p>Aganitha specializes in advanced AI solutions, leveraging cutting-edge machine learning and deep learning technologies to solve complex business and scientific challenges across various industries.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How do you approach AI consulting?</h3>
-                <p>We provide end-to-end AI consulting, from strategic assessment to implementation, helping organizations integrate AI technologies to drive innovation, efficiency, and competitive advantage.</p>
-            </div>
+        <div class="faq-content" id="faqContent">
+            <!-- FAQs will be dynamically loaded here -->
         </div>
 
-        <div class="scroll-indicator">
+        <div class="scroll-indicator" id="loadMoreBtn">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M6 9l6 6 6-6"/>
             </svg>
         </div>
     </div>
+
+    <script src="faq-script.js"></script>
 </body>
 </html>
