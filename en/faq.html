@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-05T10:23:35.529Z
+date: 2025-03-05T10:28:59.558Z
 tags: 
 editor: code
 dateCreated: 2025-03-04T12:34:35.695Z
@@ -17,19 +17,6 @@ dateCreated: 2025-03-04T12:34:35.695Z
     <link rel="stylesheet" href="faq-styles.css">
 </head>
 <body>
-    <div class="life-calendar">
-        <div class="calendar-dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <button class="create-calendar">Create my Calendar</button>
-    </div>
-
     <div class="faq-container">
         <h1>Have any questions?</h1>
         
@@ -45,13 +32,15 @@ dateCreated: 2025-03-04T12:34:35.695Z
             <!-- FAQs will be dynamically loaded here -->
         </div>
 
-        <div class="scroll-indicator" id="loadMoreBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9l6 6 6-6"/>
-            </svg>
+        <div class="faq-footer">
+            <div class="page-info">
+                <span id="currentPage">Page 1</span> of <span id="totalPages">1</span>
+            </div>
+            <div class="navigation-buttons">
+                <button id="prevButton" class="nav-btn" disabled>Previous</button>
+                <button id="nextButton" class="nav-btn">Next</button>
+            </div>
         </div>
     </div>
-
-    <script src="faq-script.js"></script>
 </body>
 </html>
