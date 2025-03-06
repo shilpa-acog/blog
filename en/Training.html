@@ -2,12 +2,312 @@
 title: Training
 description: 
 published: true
-date: 2025-03-06T04:38:55.257Z
+date: 2025-03-06T04:51:37.522Z
 tags: 
 editor: code
 dateCreated: 2025-03-05T13:04:00.387Z
 -->
 
-<h1>Title</h1>
-
-<p>Some text here</p>
+<!-- Main Container -->
+<div class="flex flex-col min-h-screen bg-gray-100">
+  <!-- Hero Section with Background Image -->
+  <div class="relative w-full h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 container mx-auto px-6 py-12 flex flex-col justify-center h-full">
+      <h1 class="text-4xl font-bold text-white mb-2">Training Resources</h1>
+      <p class="text-lg text-gray-200">Discover learning materials, courses, and assessment tools</p>
+    </div>
+  </div>
+  
+  <!-- Content Section -->
+  <div class="container mx-auto px-6 py-8">
+    <!-- Navigation Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <!-- Card 1 -->
+      <a href="#quarterly-goals" class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-blue-100 rounded-full p-3 mr-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+              </svg>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">Quarterly Learning Goals</h2>
+          </div>
+          <p class="text-gray-600">Track your progress and set objectives for each quarter</p>
+        </div>
+      </a>
+      
+      <!-- Card 2 -->
+      <a href="#classroom-courses" class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-green-100 rounded-full p-3 mr-4">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">Google Classroom Courses</h2>
+          </div>
+          <p class="text-gray-600">Access updated courses and learning materials</p>
+        </div>
+      </a>
+      
+      <!-- Card 3 -->
+      <a href="#quiz-prompts" class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-purple-100 rounded-full p-3 mr-4">
+              <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">Quiz Prompts Library</h2>
+          </div>
+          <p class="text-gray-600">Explore assessment tools and knowledge checks</p>
+        </div>
+      </a>
+    </div>
+    
+    <!-- Content Sections -->
+    
+    <!-- Section 1: Quarterly Learning Goals -->
+    <div id="quarterly-goals" class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Quarterly Learning Goals</h2>
+      <div class="border-l-4 border-blue-500 pl-4 mb-6">
+        <p class="text-gray-600">Set and track your learning objectives for each quarter to ensure continuous professional development.</p>
+      </div>
+      
+      <!-- Q1 Goals -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-700 mb-3">Q1 Goals (January - March)</h3>
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Complete foundation courses in project management</span>
+          </li>
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Develop basic skills in data analysis</span>
+          </li>
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-gray-200 text-gray-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Attend leadership workshop</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Q2 Goals -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-gray-700 mb-3">Q2 Goals (April - June)</h3>
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-gray-200 text-gray-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Complete advanced project management certification</span>
+          </li>
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-gray-200 text-gray-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Implement data analysis in current projects</span>
+          </li>
+          <li class="flex items-start">
+            <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-gray-200 text-gray-600 mr-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span>Develop team communication skills</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Add more quarters as needed -->
+    </div>
+    
+    <!-- Section 2: Google Classroom Courses -->
+    <div id="classroom-courses" class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Updated Google Classroom Courses</h2>
+      <div class="border-l-4 border-green-500 pl-4 mb-6">
+        <p class="text-gray-600">Access the latest courses and learning materials through Google Classroom.</p>
+      </div>
+      
+      <!-- Courses Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Course 1 -->
+        <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+          <div class="bg-green-600 p-4">
+            <h3 class="text-xl font-semibold text-white">Project Management Fundamentals</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-gray-600 mb-4">Learn the basics of project management methodologies and best practices.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-500">Updated: Feb 15, 2025</span>
+              <a href="#" class="text-green-600 hover:text-green-800 font-semibold">Join Course</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Course 2 -->
+        <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+          <div class="bg-green-600 p-4">
+            <h3 class="text-xl font-semibold text-white">Data Analysis for Beginners</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-gray-600 mb-4">Introduction to data analysis concepts and tools for non-technical users.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-500">Updated: Mar 1, 2025</span>
+              <a href="#" class="text-green-600 hover:text-green-800 font-semibold">Join Course</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Course 3 -->
+        <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+          <div class="bg-green-600 p-4">
+            <h3 class="text-xl font-semibold text-white">Leadership Skills Workshop</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-gray-600 mb-4">Develop essential leadership skills for managing teams and projects effectively.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-500">Updated: Jan 20, 2025</span>
+              <a href="#" class="text-green-600 hover:text-green-800 font-semibold">Join Course</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Course 4 -->
+        <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+          <div class="bg-green-600 p-4">
+            <h3 class="text-xl font-semibold text-white">Effective Communication</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-gray-600 mb-4">Enhance your communication skills for professional environments.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-500">Updated: Feb 28, 2025</span>
+              <a href="#" class="text-green-600 hover:text-green-800 font-semibold">Join Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Section 3: Quiz Prompts Library -->
+    <div id="quiz-prompts" class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Quiz Prompts Library</h2>
+      <div class="border-l-4 border-purple-500 pl-4 mb-6">
+        <p class="text-gray-600">A collection of assessment tools and knowledge checks to evaluate learning progress.</p>
+      </div>
+      
+      <!-- Categories Section -->
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-gray-700 mb-3">Categories</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Project Management</span>
+          <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Data Analysis</span>
+          <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Leadership</span>
+          <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Communication</span>
+          <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Team Building</span>
+        </div>
+      </div>
+      
+      <!-- Quiz List -->
+      <div class="space-y-4">
+        <!-- Quiz 1 -->
+        <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition duration-300">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Project Management Fundamentals Quiz</h3>
+          <p class="text-gray-600 mb-3">Test your knowledge of basic project management concepts and methodologies.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-gray-500 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-sm text-gray-500">15 minutes</span>
+            </div>
+            <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">Start Quiz</a>
+          </div>
+        </div>
+        
+        <!-- Quiz 2 -->
+        <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition duration-300">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Analysis Tools Assessment</h3>
+          <p class="text-gray-600 mb-3">Evaluate your understanding of data analysis tools and their applications.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-gray-500 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-sm text-gray-500">20 minutes</span>
+            </div>
+            <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">Start Quiz</a>
+          </div>
+        </div>
+        
+        <!-- Quiz 3 -->
+        <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition duration-300">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Leadership Skills Evaluation</h3>
+          <p class="text-gray-600 mb-3">Assess your leadership capabilities and identify areas for improvement.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-gray-500 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-sm text-gray-500">25 minutes</span>
+            </div>
+            <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">Start Quiz</a>
+          </div>
+        </div>
+        
+        <!-- Quiz 4 -->
+        <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition duration-300">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Communication Strategies Quiz</h3>
+          <p class="text-gray-600 mb-3">Test your knowledge of effective communication strategies in professional settings.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-gray-500 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-sm text-gray-500">15 minutes</span>
+            </div>
+            <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">Start Quiz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-auto">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <h3 class="text-xl font-semibold mb-2">Training Resources Wiki</h3>
+          <p class="text-gray-400">Last updated: March 6, 2025</p>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+          <a href="#" class="text-gray-300 hover:text-white">Help</a>
+          <a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
