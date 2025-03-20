@@ -1,0 +1,718 @@
+<!--
+title: sample
+description: 
+published: true
+date: 2025-03-20T10:06:32.165Z
+tags: 
+editor: code
+dateCreated: 2025-03-20T10:06:32.165Z
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aganitha Intranet Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="js-enabled">
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-inner">
+        <div class="logo">
+          <a href="#hero">
+            <span class="logo-text">Aganitha</span>
+            <span class="badge">Intranet</span>
+          </a>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#start-here" class="nav-link">Start Here</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#blogs" class="nav-link">Blogs</a>
+          <a href="#guides" class="nav-link">Guides</a>
+          <a href="#news" class="nav-link">News</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#people" class="nav-link">People</a>
+          <a href="#training" class="nav-link">Training</a>
+        </nav>
+
+        <div class="navbar-actions">
+          <button class="icon-button" id="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="icon-button notification">
+            <i class="fas fa-bell"></i>
+            <span class="notification-dot"></span>
+          </button>
+          <button id="dark-mode-toggle" class="icon-button">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="avatar">AG</div>
+          <button class="mobile-menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden" style="display: none;">
+    <div class="container">
+      <div class="py-2 space-y-1">
+        <a href="#start-here" class="block px-3 py-3 rounded-lg font-medium">Start Here</a>
+        <a href="#faq" class="block px-3 py-3 rounded-lg font-medium">FAQ</a>
+        <a href="#blogs" class="block px-3 py-3 rounded-lg font-medium">Blogs</a>
+        <a href="#guides" class="block px-3 py-3 rounded-lg font-medium">Guides</a>
+        <a href="#news" class="block px-3 py-3 rounded-lg font-medium">News</a>
+        <a href="#projects" class="block px-3 py-3 rounded-lg font-medium">Projects</a>
+        <a href="#people" class="block px-3 py-3 rounded-lg font-medium">People</a>
+        <a href="#training" class="block px-3 py-3 rounded-lg font-medium">Training</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Navigation -->
+  <div class="section-nav">
+    <div class="container">
+      <div class="section-nav-inner">
+        <a href="#hero" class="section-link active">Home</a>
+        <a href="#features" class="section-link">Features</a>
+        <a href="#latest-news" class="section-link">Latest News</a>
+        <a href="#resources" class="section-link">Resources</a>
+        <a href="#projects" class="section-link">Projects</a>
+        <a href="#people" class="section-link">People</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Welcome to Aganitha Intranet</h1>
+          <p class="hero-description">Your central hub for all company resources, news, and collaboration tools.</p>
+          <div class="hero-actions">
+            <a href="#start-here" class="button primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            <a href="#features" class="button outline">Explore Features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Portal Features</h2>
+        <div class="feature-grid">
+          <a href="#projects" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3 class="feature-title">Project Portal</h3>
+            <p class="feature-description">Access all active projects, tasks, and their statuses in one place.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#docs" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3 class="feature-title">Documentation</h3>
+            <p class="feature-description">Company policies, processes, and guidelines all in one place.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#people" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="feature-title">People Directory</h3>
+            <p class="feature-description">Find and connect with colleagues across all departments.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#calendar" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-calendar"></i>
+            </div>
+            <h3 class="feature-title">Events Calendar</h3>
+            <p class="feature-description">Stay up-to-date with company events, deadlines, and celebrations.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#resources" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-toolbox"></i>
+            </div>
+            <h3 class="feature-title">Resources</h3>
+            <p class="feature-description">Templates, brand assets, and tools to help you work more efficiently.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#training" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="feature-title">Training Portal</h3>
+            <p class="feature-description">Access learning materials and development opportunities.</p>
+            <span class="feature-link">Learn more <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="latest-news" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Latest News</h2>
+          <a href="#news" class="section-link">View all <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="news-grid">
+          <div class="news-card">
+            <div class="news-image">
+              <span class="placeholder-text">News Image</span>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-tag">Announcement</span>
+                <span class="news-date">June 10, 2023</span>
+              </div>
+              <h3 class="news-title">New Product Release: AI Platform 3.0</h3>
+              <p class="news-excerpt">Our latest AI platform version brings improved accuracy, faster response times, and new capabilities.</p>
+              <a href="#" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <span class="placeholder-text">News Image</span>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-tag">Company</span>
+                <span class="news-date">June 5, 2023</span>
+              </div>
+              <h3 class="news-title">Quarterly Town Hall Meeting</h3>
+              <p class="news-excerpt">Join us for our quarterly town hall to discuss company updates, projects, and future plans.</p>
+              <a href="#" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+      <div class="container">
+        <h2 class="section-title">Quick Resources</h2>
+        <div class="feature-grid">
+          <a href="#hr" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-clipboard"></i>
+            </div>
+            <h3 class="feature-title">HR Documents</h3>
+            <p class="feature-description">Access forms, policies, and procedures related to employment.</p>
+            <span class="feature-link">Access now <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#it-support" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3 class="feature-title">IT Support</h3>
+            <p class="feature-description">Get help with technical issues and access to company systems.</p>
+            <span class="feature-link">Get support <i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="#brand" class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="feature-title">Brand Assets</h3>
+            <p class="feature-description">Logos, templates, and guidelines for company branding.</p>
+            <span class="feature-link">View assets <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Here Section -->
+    <section id="start-here" class="section">
+      <div class="container">
+        <h2 class="section-title">Start Here</h2>
+        <div class="content-grid">
+          <div class="content-card">
+            <h3 class="content-title">New Employee Orientation</h3>
+            <p class="content-description">Welcome to Aganitha! Here you'll find all the resources you need to get started with your new role.</p>
+            <ul class="content-list">
+              <li>Company overview and history</li>
+              <li>HR policies and procedures</li>
+              <li>IT setup and access</li>
+              <li>Team introduction</li>
+              <li>First-week checklist</li>
+            </ul>
+            <a href="#" class="content-link">View orientation guide <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3 class="faq-question">How do I reset my password?</h3>
+            <p class="faq-answer">You can reset your password by going to the login page and clicking on "Forgot Password". Follow the instructions sent to your email.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">How do I submit a leave request?</h3>
+            <p class="faq-answer">Leave requests can be submitted through the HR portal. Navigate to "Time Off" section and click on "New Request".</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Where can I find the company policies?</h3>
+            <p class="faq-answer">All company policies are available in the HR section of the intranet. You can also ask your manager for specific policy documents.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="section">
+      <div class="container">
+        <h2 class="section-title">Latest Blogs</h2>
+        <div class="blog-grid">
+          <div class="blog-card">
+            <div class="blog-image">
+              <span class="placeholder-text">Blog Image</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-author">John Smith</span>
+                <span class="blog-date">May 15, 2023</span>
+              </div>
+              <h3 class="blog-title">The Future of AI in Healthcare</h3>
+              <p class="blog-excerpt">Exploring how artificial intelligence is revolutionizing healthcare diagnostics and treatment plans.</p>
+              <a href="#" class="blog-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-image">
+              <span class="placeholder-text">Blog Image</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-author">Sarah Johnson</span>
+                <span class="blog-date">May 8, 2023</span>
+              </div>
+              <h3 class="blog-title">5 Tips for Remote Work Productivity</h3>
+              <p class="blog-excerpt">Practical advice for staying productive and maintaining work-life balance while working remotely.</p>
+              <a href="#" class="blog-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guides Section -->
+    <section id="guides" class="section">
+      <div class="container">
+        <h2 class="section-title">Helpful Guides</h2>
+        <div class="guide-grid">
+          <a href="#" class="guide-card">
+            <div class="guide-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3 class="guide-title">Project Management</h3>
+            <p class="guide-description">Learn about our project management methodology and tools.</p>
+          </a>
+          <a href="#" class="guide-card">
+            <div class="guide-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="guide-title">Development Standards</h3>
+            <p class="guide-description">Coding standards and best practices for our development team.</p>
+          </a>
+          <a href="#" class="guide-card">
+            <div class="guide-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="guide-title">Reporting Guidelines</h3>
+            <p class="guide-description">How to create and submit reports for various departments.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title">Company News</h2>
+        <div class="news-grid-full">
+          <div class="news-card">
+            <div class="news-image">
+              <span class="placeholder-text">News Image</span>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-tag">Announcement</span>
+                <span class="news-date">June 10, 2023</span>
+              </div>
+              <h3 class="news-title">New Product Release: AI Platform 3.0</h3>
+              <p class="news-excerpt">Our latest AI platform version brings improved accuracy, faster response times, and new capabilities.</p>
+              <a href="#" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <span class="placeholder-text">News Image</span>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-tag">Company</span>
+                <span class="news-date">June 5, 2023</span>
+              </div>
+              <h3 class="news-title">Quarterly Town Hall Meeting</h3>
+              <p class="news-excerpt">Join us for our quarterly town hall to discuss company updates, projects, and future plans.</p>
+              <a href="#" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image">
+              <span class="placeholder-text">News Image</span>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-tag">Event</span>
+                <span class="news-date">May 28, 2023</span>
+              </div>
+              <h3 class="news-title">Annual Company Retreat</h3>
+              <p class="news-excerpt">Mark your calendars for our annual retreat scheduled for September 15-18, 2023.</p>
+              <a href="#" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Current Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">AI Healthcare Assistant</h3>
+              <span class="project-status active">Active</span>
+            </div>
+            <p class="project-description">Development of an AI-powered healthcare assistant for patient triage and symptom analysis.</p>
+            <div class="project-meta">
+              <div class="project-lead">
+                <span class="meta-label">Lead:</span>
+                <span class="meta-value">John Smith</span>
+              </div>
+              <div class="project-deadline">
+                <span class="meta-label">Deadline:</span>
+                <span class="meta-value">August 30, 2023</span>
+              </div>
+            </div>
+            <a href="#" class="project-link">View project details <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Data Analytics Platform</h3>
+              <span class="project-status active">Active</span>
+            </div>
+            <p class="project-description">Building a comprehensive data analytics platform for business intelligence and reporting.</p>
+            <div class="project-meta">
+              <div class="project-lead">
+                <span class="meta-label">Lead:</span>
+                <span class="meta-value">Sarah Johnson</span>
+              </div>
+              <div class="project-deadline">
+                <span class="meta-label">Deadline:</span>
+                <span class="meta-value">October 15, 2023</span>
+              </div>
+            </div>
+            <a href="#" class="project-link">View project details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- People Section -->
+    <section id="people" class="section">
+      <div class="container">
+        <h2 class="section-title">People Directory</h2>
+        <div class="people-grid">
+          <div class="person-card">
+            <div class="person-avatar">JS</div>
+            <h3 class="person-name">John Smith</h3>
+            <p class="person-title">CTO</p>
+            <p class="person-department">Technology</p>
+            <div class="person-contact">
+              <a href="mailto:john.smith@aganitha.ai" class="contact-link">
+                <i class="fas fa-envelope"></i> Email
+              </a>
+              <a href="tel:+1234567890" class="contact-link">
+                <i class="fas fa-phone"></i> Call
+              </a>
+            </div>
+          </div>
+          <div class="person-card">
+            <div class="person-avatar">SJ</div>
+            <h3 class="person-name">Sarah Johnson</h3>
+            <p class="person-title">Project Manager</p>
+            <p class="person-department">Product</p>
+            <div class="person-contact">
+              <a href="mailto:sarah.johnson@aganitha.ai" class="contact-link">
+                <i class="fas fa-envelope"></i> Email
+              </a>
+              <a href="tel:+1234567891" class="contact-link">
+                <i class="fas fa-phone"></i> Call
+              </a>
+            </div>
+          </div>
+          <div class="person-card">
+            <div class="person-avatar">MK</div>
+            <h3 class="person-name">Mike Kennedy</h3>
+            <p class="person-title">Senior Developer</p>
+            <p class="person-department">Engineering</p>
+            <div class="person-contact">
+              <a href="mailto:mike.kennedy@aganitha.ai" class="contact-link">
+                <i class="fas fa-envelope"></i> Email
+              </a>
+              <a href="tel:+1234567892" class="contact-link">
+                <i class="fas fa-phone"></i> Call
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="section">
+      <div class="container">
+        <h2 class="section-title">Training Resources</h2>
+        <div class="training-grid">
+          <div class="training-card">
+            <div class="training-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="training-content">
+              <h3 class="training-title">Programming Fundamentals</h3>
+              <p class="training-description">Learn the basics of programming languages like Python, JavaScript, and Java.</p>
+              <div class="training-meta">
+                <span class="training-level">Beginner</span>
+                <span class="training-duration">4 weeks</span>
+              </div>
+              <a href="#" class="training-link">Start course <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="training-card">
+            <div class="training-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="training-content">
+              <h3 class="training-title">Machine Learning Essentials</h3>
+              <p class="training-description">Introduction to machine learning concepts, algorithms, and applications.</p>
+              <div class="training-meta">
+                <span class="training-level">Intermediate</span>
+                <span class="training-duration">6 weeks</span>
+              </div>
+              <a href="#" class="training-link">Start course <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="training-card">
+            <div class="training-icon">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <div class="training-content">
+              <h3 class="training-title">Project Management</h3>
+              <p class="training-description">Learn project management methodologies, tools, and best practices.</p>
+              <div class="training-meta">
+                <span class="training-level">All levels</span>
+                <span class="training-duration">5 weeks</span>
+              </div>
+              <a href="#" class="training-link">Start course <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo">
+            <span class="logo-text">Aganitha</span>
+            <span class="badge">Intranet</span>
+          </div>
+          <p class="footer-tagline">Your central hub for all company resources</p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4 class="footer-heading">Resources</h4>
+            <ul class="footer-nav">
+              <li><a href="#docs">Documentation</a></li>
+              <li><a href="#guides">Guides</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+              <li><a href="#training">Training</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#people">People</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#news">News</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Support</h4>
+            <ul class="footer-nav">
+              <li><a href="#help">Help Center</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#it-support">IT Support</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2023 Aganitha. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mark document as loaded to enable transitions
+      document.body.classList.add('loaded');
+      
+      // Mobile menu toggle
+      const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      mobileMenuToggle.addEventListener('click', function() {
+        const isHidden = mobileMenu.style.display === 'none';
+        mobileMenu.style.display = isHidden ? 'block' : 'none';
+      });
+
+      // Dark mode toggle
+      const darkModeToggle = document.getElementById('dark-mode-toggle');
+      const moonIcon = '<i class="fas fa-moon"></i>';
+      const sunIcon = '<i class="fas fa-sun"></i>';
+      
+      // Check for saved dark mode preference or use system preference
+      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const savedDarkMode = localStorage.getItem('darkMode') === 'true';
+      
+      // Apply saved preference or system preference
+      if (savedDarkMode || (!localStorage.getItem('darkMode') && prefersDarkMode)) {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.innerHTML = sunIcon;
+      }
+      
+      darkModeToggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDarkMode);
+        darkModeToggle.innerHTML = isDarkMode ? sunIcon : moonIcon;
+      });
+
+      // Active link logic for navigation
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sectionLinks = document.querySelectorAll('.section-link');
+      
+      function setActiveNavigation() {
+        let scrollPosition = window.scrollY + 200;
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('id');
+          
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            // Set active nav link
+            navLinks.forEach(link => {
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              } else {
+                link.classList.remove('active');
+              }
+            });
+            
+            // Set active section link
+            sectionLinks.forEach(link => {
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              } else {
+                link.classList.remove('active');
+              }
+            });
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', setActiveNavigation);
+      setActiveNavigation();
+
+      // Smooth scroll for section links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            mobileMenu.style.display = 'none';
+          }
+        });
+      });
+
+      // Back to top button
+      const backToTop = document.getElementById('back-to-top');
+      
+      backToTop.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTop.classList.add('visible');
+        } else {
+          backToTop.classList.remove('visible');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
