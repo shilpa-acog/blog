@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-03-26T07:28:25.573Z
+date: 2025-03-26T07:50:30.434Z
 tags: 
 editor: code
 dateCreated: 2025-03-26T07:28:25.573Z
@@ -11,661 +11,213 @@ dateCreated: 2025-03-26T07:28:25.573Z
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aganitha Intranet</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aganitha Intranet Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <input type="checkbox" id="theme-toggle" class="theme-toggle">
-    <div class="app">
-        <!-- Top Navigation Bar -->
-        <header class="navbar">
-            <div class="navbar-container">
-                <div class="logo">
-                    <h1>Aganitha</h1>
-                </div>
-                <nav class="nav-links">
-                    <a href="#home" class="active">Home</a>
-                    <div class="dropdown">
-                        <a href="#onboarding">Onboarding</a>
-                        <div class="dropdown-content">
-                            <a href="#onboarding-hr">HR Policies</a>
-                            <a href="#onboarding-it">IT Setup</a>
-                            <a href="#onboarding-training">Training</a>
-                        </div>
-                    </div>
-                    <a href="#faq">FAQ</a>
-                    <a href="#blogs">Blogs</a>
-                    <a href="#guides">Guides</a>
-                    <a href="#news">News</a>
-                    <a href="#projects">Project Portal</a>
-                    <a href="#people">People</a>
-                </nav>
-                <div class="theme-toggle-wrapper">
-                    <label for="theme-toggle" class="theme-label">
-                        <span class="theme-icon light">☀️</span>
-                        <span class="theme-icon dark">🌙</span>
-                    </label>
-                </div>
-            </div>
-        </header>
-
-        <!-- Main Content Area -->
-        <main class="content">
-            <!-- Home Section -->
-            <section id="home" class="section active">
-                <div class="section-header">
-                    <h2>Welcome to Aganitha Intranet</h2>
-                    <p>Your central hub for company resources, news, and collaboration</p>
-                </div>
-                
-                <div class="dashboard-grid">
-                    <!-- Latest News -->
-                    <div class="dashboard-card">
-                        <div class="card-header">
-                            <h3>Latest News</h3>
-                            <a href="#news" class="view-all">View All</a>
-                        </div>
-                        <div class="card-content">
-                            <div class="news-item">
-                                <div class="news-date">May 15, 2023</div>
-                                <h4>New Office Space Announcement</h4>
-                                <p>We're excited to announce our expansion to a new office location in the tech district.</p>
-                            </div>
-                            <div class="news-item">
-                                <div class="news-date">May 10, 2023</div>
-                                <h4>Q2 Company Meeting</h4>
-                                <p>Join us for the quarterly company meeting on May 20th at 10 AM.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Latest Blogs -->
-                    <div class="dashboard-card">
-                        <div class="card-header">
-                            <h3>Latest Blogs</h3>
-                            <a href="#blogs" class="view-all">View All</a>
-                        </div>
-                        <div class="card-content">
-                            <div class="blog-item">
-                                <div class="blog-meta">
-                                    <span class="blog-author">Sarah Chen</span>
-                                    <span class="blog-category">Computational Biology</span>
-                                </div>
-                                <h4>Advances in Protein Folding Algorithms</h4>
-                                <p>Exploring the latest breakthroughs in computational methods for protein structure prediction.</p>
-                            </div>
-                            <div class="blog-item">
-                                <div class="blog-meta">
-                                    <span class="blog-author">Raj Patel</span>
-                                    <span class="blog-category">Web Development</span>
-                                </div>
-                                <h4>Building Accessible Web Applications</h4>
-                                <p>Best practices for creating inclusive and accessible web experiences for all users.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Explore Guides -->
-                    <div class="dashboard-card">
-                        <div class="card-header">
-                            <h3>Explore Guides</h3>
-                            <a href="#guides" class="view-all">View All</a>
-                        </div>
-                        <div class="card-content">
-                            <div class="guide-grid">
-                                <a href="#guides-it" class="guide-item">
-                                    <div class="guide-icon">💻</div>
-                                    <h4>IT Setup</h4>
-                                </a>
-                                <a href="#guides-dev" class="guide-item">
-                                    <div class="guide-icon">🛠️</div>
-                                    <h4>Developer Tools</h4>
-                                </a>
-                                <a href="#guides-hr" class="guide-item">
-                                    <div class="guide-icon">📝</div>
-                                    <h4>HR Policies</h4>
-                                </a>
-                                <a href="#guides-compliance" class="guide-item">
-                                    <div class="guide-icon">🔒</div>
-                                    <h4>Compliance</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Onboarding Section -->
-            <section id="onboarding" class="section">
-                <div class="section-header">
-                    <h2>Onboarding</h2>
-                    <p>Welcome to Aganitha! Get started with these resources</p>
-                </div>
-                
-                <div class="onboarding-grid">
-                    <div class="onboarding-card" id="onboarding-hr">
-                        <div class="onboarding-icon">📋</div>
-                        <h3>HR Policies</h3>
-                        <ul class="onboarding-list">
-                            <li><a href="#">Employee Handbook</a></li>
-                            <li><a href="#">Benefits Overview</a></li>
-                            <li><a href="#">Time Off Policy</a></li>
-                            <li><a href="#">Code of Conduct</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="onboarding-card" id="onboarding-it">
-                        <div class="onboarding-icon">💻</div>
-                        <h3>IT Setup</h3>
-                        <ul class="onboarding-list">
-                            <li><a href="#">Email Setup</a></li>
-                            <li><a href="#">VPN Configuration</a></li>
-                            <li><a href="#">Software Installation</a></li>
-                            <li><a href="#">Security Guidelines</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="onboarding-card" id="onboarding-training">
-                        <div class="onboarding-icon">🎓</div>
-                        <h3>Training Resources</h3>
-                        <ul class="onboarding-list">
-                            <li><a href="#">Orientation Schedule</a></li>
-                            <li><a href="#">Required Courses</a></li>
-                            <li><a href="#">Department Training</a></li>
-                            <li><a href="#">Learning Resources</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="onboarding-card">
-                        <div class="onboarding-icon">👋</div>
-                        <h3>Getting Started</h3>
-                        <ul class="onboarding-list">
-                            <li><a href="#">First Week Checklist</a></li>
-                            <li><a href="#">Meet Your Team</a></li>
-                            <li><a href="#">Company Structure</a></li>
-                            <li><a href="#">Mentorship Program</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- FAQ Section -->
-            <section id="faq" class="section">
-                <div class="section-header">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Find answers to common questions</p>
-                </div>
-                
-                <div class="faq-container">
-                    <div class="faq-category">
-                        <h3>HR Questions</h3>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq1" class="faq-toggle">
-                            <label for="faq1" class="faq-question">How do I request time off?</label>
-                            <div class="faq-answer">
-                                <p>To request time off, log into the HR portal, navigate to "Time Off Requests," and submit your dates. Your manager will receive a notification to approve your request.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq2" class="faq-toggle">
-                            <label for="faq2" class="faq-question">When are performance reviews conducted?</label>
-                            <div class="faq-answer">
-                                <p>Performance reviews are conducted bi-annually in June and December. You'll receive a notification from HR when it's time to complete your self-assessment.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-category">
-                        <h3>IT Support</h3>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq3" class="faq-toggle">
-                            <label for="faq3" class="faq-question">How do I reset my password?</label>
-                            <div class="faq-answer">
-                                <p>You can reset your password by visiting the IT portal and clicking on "Password Reset." Follow the instructions sent to your email to create a new password.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq4" class="faq-toggle">
-                            <label for="faq4" class="faq-question">How do I request new software?</label>
-                            <div class="faq-answer">
-                                <p>To request new software, submit a ticket through the IT portal with details about the software needed and business justification. Approval from your manager may be required.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-category">
-                        <h3>General</h3>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq5" class="faq-toggle">
-                            <label for="faq5" class="faq-question">How do I book a meeting room?</label>
-                            <div class="faq-answer">
-                                <p>Meeting rooms can be booked through the Outlook calendar. Select "New Meeting," add participants, and use the "Rooms" feature to find and book an available meeting space.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <input type="checkbox" id="faq6" class="faq-toggle">
-                            <label for="faq6" class="faq-question">Where can I find company policies?</label>
-                            <div class="faq-answer">
-                                <p>All company policies are available in the HR section of the intranet. Navigate to Onboarding > HR Policies to access the complete policy documentation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Blogs Section -->
-            <section id="blogs" class="section">
-                <div class="section-header">
-                    <h2>Blogs</h2>
-                    <p>Insights and updates from the Aganitha team</p>
-                </div>
-                
-                <div class="blogs-filter">
-                    <button class="filter-btn active">All</button>
-                    <button class="filter-btn">Computational Biology</button>
-                    <button class="filter-btn">Web Development</button>
-                    <button class="filter-btn">HR & Culture</button>
-                    <button class="filter-btn">Research</button>
-                </div>
-                
-                <div class="blogs-grid">
-                    <div class="blog-card">
-                        <div class="blog-image" style="background-color: #e3f2fd;"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-category">Computational Biology</span>
-                                <span class="blog-date">May 12, 2023</span>
-                            </div>
-                            <h3>Advances in Protein Folding Algorithms</h3>
-                            <p>Exploring the latest breakthroughs in computational methods for protein structure prediction and how they're changing the field.</p>
-                            <div class="blog-author">
-                                <div class="author-avatar" style="background-color: #bbdefb;"></div>
-                                <span>Sarah Chen, Research Scientist</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="blog-card">
-                        <div class="blog-image" style="background-color: #e8eaf6;"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-category">Web Development</span>
-                                <span class="blog-date">May 8, 2023</span>
-                            </div>
-                            <h3>Building Accessible Web Applications</h3>
-                            <p>Best practices for creating inclusive and accessible web experiences for all users, with practical examples from our recent projects.</p>
-                            <div class="blog-author">
-                                <div class="author-avatar" style="background-color: #c5cae9;"></div>
-                                <span>Raj Patel, Senior Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="blog-card">
-                        <div class="blog-image" style="background-color: #e1f5fe;"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-category">HR & Culture</span>
-                                <span class="blog-date">May 5, 2023</span>
-                            </div>
-                            <h3>Creating a Culture of Continuous Learning</h3>
-                            <p>How we're fostering a growth mindset and encouraging professional development across all departments at Aganitha.</p>
-                            <div class="blog-author">
-                                <div class="author-avatar" style="background-color: #b3e5fc;"></div>
-                                <span>Maya Johnson, HR Director</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="blog-card">
-                        <div class="blog-image" style="background-color: #e0f7fa;"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="blog-category">Research</span>
-                                <span class="blog-date">May 1, 2023</span>
-                            </div>
-                            <h3>Data Visualization Techniques for Complex Datasets</h3>
-                            <p>Innovative approaches to visualizing multi-dimensional data that improve interpretation and decision-making.</p>
-                            <div class="blog-author">
-                                <div class="author-avatar" style="background-color: #b2ebf2;"></div>
-                                <span>David Kim, Data Scientist</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Guides Section -->
-            <section id="guides" class="section">
-                <div class="section-header">
-                    <h2>Guides</h2>
-                    <p>Comprehensive documentation and resources</p>
-                </div>
-                
-                <div class="guides-container">
-                    <div class="guides-sidebar">
-                        <h3>Categories</h3>
-                        <ul class="guides-nav">
-                            <li><a href="#guides-it" class="active">IT Setup</a></li>
-                            <li><a href="#guides-dev">Developer Tools</a></li>
-                            <li><a href="#guides-hr">HR Policies</a></li>
-                            <li><a href="#guides-compliance">Compliance</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="guides-content">
-                        <div id="guides-it" class="guide-category active">
-                            <h3>IT Setup Guides</h3>
-                            <div class="guides-grid">
-                                <div class="guide-card">
-                                    <div class="guide-icon">💻</div>
-                                    <h4>Laptop Setup</h4>
-                                    <p>Complete guide to setting up your company laptop with required software and security configurations.</p>
-                                    <a href="#" class="guide-link">View Guide</a>
-                                </div>
-                                <div class="guide-card">
-                                    <div class="guide-icon">📧</div>
-                                    <h4>Email Configuration</h4>
-                                    <p>Step-by-step instructions for setting up your company email on desktop and mobile devices.</p>
-                                    <a href="#" class="guide-link">View Guide</a>
-                                </div>
-                                <div class="guide-card">
-                                    <div class="guide-icon">🔒</div>
-                                    <h4>VPN Access</h4>
-                                    <p>How to install and configure VPN for secure remote access to company resources.</p>
-                                    <a href="#" class="guide-link">View Guide</a>
-                                </div>
-                                <div class="guide-card">
-                                    <div class="guide-icon">☁️</div>
-                                    <h4>Cloud Storage</h4>
-                                    <p>Instructions for accessing and using company cloud storage for file sharing and collaboration.</p>
-                                    <a href="#" class="guide-link">View Guide</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- News Section -->
-            <section id="news" class="section">
-                <div class="section-header">
-                    <h2>Company News</h2>
-                    <p>Stay updated with the latest announcements and achievements</p>
-                </div>
-                
-                <div class="news-timeline">
-                    <div class="news-card">
-                        <div class="news-date">May 15, 2023</div>
-                        <div class="news-content">
-                            <h3>New Office Space Announcement</h3>
-                            <p>We're excited to announce our expansion to a new office location in the tech district. The new space will accommodate our growing team and provide enhanced collaboration areas.</p>
-                            <div class="news-image" style="background-color: #e3f2fd;"></div>
-                            <div class="news-meta">
-                                <span class="news-category">Company Update</span>
-                                <span class="news-author">From the Executive Team</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-card">
-                        <div class="news-date">May 10, 2023</div>
-                        <div class="news-content">
-                            <h3>Q2 Company Meeting Announcement</h3>
-                            <p>Join us for the quarterly company meeting on May 20th at 10 AM. We'll be discussing our Q2 achievements, upcoming projects, and recognizing outstanding team contributions.</p>
-                            <div class="news-meta">
-                                <span class="news-category">Event</span>
-                                <span class="news-author">From HR Department</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-card">
-                        <div class="news-date">May 5, 2023</div>
-                        <div class="news-content">
-                            <h3>Research Team Publishes Groundbreaking Paper</h3>
-                            <p>Congratulations to our research team for publishing their work on novel protein folding algorithms in Nature Biotechnology. This achievement represents years of dedicated research and innovation.</p>
-                            <div class="news-image" style="background-color: #e8eaf6;"></div>
-                            <div class="news-meta">
-                                <span class="news-category">Achievement</span>
-                                <span class="news-author">From Research Department</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-card">
-                        <div class="news-date">May 1, 2023</div>
-                        <div class="news-content">
-                            <h3>Welcome New Team Members</h3>
-                            <p>Please join us in welcoming five new team members who joined Aganitha this month. They bring valuable expertise in computational biology, web development, and data science.</p>
-                            <div class="news-meta">
-                                <span class="news-category">Team Update</span>
-                                <span class="news-author">From HR Department</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Projects Section -->
-            <section id="projects" class="section">
-                <div class="section-header">
-                    <h2>Project Portal</h2>
-                    <p>Explore our internal projects and initiatives</p>
-                </div>
-                
-                <div class="projects-filter">
-                    <button class="filter-btn active">All Projects</button>
-                    <button class="filter-btn">Active</button>
-                    <button class="filter-btn">Planned</button>
-                    <button class="filter-btn">Completed</button>
-                </div>
-                
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-status active">Active</div>
-                        <h3>Protein Structure Prediction Tool</h3>
-                        <p>Developing an advanced computational tool for predicting protein structures from amino acid sequences with improved accuracy.</p>
-                        <div class="project-meta">
-                            <div class="project-team">
-                                <span>Team: Research</span>
-                            </div>
-                            <div class="project-timeline">
-                                <span>Timeline: Jan 2023 - Dec 2023</span>
-                            </div>
-                        </div>
-                        <div class="project-progress">
-                            <div class="progress-label">
-                                <span>Progress</span>
-                                <span>65%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 65%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-status planned">Planned</div>
-                        <h3>Intranet Redesign</h3>
-                        <p>Comprehensive redesign of the company intranet to improve user experience, accessibility, and information architecture.</p>
-                        <div class="project-meta">
-                            <div class="project-team">
-                                <span>Team: Web Development</span>
-                            </div>
-                            <div class="project-timeline">
-                                <span>Timeline: Jul 2023 - Oct 2023</span>
-                            </div>
-                        </div>
-                        <div class="project-progress">
-                            <div class="progress-label">
-                                <span>Progress</span>
-                                <span>Planning</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 10%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-status active">Active</div>
-                        <h3>Data Visualization Framework</h3>
-                        <p>Building a flexible framework for visualizing complex scientific data with interactive elements and export capabilities.</p>
-                        <div class="project-meta">
-                            <div class="project-team">
-                                <span>Team: Data Science</span>
-                            </div>
-                            <div class="project-timeline">
-                                <span>Timeline: Mar 2023 - Aug 2023</span>
-                            </div>
-                        </div>
-                        <div class="project-progress">
-                            <div class="progress-label">
-                                <span>Progress</span>
-                                <span>40%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 40%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-status completed">Completed</div>
-                        <h3>HR Policy Documentation</h3>
-                        <p>Comprehensive update and digitization of all HR policies with improved searchability and accessibility.</p>
-                        <div class="project-meta">
-                            <div class="project-team">
-                                <span>Team: HR</span>
-                            </div>
-                            <div class="project-timeline">
-                                <span>Timeline: Nov 2022 - Apr 2023</span>
-                            </div>
-                        </div>
-                        <div class="project-progress">
-                            <div class="progress-label">
-                                <span>Progress</span>
-                                <span>100%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 100%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- People Directory Section -->
-            <section id="people" class="section">
-                <div class="section-header">
-                    <h2>People Directory</h2>
-                    <p>Connect with your colleagues across the organization</p>
-                </div>
-                
-                <div class="directory-controls">
-                    <div class="directory-search">
-                        <input type="text" placeholder="Search by name, role, or department" class="search-input">
-                    </div>
-                    
-                    <div class="directory-filters">
-                        <select class="filter-select">
-                            <option value="">All Departments</option>
-                            <option value="research">Research</option>
-                            <option value="development">Development</option>
-                            <option value="data-science">Data Science</option>
-                            <option value="hr">HR</option>
-                            <option value="operations">Operations</option>
-                        </select>
-                        
-                        <select class="filter-select">
-                            <option value="">All Roles</option>
-                            <option value="scientist">Scientist</option>
-                            <option value="developer">Developer</option>
-                            <option value="analyst">Analyst</option>
-                            <option value="manager">Manager</option>
-                            <option value="director">Director</option>
-                        </select>
-                    </div>
-                    
-                    <div class="directory-view-toggle">
-                        <button class="view-btn active" data-view="grid">Grid</button>
-                        <button class="view-btn" data-view="list">List</button>
-                    </div>
-                </div>
-                
-                <div class="directory-grid">
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #bbdefb;"></div>
-                        <h3>Sarah Chen</h3>
-                        <p class="person-title">Research Scientist</p>
-                        <p class="person-department">Research</p>
-                        <div class="person-contact">
-                            <a href="mailto:sarah.chen@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                    
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #c5cae9;"></div>
-                        <h3>Raj Patel</h3>
-                        <p class="person-title">Senior Developer</p>
-                        <p class="person-department">Development</p>
-                        <div class="person-contact">
-                            <a href="mailto:raj.patel@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                    
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #b3e5fc;"></div>
-                        <h3>Maya Johnson</h3>
-                        <p class="person-title">HR Director</p>
-                        <p class="person-department">HR</p>
-                        <div class="person-contact">
-                            <a href="mailto:maya.johnson@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                    
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #b2ebf2;"></div>
-                        <h3>David Kim</h3>
-                        <p class="person-title">Data Scientist</p>
-                        <p class="person-department">Data Science</p>
-                        <div class="person-contact">
-                            <a href="mailto:david.kim@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                    
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #dcedc8;"></div>
-                        <h3>Elena Rodriguez</h3>
-                        <p class="person-title">Project Manager</p>
-                        <p class="person-department">Operations</p>
-                        <div class="person-contact">
-                            <a href="mailto:elena.rodriguez@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                    
-                    <div class="person-card">
-                        <div class="person-avatar" style="background-color: #ffecb3;"></div>
-                        <h3>Michael Zhang</h3>
-                        <p class="person-title">Software Engineer</p>
-                        <p class="person-department">Development</p>
-                        <div class="person-contact">
-                            <a href="mailto:michael.zhang@aganitha.com" class="contact-link">Email</a>
-                            <a href="#" class="contact-link">Profile</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h1>Aganitha</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="pages/onboarding.html">Onboarding</a></li>
+          <li><a href="pages/faq.html">FAQ</a></li>
+          <li><a href="pages/blogs.html">Blogs</a></li>
+          <li><a href="pages/guides.html">Guides</a></li>
+          <li><a href="pages/news.html">News</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/people.html">People</a></li>
+        </ul>
+      </nav>
+      <div class="nav-controls">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="search-container">
+          <input type="text" placeholder="Search...">
+          <button aria-label="Search"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="user-profile">
+          <img src="https://i.pravatar.cc/150?img=3" alt="User Profile" class="avatar">
+        </div>
+      </div>
     </div>
+  </header>
+
+  <main class="container">
+    <section class="welcome-banner">
+      <div class="welcome-content">
+        <h1>Welcome to Aganitha Intranet</h1>
+        <p>Your central hub for company resources, news, and collaboration</p>
+      </div>
+    </section>
+
+    <div class="dashboard-grid">
+      <section class="latest-news">
+        <div class="section-header">
+          <h2>Latest News</h2>
+          <a href="pages/news.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-date">May 15, 2023</div>
+            <h3>Q2 Company Meeting</h3>
+            <p>Join us for our quarterly company update on May 20th at 10:00 AM.</p>
+            <a href="pages/news.html" class="read-more">Read more</a>
+          </div>
+          <div class="card">
+            <div class="card-date">May 10, 2023</div>
+            <h3>New Project Announcement</h3>
+            <p>We're excited to announce our collaboration with BioTech Inc.</p>
+            <a href="pages/news.html" class="read-more">Read more</a>
+          </div>
+          <div class="card">
+            <div class="card-date">May 5, 2023</div>
+            <h3>Office Expansion</h3>
+            <p>We're expanding our Hyderabad office to accommodate our growing team.</p>
+            <a href="pages/news.html" class="read-more">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest-blogs">
+        <div class="section-header">
+          <h2>Latest Blogs</h2>
+          <a href="pages/blogs.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-author">
+              <img src="https://i.pravatar.cc/150?img=11" alt="Author" class="avatar-small">
+              <span>Priya Sharma</span>
+            </div>
+            <h3>Advancements in Computational Biology</h3>
+            <p>Exploring recent breakthroughs in protein folding algorithms.</p>
+            <div class="card-tags">
+              <span class="tag">Computational Biology</span>
+              <span class="tag">Research</span>
+            </div>
+            <a href="pages/blogs.html" class="read-more">Read more</a>
+          </div>
+          <div class="card">
+            <div class="card-author">
+              <img src="https://i.pravatar.cc/150?img=12" alt="Author" class="avatar-small">
+              <span>Rahul Patel</span>
+            </div>
+            <h3>Modern Web Development at Aganitha</h3>
+            <p>How we're using modern frameworks to improve our internal tools.</p>
+            <div class="card-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">Engineering</span>
+            </div>
+            <a href="pages/blogs.html" class="read-more">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-guides">
+        <div class="section-header">
+          <h2>Explore Guides</h2>
+          <a href="pages/guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="guides-grid">
+          <a href="pages/guides.html" class="guide-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Developer Setup</h3>
+            <p>Configure your development environment</p>
+          </a>
+          <a href="pages/guides.html" class="guide-card">
+            <i class="fas fa-file-alt"></i>
+            <h3>HR Policies</h3>
+            <p>Learn about company policies</p>
+          </a>
+          <a href="pages/guides.html" class="guide-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Security</h3>
+            <p>Best practices for data security</p>
+          </a>
+          <a href="pages/guides.html" class="guide-card">
+            <i class="fas fa-users"></i>
+            <h3>Team Collaboration</h3>
+            <p>Tools and processes for teamwork</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="quick-actions">
+        <div class="section-header">
+          <h2>Quick Actions</h2>
+        </div>
+        <div class="quick-actions-grid">
+          <a href="#" class="action-card">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Book Meeting Room</span>
+          </a>
+          <a href="#" class="action-card">
+            <i class="fas fa-plane"></i>
+            <span>Travel Request</span>
+          </a>
+          <a href="#" class="action-card">
+            <i class="fas fa-receipt"></i>
+            <span>Expense Claim</span>
+          </a>
+          <a href="#" class="action-card">
+            <i class="fas fa-umbrella-beach"></i>
+            <span>Leave Request</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Aganitha Intranet</h3>
+        <p>&copy; 2023 Aganitha. All rights reserved.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="pages/onboarding.html">Onboarding</a></li>
+          <li><a href="pages/guides.html">Guides</a></li>
+          <li><a href="pages/news.html">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="pages/faq.html">FAQ</a></li>
+          <li><a href="#">IT Help Desk</a></li>
+          <li><a href="#">HR Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple script for theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const icon = themeToggle.querySelector('i');
+    
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      
+      if (document.body.classList.contains('dark-theme')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+  </script>
 </body>
 </html>
