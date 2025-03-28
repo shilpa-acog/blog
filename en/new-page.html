@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-03-26T12:11:17.183Z
+date: 2025-03-28T05:41:27.986Z
 tags: 
 editor: code
 dateCreated: 2025-03-26T07:28:25.573Z
@@ -10,121 +10,147 @@ dateCreated: 2025-03-26T07:28:25.573Z
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aganitha Intranet</title>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-    <!-- Add Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav>
-          <div class="logo">
-            <i class="fas fa-atom"></i>
-            Aganitha Intranet
-          </div>
-          <ul class="nav-menu">
-            <li class="dropdown">
-              <a href="#">
-                <i class="fas fa-user-plus"></i> Onboarding
-                <i class="fas fa-caret-down" style="margin-left: 5px;"></i>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="hr-onboarding.html"><i class="fas fa-user-tie"></i> HR Onboarding</a></li>
-                <li><a href="it-onboarding.html"><i class="fas fa-laptop-code"></i> IT Onboarding</a></li>
-                <li><a href="training.html"><i class="fas fa-chalkboard-teacher"></i> Training</a></li>
-              </ul>
-            </li>
-            <li><a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
-            <li><a href="blogs.html"><i class="fas fa-pen-fancy"></i> Blogs</a></li>
-            <li><a href="guides.html"><i class="fas fa-book-open"></i> Guides</a></li>
-            <li><a href="news.html"><i class="fas fa-newspaper"></i> News</a></li>
-            <li><a href="projects.html"><i class="fas fa-tasks"></i> Projects</a></li>
-            <li><a href="people.html"><i class="fas fa-users"></i> People</a></li>
-          </ul>
-          <button class="menu-button">
-            <i class="fas fa-bars"></i>
-          </button>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aganitha Intranet Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h1>Aganitha</h1>
       </div>
-    </header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="pages/onboarding.html">Onboarding</a></li>
+          <li><a href="pages/faq.html">FAQ</a></li>
+          <li><a href="pages/blogs.html">Blogs</a></li>
+          <li><a href="pages/guides.html">Guides</a></li>
+          <li><a href="pages/news.html">News</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/people.html">People</a></li>
+        </ul>
+      </nav>
+      <div class="nav-controls">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
 
-    <main>
-      <div class="container">
-        <!-- Welcome Banner -->
-        <div class="welcome-banner">
-          <h1>Welcome to Aganitha Intranet</h1>
-          <p>Your centralized hub for company resources, news, and collaboration. Find everything you need to stay informed and productive.</p>
+  <main class="container">
+    <section class="welcome-banner">
+      <div class="welcome-content">
+        <h1>Welcome to Aganitha Intranet</h1>
+        <p>Your central hub for company resources, news, and collaboration</p>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <div class="section-header">
+        <h2>Latest News</h2>
+        <a href="pages/news.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Q2 Meeting">
+          </div>
+          <div class="card-date">May 15, 2023</div>
+          <h3>Q2 Company Meeting</h3>
+          <p>Join us for our quarterly company update on May 20th at 10:00 AM.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
         </div>
-
-        <!-- Three Main Featured Sections -->
-        <div class="grid">
-          <!-- Latest News -->
-          <div class="card">
-            <div class="card-header">
-              <i class="fas fa-newspaper"></i> Latest News
-            </div>
-            <div class="card-body">
-              <div class="card-item">
-                <h3>Company Retreat Announced</h3>
-                <p class="meta"><i class="far fa-calendar-alt"></i> July 15, 2023</p>
-                <p>Our annual company retreat will be held in Bali this year! Save the dates for team building, strategy sessions, and relaxation.</p>
-              </div>
-              <div class="card-item">
-                <h3>New Client Partnership</h3>
-                <p class="meta"><i class="far fa-calendar-alt"></i> July 10, 2023</p>
-                <p>Excited to announce our new partnership with TechGiant Inc. This collaboration will open new opportunities in the AI market sector.</p>
-              </div>
-              <a href="news.html" class="view-all">View all news <i class="fas fa-arrow-right"></i></a>
-            </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="New Project">
           </div>
-
-          <!-- Latest Blogs -->
-          <div class="card">
-            <div class="card-header">
-              <i class="fas fa-pen-fancy"></i> Latest Blogs
-            </div>
-            <div class="card-body">
-              <div class="card-item">
-                <h3>Machine Learning in Healthcare</h3>
-                <p class="meta"><i class="far fa-user"></i> By Jane Smith • July 12, 2023</p>
-                <p>Exploring how ML is transforming patient care with predictive analytics, personalized treatments, and operational improvements.</p>
-              </div>
-              <div class="card-item">
-                <h3>The Future of Remote Work</h3>
-                <p class="meta"><i class="far fa-user"></i> By John Doe • July 5, 2023</p>
-                <p>How companies are adapting to hybrid work environments with new collaboration tools and management approaches.</p>
-              </div>
-              <a href="blogs.html" class="view-all">View all blogs <i class="fas fa-arrow-right"></i></a>
-            </div>
+          <div class="card-date">May 10, 2023</div>
+          <h3>New Project Announcement</h3>
+          <p>We're excited to announce our collaboration with BioTech Inc.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Office Expansion">
           </div>
-
-          <!-- Explore Guides -->
-          <div class="card">
-            <div class="card-header">
-              <i class="fas fa-book-open"></i> Explore Guides
-            </div>
-            <div class="card-body">
-              <div class="card-item">
-                <h3>Setting Up Your Development Environment</h3>
-                <p class="meta"><i class="fas fa-tag"></i> Technical Guide</p>
-                <p>Step-by-step instructions for new developers to configure their workstations with all necessary tools and access credentials.</p>
-              </div>
-              <div class="card-item">
-                <h3>Expense Reporting Procedure</h3>
-                <p class="meta"><i class="fas fa-tag"></i> Admin Guide</p>
-                <p>How to submit and track your expense reports through the finance portal, including policies on reimbursable expenses.</p>
-              </div>
-              <a href="guides.html" class="view-all">View all guides <i class="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
+          <div class="card-date">May 5, 2023</div>
+          <h3>Office Expansion</h3>
+          <p>We're expanding our Hyderabad office to accommodate our growing team.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
         </div>
       </div>
-    </main>
-  </body>
+    </section>
+
+    <section class="latest-blogs">
+      <div class="section-header">
+        <h2>Latest Blogs</h2>
+        <a href="pages/blogs.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-author">
+            <img src="https://i.pravatar.cc/150?img=11" alt="Author" class="avatar-small">
+            <span>Priya Sharma</span>
+          </div>
+          <h3>Advancements in Computational Biology</h3>
+          <p>Exploring recent breakthroughs in protein folding algorithms.</p>
+          <div class="card-tags">
+            <span class="tag">Computational Biology</span>
+            <span class="tag">Research</span>
+          </div>
+          <a href="pages/blogs.html" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+          <div class="card-author">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Author" class="avatar-small">
+            <span>Rahul Patel</span>
+          </div>
+          <h3>Modern Web Development at Aganitha</h3>
+          <p>How we're using modern frameworks to improve our internal tools.</p>
+          <div class="card-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">Engineering</span>
+          </div>
+          <a href="pages/blogs.html" class="read-more">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-guides">
+      <div class="section-header">
+        <h2>Explore Guides</h2>
+        <a href="pages/guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="guides-grid">
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Developer Setup</h3>
+          <p>Configure your development environment</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-file-alt"></i>
+          <h3>HR Policies</h3>
+          <p>Learn about company policies</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Security</h3>
+          <p>Best practices for data security</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-users"></i>
+          <h3>Team Collaboration</h3>
+          <p>Tools and processes for teamwork</p>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
