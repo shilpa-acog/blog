@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-05-05T12:35:49.872Z
+date: 2025-05-05T12:43:13.891Z
 tags: 
 editor: code
 dateCreated: 2025-03-26T07:28:25.573Z
@@ -11,41 +11,141 @@ dateCreated: 2025-03-26T07:28:25.573Z
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore Guides</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aganitha Intranet Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
-
-  <section class="explore-guides">
-    <div class="section-header">
-      <h2>Explore Guides</h2>
-      <a href="pages/guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h1>Aganitha</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Home/index.html">Home</a></li>
+          <li><a href="pages/onboarding.html">Onboarding</a></li>
+          <li><a href="pages/faq.html">FAQ</a></li>
+          <li><a href="pages/blogs.html">Blogs</a></li>
+          <li><a href="pages/guides.html">Guides</a></li>
+          <li><a href="pages/news.html">News</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/people.html">People</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="guides-grid">
-      <a href="pages/guides.html" class="guide-card">
-        <i class="fas fa-laptop-code"></i>
-        <p class="sub-title">Development</p>
-        <p>Configure your development environment</p>
-      </a>
-      <a href="pages/guides.html" class="guide-card">
-        <i class="fas fa-file-alt"></i>
-        <p class="sub-title">Policies</p>
-        <p>Learn about company policies</p>
-      </a>
-      <a href="pages/guides.html" class="guide-card">
-        <i class="fas fa-shield-alt"></i>
-        <p class="sub-title">Security</p>
-        <p>Best practices for data security</p>
-      </a>
-      <a href="pages/guides.html" class="guide-card">
-        <i class="fas fa-users"></i>
-        <p class="sub-title">Teamwork</p>
-        <p>Tools and processes for teamwork</p>
-      </a>
-    </div>
-  </section>
+  </header>
 
+  <main class="container">
+    <section class="welcome-banner">
+      <div class="welcome-content">
+        <h1>Welcome to Aganitha Intranet</h1>
+        <p>Your central hub for company resources, news, and collaboration</p>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <div class="section-header">
+        <h2>Latest News</h2>
+        <a href="pages/news.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Q2 Meeting">
+          </div>
+          <div class="card-date">May 15, 2023</div>
+          <h3>Q2 Company Meeting</h3>
+          <p>Join us for our quarterly company update on May 20th at 10:00 AM.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="New Project">
+          </div>
+          <div class="card-date">May 10, 2023</div>
+          <h3>New Project Announcement</h3>
+          <p>We're excited to announce our collaboration with BioTech Inc.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Office Expansion">
+          </div>
+          <div class="card-date">May 5, 2023</div>
+          <h3>Office Expansion</h3>
+          <p>We're expanding our Hyderabad office to accommodate our growing team.</p>
+          <a href="pages/news.html" class="read-more">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-blogs">
+      <div class="section-header">
+        <h2>Latest Blogs</h2>
+        <a href="pages/blogs.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-author">
+            <img src="https://i.pravatar.cc/150?img=11" alt="Author" class="avatar-small">
+            <span>Priya Sharma</span>
+          </div>
+          <h3>Advancements in Computational Biology</h3>
+          <p>Exploring recent breakthroughs in protein folding algorithms.</p>
+          <div class="card-tags">
+            <span class="tag">Computational Biology</span>
+            <span class="tag">Research</span>
+          </div>
+          <a href="pages/blogs.html" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+          <div class="card-author">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Author" class="avatar-small">
+            <span>Rahul Patel</span>
+          </div>
+          <h3>Modern Web Development at Aganitha</h3>
+          <p>How we're using modern frameworks to improve our internal tools.</p>
+          <div class="card-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">Engineering</span>
+          </div>
+          <a href="pages/blogs.html" class="read-more">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-guides">
+      <div class="section-header">
+        <h2>Explore Guides</h2>
+        <a href="pages/guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="guides-grid">
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-laptop-code"></i>
+          <p class="sub-title">hello</p>
+          <p>Configure your development environment</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-file-alt"></i>
+          <p class="sub-title">hello</p>
+          <p>Learn about company policies</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-shield-alt"></i>
+          <p class="sub-title">Explore</p>
+          <p>Best practices for data security</p>
+        </a>
+        <a href="pages/guides.html" class="guide-card">
+          <i class="fas fa-users"></i>
+          <p class="sub-title">hello</p>
+          <p>Tools and processes for teamwork</p>
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
