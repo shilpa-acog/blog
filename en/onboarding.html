@@ -2,12 +2,248 @@
 title: Onboarding
 description: 
 published: true
-date: 2025-05-05T13:12:51.339Z
+date: 2025-05-05T15:25:46.405Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T13:12:51.339Z
 -->
 
-<h1>Title</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding | Aganitha Intranet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Added Lovable script tag -->
+  <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text">Aganitha</span>
+          <span class="badge">Intranet</span>
+        </a>
 
-<p>Some text here</p>
+        <nav class="nav-links">
+          <a href="start-here.html" class="nav-link active">Onboarding</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="blogs.html" class="nav-link">Blogs</a>
+          <a href="guides.html" class="nav-link">Guides</a>
+          <a href="news.html" class="nav-link">News</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <a href="people.html" class="nav-link">People</a>
+          <a href="training.html" class="nav-link">Training</a>
+        </nav>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container">
+      <a href="start-here.html" class="mobile-nav-link">Onboarding</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+      <a href="guides.html" class="mobile-nav-link">Guides</a>
+      <a href="news.html" class="mobile-nav-link">News</a>
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="people.html" class="mobile-nav-link">People</a>
+      <a href="training.html" class="mobile-nav-link">Training</a>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <!-- Onboarding Header -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Onboarding at Aganitha</h1>
+          <p class="hero-description">This page will guide you through the essential resources and information to help you get started with us.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Onboarding Tabs -->
+    <section class="section">
+      <div class="container">
+        <div class="onboarding-tabs">
+          <div class="tabs-navigation">
+            <button class="tab-button active" data-tab="hr">HR Onboarding</button>
+            <button class="tab-button" data-tab="it">IT Onboarding</button>
+            <button class="tab-button" data-tab="classroom">Classroom</button>
+          </div>
+
+          <!-- HR Onboarding Tab -->
+          <div class="tab-content active" id="hr-tab">
+            <h2 class="tab-title">HR Onboarding</h2>
+            <div class="onboarding-grid">
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                </div>
+                <h3 class="onboarding-item-title">Documentation</h3>
+                <p class="onboarding-item-description">Access essential HR documentation, including your employment contract and company policies.</p>
+                <a href="#" class="onboarding-link">View Documentation</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Benefits & Compensation</h3>
+                <p class="onboarding-item-description">Learn about your salary structure, benefits, leave policy, and insurance coverage.</p>
+                <a href="#" class="onboarding-link">View Benefits</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </div>
+                <h3 class="onboarding-item-title">HR Policies</h3>
+                <p class="onboarding-item-description">Familiarize yourself with our workplace policies, code of conduct, and grievance procedures.</p>
+                <a href="#" class="onboarding-link">View HR Policies</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">POSH Training</h3>
+                <p class="onboarding-item-description">Complete your mandatory Prevention of Sexual Harassment training module.</p>
+                <a href="#" class="onboarding-link">Start POSH Training</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- IT Onboarding Tab -->
+          <div class="tab-content" id="it-tab">
+            <h2 class="tab-title">IT Onboarding</h2>
+            <div class="onboarding-grid">
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                </div>
+                <h3 class="onboarding-item-title">Setup Chromebook or Macbook</h3>
+                <p class="onboarding-item-description">Follow our step-by-step guide to set up your company laptop with necessary applications and configurations.</p>
+                <a href="#" class="onboarding-link">View Setup Guide</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Setting up Keys</h3>
+                <p class="onboarding-item-description">Generate and configure SSH keys and access tokens for secure development environments.</p>
+                <a href="#" class="onboarding-link">Setup Keys Guide</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">LDAP Account</h3>
+                <p class="onboarding-item-description">Setup your LDAP account for authentication across company services and applications.</p>
+                <a href="#" class="onboarding-link">LDAP Setup Guide</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Github Account</h3>
+                <p class="onboarding-item-description">Set up your Github account and gain access to our organization repositories.</p>
+                <a href="#" class="onboarding-link">Github Setup Guide</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                </div>
+                <h3 class="onboarding-item-title">Prerequisites</h3>
+                <p class="onboarding-item-description">Install necessary tools and dependencies required for your role at Aganitha.</p>
+                <a href="#" class="onboarding-link">View Prerequisites</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Classroom Tab -->
+          <div class="tab-content" id="classroom-tab">
+            <h2 class="tab-title">Classroom & Upgrading Skills</h2>
+            <div class="onboarding-grid">
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Aganitha 101</h3>
+                <p class="onboarding-item-description">An introduction to Aganitha's history, culture, values, and organizational structure.</p>
+                <a href="#" class="onboarding-link">Start Learning</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Compliance 101</h3>
+                <p class="onboarding-item-description">Essential compliance training covering data security, privacy, and regulatory requirements.</p>
+                <a href="#" class="onboarding-link">Start Learning</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Technical Courses</h3>
+                <p class="onboarding-item-description">Enhance your technical skills with courses on our tech stack and methodologies.</p>
+                <a href="#" class="onboarding-link">Browse Courses</a>
+              </div>
+
+              <div class="onboarding-card">
+                <div class="onboarding-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><path d="M6 9v12"></path></svg>
+                </div>
+                <h3 class="onboarding-item-title">Career Development</h3>
+                <p class="onboarding-item-description">Resources and courses for professional growth and career advancement at Aganitha.</p>
+                <a href="#" class="onboarding-link">Explore Paths</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Basic mobile menu toggle
+    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('active');
+    });
+    
+    // Tab functionality
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all tabs
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+        
+        // Add active class to current tab
+        this.classList.add('active');
+        const tabId = this.getAttribute('data-tab');
+        document.getElementById(`${tabId}-tab`).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
