@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-05-05T12:33:28.595Z
+date: 2025-05-05T12:35:49.872Z
 tags: 
 editor: code
 dateCreated: 2025-03-26T07:28:25.573Z
@@ -11,181 +11,41 @@ dateCreated: 2025-03-26T07:28:25.573Z
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aganitha Intranet Portal</title>
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/navigation.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Guides</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
 <body>
-  <!-- Navigation -->
-  <nav class="main-nav">
-    <div class="container">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="pages/onboarding/index.html" class="nav-link">Onboarding</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/skills/index.html" class="nav-link">Upgrading Skills</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/faq/index.html" class="nav-link">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/blogs/index.html" class="nav-link">Blogs</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/guides/index.html" class="nav-link">Guides</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/news/index.html" class="nav-link">News</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/projects/index.html" class="nav-link">Project Portal</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages/people/index.html" class="nav-link">People</a>
-        </li>
-      </ul>
+
+  <section class="explore-guides">
+    <div class="section-header">
+      <h2>Explore Guides</h2>
+      <a href="pages/guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
     </div>
-  </nav>
+    <div class="guides-grid">
+      <a href="pages/guides.html" class="guide-card">
+        <i class="fas fa-laptop-code"></i>
+        <p class="sub-title">Development</p>
+        <p>Configure your development environment</p>
+      </a>
+      <a href="pages/guides.html" class="guide-card">
+        <i class="fas fa-file-alt"></i>
+        <p class="sub-title">Policies</p>
+        <p>Learn about company policies</p>
+      </a>
+      <a href="pages/guides.html" class="guide-card">
+        <i class="fas fa-shield-alt"></i>
+        <p class="sub-title">Security</p>
+        <p>Best practices for data security</p>
+      </a>
+      <a href="pages/guides.html" class="guide-card">
+        <i class="fas fa-users"></i>
+        <p class="sub-title">Teamwork</p>
+        <p>Tools and processes for teamwork</p>
+      </a>
+    </div>
+  </section>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="container">
-        <div class="hero-content">
-          <h1 class="hero-title">Welcome to Aganitha Intranet</h1>
-          <p class="hero-subtitle">Your central hub for internal resources, knowledge sharing, and company updates</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured Sections -->
-    <section class="featured-section">
-      <div class="container">
-        <!-- Latest News -->
-        <div class="section-column">
-          <div class="section-header">
-            <h2 class="section-title">Latest News</h2>
-            <a href="pages/news/index.html" class="view-all">View All</a>
-          </div>
-          <div class="card-container">
-            <div class="card news-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Team celebration">
-              </div>
-              <div class="card-content">
-                <div class="card-tag">Company Update</div>
-                <h3 class="card-title">Aganitha Secures Major Partnership with Leading Pharma Company</h3>
-                <p class="card-description">We're excited to announce our new strategic partnership that will accelerate drug discovery workflows.</p>
-                <div class="card-meta">
-                  <span class="card-date">May 15, 2025</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card news-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/3205568/pexels-photo-3205568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="New office space">
-              </div>
-              <div class="card-content">
-                <div class="card-tag">Announcement</div>
-                <h3 class="card-title">New Office Space Opening Next Month</h3>
-                <p class="card-description">We're expanding with a new office location equipped with state-of-the-art facilities for our growing team.</p>
-                <div class="card-meta">
-                  <span class="card-date">May 10, 2025</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Latest Blogs -->
-        <div class="section-column">
-          <div class="section-header">
-            <h2 class="section-title">Latest Blogs</h2>
-            <a href="pages/blogs/index.html" class="view-all">View All</a>
-          </div>
-          <div class="card-container">
-            <div class="card blog-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/7007/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Deep learning diagram">
-              </div>
-              <div class="card-content">
-                <div class="card-tag comp-biology">Computational Biology</div>
-                <h3 class="card-title">Advancements in Deep Learning for Protein Structure Prediction</h3>
-                <p class="card-description">Exploring recent breakthroughs in applying deep learning to protein folding problems.</p>
-                <div class="card-meta">
-                  <span class="card-author">By Sarah Chen</span>
-                  <span class="card-date">May 12, 2025</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card blog-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Chemistry lab">
-              </div>
-              <div class="card-content">
-                <div class="card-tag comp-chemistry">Computational Chemistry</div>
-                <h3 class="card-title">Using ML to Predict Chemical Reactivity</h3>
-                <p class="card-description">How our team is leveraging machine learning models to predict reaction outcomes with unprecedented accuracy.</p>
-                <div class="card-meta">
-                  <span class="card-author">By David Kumar</span>
-                  <span class="card-date">May 8, 2025</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Explore Guides -->
-        <div class="section-column">
-          <div class="section-header">
-            <h2 class="section-title">Explore Guides</h2>
-            <a href="pages/guides/index.html" class="view-all">View All</a>
-          </div>
-          <div class="card-container">
-            <div class="card guide-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Laptop setup">
-              </div>
-              <div class="card-content">
-                <div class="card-tag">IT Setup</div>
-                <h3 class="card-title">Setting Up Your Development Environment</h3>
-                <p class="card-description">A step-by-step guide to configuring your laptop with all required tools and access.</p>
-                <div class="card-meta">
-                  <span class="guide-time">15 min read</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card guide-card">
-              <div class="card-image">
-                <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Team meeting">
-              </div>
-              <div class="card-content">
-                <div class="card-tag">HR Process</div>
-                <h3 class="card-title">Performance Review Process Guide</h3>
-                <p class="card-description">Everything you need to know about our bi-annual performance review cycle and how to prepare.</p>
-                <div class="card-meta">
-                  <span class="guide-time">10 min read</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 </body>
 </html>
