@@ -2,7 +2,7 @@
 title: onboarding
 description: 
 published: true
-date: 2025-05-06T08:04:40.386Z
+date: 2025-05-06T08:15:52.756Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T15:42:15.982Z
@@ -187,16 +187,21 @@ dateCreated: 2025-05-05T15:42:15.982Z
           const tabId = button.getAttribute('data-tab');
           const targetContent = document.getElementById(`${tabId}-tab`);
 
+          // Check if target content exists to avoid errors
+          if (!targetContent) {
+            console.error(`Tab content with ID ${tabId}-tab not found`);
+            return;
+          }
+
           // Remove active class from all buttons and contents
           tabButtons.forEach(function(btn) {
             btn.classList.remove('active');
           });
-          
           tabContents.forEach(function(content) {
             content.classList.remove('active');
           });
 
-          // Add active class to current button and content
+          // Add active class to clicked button and corresponding content
           button.classList.add('active');
           targetContent.classList.add('active');
         });
