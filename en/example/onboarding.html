@@ -2,7 +2,7 @@
 title: onboarding
 description: 
 published: true
-date: 2025-05-06T07:18:16.705Z
+date: 2025-05-06T07:20:00.733Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T15:42:15.982Z
@@ -180,21 +180,30 @@ dateCreated: 2025-05-05T15:42:15.982Z
 
   <script>
     // Tab functionality
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');
 
     tabButtons.forEach(button => {
       button.addEventListener('click', () => {
-        // Remove active class from all buttons and contents
+        const tabId = button.getAttribute('data-tab');
+        const targetContent = document.getElementById(`${tabId}-tab`);
+
+        if (!targetContent) {
+          console.error(`No content found for tab ID: ${tabId}-tab`);
+          return;
+        }
+
         tabButtons.forEach(btn => btn.classList.remove('active'));
         tabContents.forEach(content => content.classList.remove('active'));
 
-        // Add active class to clicked button and corresponding content
         button.classList.add('active');
-        const tabId = button.getAttribute('data-tab');
-        document.getElementById(`${tabId}-tab`).classList.add('active');
+        targetContent.classList.add('active');
       });
     });
+  });
+</script>
   </script>
 </body>
 </html>
