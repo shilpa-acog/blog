@@ -2,7 +2,7 @@
 title: onboarding
 description: 
 published: true
-date: 2025-05-06T07:31:08.392Z
+date: 2025-05-06T07:35:50.317Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T15:42:15.982Z
@@ -34,13 +34,19 @@ dateCreated: 2025-05-05T15:42:15.982Z
       <div class="container">
         <div class="onboarding-tabs">
           <div class="tabs-navigation">
-            <button class="tab-button active" data-tab="hr">HR Onboarding</button>
-            <button class="tab-button" data-tab="it">IT Onboarding</button>
-            <button class="tab-button" data-tab="classroom">Classroom</button>
+            <!-- Hidden Radio Inputs for Tab Switching -->
+            <input type="radio" name="tab" id="tab-hr" class="tab-input" checked>
+            <label for="tab-hr" class="tab-button active">HR Onboarding</label>
+            
+            <input type="radio" name="tab" id="tab-it" class="tab-input">
+            <label for="tab-it" class="tab-button">IT Onboarding</label>
+            
+            <input type="radio" name="tab" id="tab-classroom" class="tab-input">
+            <label for="tab-classroom" class="tab-button">Classroom</label>
           </div>
 
           <!-- HR Onboarding Tab -->
-          <div class="tab-content active" id="hr-tab">
+          <div class="tab-content" id="hr-tab">
             <h2 class="tab-title">HR Onboarding</h2>
             <div class="onboarding-grid">
               <div class="onboarding-card">
@@ -92,7 +98,7 @@ dateCreated: 2025-05-05T15:42:15.982Z
               </div>
               <div class="onboarding-card">
                 <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
                 </div>
                 <h3 class="onboarding-item-title">Setting up Keys</h3>
                 <p class="onboarding-item-description">Generate and configure SSH keys and access tokens for secure development environments.</p>
@@ -108,66 +114,4 @@ dateCreated: 2025-05-05T15:42:15.982Z
               </div>
               <div class="onboarding-card">
                 <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </div>
-                <h3 class="onboarding-item-title">Github Account</h3>
-                <p class="onboarding-item-description">Set up your Github account and gain access to our organization repositories.</p>
-                <a href="/onboarding/github-setup" class="nav-link">Github Setup Guide</a>
-              </div>
-              <div class="onboarding-card">
-                <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                </div>
-                <h3 class="onboarding-item-title">Prerequisites</h3>
-                <p class="onboarding-item-description">Install necessary tools and dependencies required for your role at Aganitha.</p>
-                <a href="/onboarding/prerequisites" class="nav-link">View Prerequisites</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Classroom Tab -->
-          <div class="tab-content" id="classroom-tab">
-            <h2 class="tab-title">Classroom & Upgrading Skills</h2>
-            <div class="onboarding-grid">
-              <div class="onboarding-card">
-                <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                </div>
-                <h3 class="onboarding-item-title">Aganitha 101</h3>
-                <p class="onboarding-item-description">An introduction to Aganitha's history, culture, values, and organizational structure.</p>
-                <a href="/onboarding/aganitha-101" class="nav-link">Start Learning</a>
-              </div>
-              <div class="onboarding-card">
-                <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
-                </div>
-                <h3 class="onboarding-item-title">Compliance 101</h3>
-                <p class="onboarding-item-description">Essential compliance training covering data security, privacy, and regulatory requirements.</p>
-                <a href="/onboarding/compliance-101" class="nav-link">Start Learning</a>
-              </div>
-              <div class="onboarding-card">
-                <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-                </div>
-                <h3 class="onboarding-item-title">Technical Courses</h3>
-                <p class="onboarding-item-description">Enhance your technical skills with courses on our tech stack and methodologies.</p>
-                <a href="/onboarding/technical-courses" class="nav-link">Browse Courses</a>
-              </div>
-              <div class="onboarding-card">
-                <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><path d="M6 9v12"></path></svg>
-                </div>
-                <h3 class="onboarding-item-title">Career Development</h3>
-                <p class="onboarding-item-description">Resources and courses for professional growth and career advancement at Aganitha.</p>
-                <a href="/onboarding/career-development" class="nav-link">Explore Paths</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script src="/assets/js/tabs.js"></script>
-</body>
-</html>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3
