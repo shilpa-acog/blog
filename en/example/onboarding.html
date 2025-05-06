@@ -2,7 +2,7 @@
 title: onboarding
 description: 
 published: true
-date: 2025-05-06T09:04:17.083Z
+date: 2025-05-06T09:29:18.825Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T15:42:15.982Z
@@ -20,24 +20,6 @@ dateCreated: 2025-05-05T15:42:15.982Z
   <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
 </head>
 <body>
-  <header class="navbar">
-    <div class="container">
-      <div class="navbar-inner">
-        <a href="index.html" class="logo-link">
-          <span class="logo-text">Aganitha</span>
-          <span class="badge">Intranet</span>
-        </a>
-
-
-
-        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-    </div>
-  </header>
 
   <main class="main-content">
     <!-- Onboarding Header -->
@@ -71,6 +53,7 @@ dateCreated: 2025-05-05T15:42:15.982Z
                 <h3 class="onboarding-item-title">Documentation</h3>
                 <p class="onboarding-item-description">Access essential HR documentation, including your employment contract and company policies.</p>
                 <a href="#" class="onboarding-link">View Documentation</a>
+                <a href="onboarding/view-documentation.html" class="nav-link">View Documentation</a>
               </div>
 
               <div class="onboarding-card">
@@ -218,7 +201,7 @@ dateCreated: 2025-05-05T15:42:15.982Z
         // Add active class to current tab
         this.classList.add('active');
         const tabId = this.getAttribute('data-tab');
-        document.getElementById(`${tabId}-tab`).classList.add('active');
+        document.getElementById(${tabId}-tab).classList.add('active');
       });
     });
   </script>
