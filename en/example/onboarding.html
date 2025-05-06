@@ -2,23 +2,22 @@
 title: onboarding
 description: 
 published: true
-date: 2025-05-06T07:14:23.620Z
+date: 2025-05-06T07:18:16.705Z
 tags: 
 editor: code
 dateCreated: 2025-05-05T15:42:15.982Z
 -->
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Onboarding | Aganitha Intranet</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <main class="main-content">
     <!-- Onboarding Header -->
     <section class="hero-section">
@@ -35,8 +34,8 @@ dateCreated: 2025-05-05T15:42:15.982Z
       <div class="container">
         <div class="onboarding-tabs">
           <div class="tabs-navigation">
-            <a class="tab-button active" data-tab="hr">HR Onboarding</a>
-            <a class="tab-button" data-tab="it">IT Onboarding</a>
+            <button class="tab-button active" data-tab="hr">HR Onboarding</button>
+            <button class="tab-button" data-tab="it">IT Onboarding</button>
             <button class="tab-button" data-tab="classroom">Classroom</button>
           </div>
 
@@ -106,7 +105,7 @@ dateCreated: 2025-05-05T15:42:15.982Z
 
               <div class="onboarding-card">
                 <div class="onboarding-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect要去x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                 </div>
                 <h3 class="onboarding-item-title">LDAP Account</h3>
                 <p class="onboarding-item-description">Setup your LDAP account for authentication across company services and applications.</p>
@@ -183,32 +182,19 @@ dateCreated: 2025-05-05T15:42:15.982Z
     // Tab functionality
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');
-    
-    // Initialize by setting only HR tab as active and hiding others
-    document.addEventListener('DOMContentLoaded', function() {
-      // Show only the first tab content initially
-      tabContents.forEach((content, index) => {
-        if (index === 0) {
-          content.classList.add('active');
-        } else {
-          content.classList.remove('active');
-        }
-      });
-    });
-    
+
     tabButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        // Remove active class from all tabs
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons and contents
         tabButtons.forEach(btn => btn.classList.remove('active'));
         tabContents.forEach(content => content.classList.remove('active'));
-        
-        // Add active class to current tab
-        this.classList.add('active');
-        const tabId = this.getAttribute('data-tab');
+
+        // Add active class to clicked button and corresponding content
+        button.classList.add('active');
+        const tabId = button.getAttribute('data-tab');
         document.getElementById(`${tabId}-tab`).classList.add('active');
       });
     });
   </script>
-
 </body>
 </html>
