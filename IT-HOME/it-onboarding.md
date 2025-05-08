@@ -6,6 +6,10 @@
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper. 
 
+TEST:
+
+This is a test .
+
 # **GOALS**
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit  
