@@ -2,7 +2,7 @@
 title: it-onboarding
 description: 
 published: true
-date: 2025-05-08T06:38:03.188Z
+date: 2025-05-08T08:00:22.587Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-08T06:33:25.102Z
@@ -22,6 +22,7 @@ This is a test .
 
 Lets do another test for bidirectional
 
+anothhttfg
 # **GOALS**
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit  
