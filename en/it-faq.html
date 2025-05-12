@@ -2,7 +2,7 @@
 title: it-faq
 description: 
 published: true
-date: 2025-05-12T05:45:26.899Z
+date: 2025-05-12T06:07:44.437Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:38:24.783Z
@@ -82,13 +82,18 @@ dateCreated: 2025-05-12T05:38:24.783Z
 
     <div class="container">
         <header>
-            <div class="title-container">
-                <h1>IT Frequently Asked Questions</h1>
-            </div>
-            <p class="subtitle">Find answers to commonly asked IT questions, how to get support, and get IT resources.</p>
+            <h1>IT Frequently Asked Questions</h1>
+            <p>Find answers to commonly asked IT questions, how to get support, and get IT resources.</p>
         </header>
 
-        <div class="faq-section">
+        <div class="search-container">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Search IT questions...">
+            </div>
+        </div>
+
+        <div class="faq-container">
             <details open>
                 <summary>How do I set up my company email on my mobile device?</summary>
                 <p>To set up your company email on your mobile device, follow these steps: 1. Open the email app on your device. 2. Go to "Add Account" and select "Microsoft Exchange" or "Corporate". 3. Enter your company email address and password. 4. Follow the prompts to complete the setup. For security reasons, enable two-factor authentication after setup.</p>
@@ -125,5 +130,25 @@ dateCreated: 2025-05-12T05:38:24.783Z
             </details>
         </div>
     </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const faqItems = document.querySelectorAll('.faq-container details');
+
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.trim().toLowerCase();
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('summary').textContent.toLowerCase();
+                const answer = item.querySelector('p').textContent.toLowerCase();
+
+                if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
