@@ -2,7 +2,7 @@
 title: hr-faq
 description: 
 published: true
-date: 2025-05-12T05:50:09.625Z
+date: 2025-05-12T05:52:53.884Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:23:46.040Z
@@ -89,7 +89,7 @@ dateCreated: 2025-05-12T05:23:46.040Z
         <div class="search-container">
             <div class="search-box">
                 <span class="search-icon">🔍</span>
-                <input type="text" placeholder="Search HR questions...">
+                <input type="text" id="searchInput" placeholder="Search HR questions...">
             </div>
         </div>
 
@@ -135,5 +135,26 @@ dateCreated: 2025-05-12T05:23:46.040Z
             </details>
         </div>
     </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const faqItems = document.querySelectorAll('.faq-container details');
+
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.trim().toLowerCase();
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('summary').textContent.toLowerCase();
+                const answer = item.querySelector('p').textContent.toLowerCase();
+
+                // Check if the search term matches the question or answer
+                if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
