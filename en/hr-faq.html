@@ -2,7 +2,7 @@
 title: hr-faq
 description: 
 published: true
-date: 2025-05-12T05:24:07.929Z
+date: 2025-05-12T05:27:55.224Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:23:46.040Z
@@ -35,7 +35,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>What documents do I need to submit during HR onboarding?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>You will need to submit identification documents (ID/passport), tax forms, educational certificates, proof of address, and bank details for direct deposit. All documents should be submitted through the secure portal in the HR Onboarding section.</p>
@@ -45,7 +48,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>When will I receive my first paycheck?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>Paychecks are issued on the last working day of each month. If you join mid-month, your first paycheck will be prorated based on your start date. Direct deposits typically appear in your account by end of day.</p>
@@ -55,7 +61,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>How do I apply for leave or time off?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>Leave requests should be submitted through our HR management system. You can access this system from the employee portal. Please submit your requests at least two weeks in advance for planned leave, except in cases of emergency.</p>
@@ -65,7 +74,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>What benefits am I eligible for and when do they start?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>Benefits include health insurance, retirement plans, and flexible spending accounts. Health insurance coverage begins on the first day of the month following your start date. Retirement benefits are available after completing three months of employment.</p>
@@ -75,7 +87,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>How do I update my personal information?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>You can update your personal information through the employee profile section of the HR Portal. For major changes like name changes, please contact HR directly as additional documentation may be required.</p>
@@ -85,7 +100,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>What is the company's work-from-home policy?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>Our company offers flexible work arrangements. Depending on your role, you may be eligible to work remotely 2-3 days per week. Please discuss specific arrangements with your manager and ensure they are documented in the HR system.</p>
@@ -95,7 +113,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>When will I receive my company ID card?</h3>
-                    <button class="toggle-btn"><i class="fas fa-minus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon hidden"></i>
+                    </span>
                 </div>
                 <div class="faq-answer">
                     <p>Your company ID card will be issued during your first week. You'll receive an email when it's ready for pickup from the security desk. The ID card is required for building access and should be worn visibly while on company premises.</p>
@@ -105,7 +126,10 @@ dateCreated: 2025-05-12T05:23:46.040Z
             <div class="faq-item">
                 <div class="faq-question">
                     <h3>Who do I contact if I have questions about my compensation?</h3>
-                    <button class="toggle-btn"><i class="fas fa-plus"></i></button>
+                    <span class="toggle-icon">
+                        <i class="fas fa-minus minus-icon hidden"></i>
+                        <i class="fas fa-plus plus-icon"></i>
+                    </span>
                 </div>
                 <div class="faq-answer hidden">
                     <p>For questions regarding your compensation, please contact your HR Business Partner or the Compensation team at compensation@company.com. You can also schedule a confidential meeting through the HR Portal.</p>
@@ -115,19 +139,19 @@ dateCreated: 2025-05-12T05:23:46.040Z
     </div>
 
     <script>
-        document.querySelectorAll('.toggle-btn').forEach(button => {
-            button.addEventListener('click', () => {
-                const faqItem = button.closest('.faq-item');
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.closest('.faq-item');
                 const answer = faqItem.querySelector('.faq-answer');
-                const icon = button.querySelector('i');
+                const minusIcon = question.querySelector('.minus-icon');
+                const plusIcon = question.querySelector('.plus-icon');
                 
+                // Toggle answer visibility
                 answer.classList.toggle('hidden');
                 
-                if (answer.classList.contains('hidden')) {
-                    icon.className = 'fas fa-plus';
-                } else {
-                    icon.className = 'fas fa-minus';
-                }
+                // Toggle icons
+                minusIcon.classList.toggle('hidden');
+                plusIcon.classList.toggle('hidden');
             });
         });
     </script>
