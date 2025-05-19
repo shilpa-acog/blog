@@ -2,7 +2,7 @@
 title: classroom
 description: 
 published: true
-date: 2025-05-19T09:40:15.971Z
+date: 2025-05-19T10:17:13.192Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-17T06:55:05.922Z
@@ -30,13 +30,13 @@ If you'd like to join a course on your own, follow these steps:
 
 1. Open the [courses.xlsx](https://docs.google.com/spreadsheets/d/19e0ui0JMKxvTyxZXjPjtMfVYSmPQVerF/edit?gid=623576320#gid=623576320) sheet.
 
-2. Search for the course you?re interested in and locate its **enrollment code**.
+2. Search for the course you're interested in and locate its **enrollment code**.
 
 3. Visit [Google Classroom](https://classroom.google.com/h).
 
-4. In the top-right corner, click the **?+? icon** and select **?Join class.?**
+4. In the top-right corner, click the **"+" icon** and select **"Join class."**
 
 5. Enter the **class code** you copied from the sheet.
 
-6. Click **Join** ? you?ll now have access to the course content.
+6. Click **Join**  you'll now have access to the course content.
 
