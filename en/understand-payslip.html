@@ -2,12 +2,153 @@
 title: payslip
 description: 
 published: true
-date: 2025-05-21T07:17:13.918Z
+date: 2025-05-21T07:29:09.479Z
 tags: 
 editor: code
 dateCreated: 2025-05-21T07:17:13.918Z
 -->
 
-<h1>Title</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    <link rel="stylesheet" href="employee-portal-styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-links">
+            <a href="/home" class="nav-link active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+                Home
+            </a>
+            <div class="nav-link dropdown">
+                <a href="#" class="dropdown-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                    Onboarding
+                </a>
+                <div class="dropdown-menu">
+                    <a href="/start-here" class="dropdown-item">Start here</a>
+                    <div class="dropdown-item sub-dropdown">
+                        <a href="/hr-onboarding" class="sub-dropdown-toggle">HR Onboarding</a>
+                        <div class="sub-dropdown-menu">
+                            <a href="/posh-document" class="sub-dropdown-item">POSH Document</a>
+                            <a href="/benefits-enrollment" class="sub-dropdown-item">Benefits Enrollment</a>
+                            <a href="/payroll-setup" class="sub-dropdown-item">Payroll Setup</a>
+                            <a href="/company-policies" class="sub-dropdown-item">Company Policies</a>
+                            <div class="sub-dropdown">
+                                <a href="/employee-handbook" class="sub-dropdown-toggle">Employee Handbook</a>
+                                <div class="sub-dropdown-menu">
+                                    <a href="/sumhr" class="sub-dropdown-item">SumHR</a>
+                                    <a href="/understand-payslip" class="sub-dropdown-item">Understand Payslip</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/it-onboarding" class="dropdown-item">IT Onboarding</a>
+                </div>
+            </div>
+            <a href="/employee-directory" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+                Employee Directory
+            </a>
+        </div>
+    </nav>
 
-<p>Some text here</p>
+    <div class="container">
+        <div class="welcome-section">
+            <h1>Welcome to the Employee Portal</h1>
+            <p class="welcome-text">
+                Your one-stop resource for onboarding and company information.
+            </p>
+        </div>
+
+        <h2 class="section-title">Onboarding Process</h2>
+        
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">HR Onboarding</h3>
+                <p class="card-description">
+                    Complete HR onboarding, including documentation and policies.
+                </p>
+                <a href="/hr-onboarding" class="card-link">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M10 17l5-5-5-5v10z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20 3H4c-1.1 0-1.99.9-1.99 2L2 15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 3h2v2h-2V6zm0 3h2v2h-2V9zM8 6h2v2H8V6zm0 3h2v2H8V9zm-1 2H5V9h2v2zm0-3H5V6h2v2zm9 7H8v-2h8v2zm0-4h-2V9h2v2zm0-3h-2V6h2v2zm3 3h-2V9h2v2zm0-3h-2V6h2v2z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">IT Onboarding</h3>
+                <p class="card-description">
+                    Set up your accounts and explore our technology stack.
+                </p>
+                <a href="/it-onboarding" class="card-link">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M10 17l5-5-5-5v10z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="section-title">Resources</h2>
+
+        <div class="resources-grid">
+            <div class="resource-item">
+                <div class="resource-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#3498db" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
+                    </svg>
+                </div>
+                <div class="resource-content">
+                    <h3 class="resource-title">HR FAQ</h3>
+                    <p class="resource-description">Answers to common HR questions.</p>
+                    <a href="/hr-faq" class="learn-more">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M10 17l5-5-5-5v10z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="resource-item">
+                <div class="resource-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#3498db" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                    </svg>
+                </div>
+                <div class="resource-content">
+                    <h3 class="resource-title">Employee Directory</h3>
+                    <p class="resource-description">Find colleague contact details.</p>
+                    <a href="/employee-directory" class="learn-more">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M10 17l5-5-5-5v10z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
