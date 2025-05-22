@@ -2,7 +2,7 @@
 title: under-development
 description: 
 published: true
-date: 2025-05-22T10:52:55.564Z
+date: 2025-05-22T10:59:37.224Z
 tags: 
 editor: code
 dateCreated: 2025-05-22T09:02:35.402Z
@@ -33,17 +33,27 @@ dateCreated: 2025-05-22T09:02:35.402Z
             in development and will be available soon.
         </p>
         
-        <a href="/home" class="go-back-btn">
+        <button class="go-back-btn" onclick="goBack()">
             <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             Go Back
-        </a>
+        </button>
         
-        <a href="/home" class="home-btn">
+        <button class="home-btn" onclick="returnHome()">
             Return to Home
-        </a>
+        </button>
     </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function returnHome() {
+            window.location.href = '/';
+        }
+    </script>
 </body>
 </html>
