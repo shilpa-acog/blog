@@ -1,6 +1,6 @@
-# **? LDAP Account ? Overview & Password Reset Guide**
+# **LDAP Account ? Overview & Password Reset Guide**
 
-## **? What is an LDAP Account?**
+## **What is an LDAP Account?**
 
 **An LDAP (Lightweight Directory Access Protocol) account is a centralized user identity used to authenticate and authorize access to internal systems, applications, and services within an organization.**
 
@@ -8,37 +8,31 @@
 
 ---
 
-## **? Why Do We Need an LDAP Account?**
+## **Why Do We Need an LDAP Account?**
 
 **LDAP accounts are essential for:**
 
-* **? Centralized Identity Management ? All user information is stored in one directory.**
+* **Centralized Identity Management ? All user information is stored in one directory.**
 
-* **?? Improved Security ? Access control and password policies are enforced uniformly.**
+* **Improved Security ? Access control and password policies are enforced uniformly.**
 
-* **? Simplified Login Experience ? One account to access multiple platforms and internal tools.**
+* **Simplified Login Experience ? One account to access multiple platforms and internal tools.**
 
-* **????? Collaboration ? Enables user group management, resource sharing, and controlled access.**
+* **Collaboration ? Enables user group management, resource sharing, and controlled access.**
 
 ---
 
-## 
+## **How to Reset Your LDAP Password**
 
-## 
+**If you?ve forgotten your LDAP password or want to update it, you can reset it yourself by following these steps:**
 
-## 
-
-## **? How to Reset Your LDAP Password**
-
-**If you?ve forgotten your LDAP password or want to update it, you can reset it yourself in a few simple steps:**
-
-### **? Step-by-Step Instructions**
+### **Step-by-Step Instructions**
 
 1. **Visit the Helpdesk Website**  
-    **? [https://helpdesk.svc.aganitha.ai](https://helpdesk.svc.aganitha.ai)**
+    **Go to: [https://helpdesk.svc.aganitha.ai](https://helpdesk.svc.aganitha.ai)**
 
 2. **Login to the Helpdesk**  
-    **Use these temporary credentials:**
+    **Use the following credentials:**
 
    * **Username: `aganitha`**
 
@@ -46,20 +40,18 @@
 
 3. **Request a Reset Link**
 
-   * **Enter your LDAP username: `<your_ldap_username>`**
+   * **Enter your LDAP username (`<your_ldap_username>`) in the provided field.**
 
-   * **Press Enter to send a reset link to your work email ID**
+   * **Press Enter to receive a password reset link on your work email ID.**
 
 4. **Reset Your Password**
 
-   * **Open the email from the helpdesk**
+   * **Check your work email for the reset link.**
 
-   * **Click on the reset link and follow the instructions to create a new password**
-
----
-
-**? Need Help?**  
- **If you face any issues during this process, please reach out in this chat space for assistance.**
+   * **Click the link and follow the instructions to reset your LDAP password.**
 
 ---
+
+**Need Help?**  
+ **If you encounter any issues during this process, feel free to reach out in this chat space for assistance.**
 
