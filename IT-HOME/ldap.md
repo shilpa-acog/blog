@@ -1,56 +1,65 @@
-# **? How to Reset Your LDAP Password via Helpdesk**
+# **? LDAP Account ? Overview & Password Reset Guide**
 
-A quick guide for Aganitha team members to conveniently manage and reset their LDAP passwords using the self-service Helpdesk portal.
+## **? What is an LDAP Account?**
 
----
+**An LDAP (Lightweight Directory Access Protocol) account is a centralized user identity used to authenticate and authorize access to internal systems, applications, and services within an organization.**
 
-## **? Step 1: Visit the Helpdesk Website**
-
-Navigate to the Helpdesk portal:  
- [**https://helpdesk.svc.aganitha.ai/**](https://helpdesk.svc.aganitha.ai/)
+**It acts as your digital identity within the company network, allowing you to log in once and access multiple services (also known as Single Sign-On).**
 
 ---
 
-## **? Step 2: Login to the Helpdesk**
+## **? Why Do We Need an LDAP Account?**
 
-Use the following credentials:
+**LDAP accounts are essential for:**
 
-* **Username:** `aganitha`
+* **? Centralized Identity Management ? All user information is stored in one directory.**
 
-* **Password:** `aganitha@work`
+* **?? Improved Security ? Access control and password policies are enforced uniformly.**
 
-These credentials are for accessing the Helpdesk interface only.
+* **? Simplified Login Experience ? One account to access multiple platforms and internal tools.**
 
----
-
-## **? Step 3: Request a Reset Link**
-
-1. Enter your LDAP username (e.g., `<your_ldap_username>`) in the field provided.
-
-2. Press **Enter**.
-
-3. A reset link will be sent to your work email ID.
+* **????? Collaboration ? Enables user group management, resource sharing, and controlled access.**
 
 ---
 
-## **? Step 4: Reset Your Password**
+## 
 
-1. Open your work email.
+## 
 
-2. Find the reset email.
+## 
 
-3. Click on the password reset link.
+## **? How to Reset Your LDAP Password**
 
-4. Follow the instructions to set your new LDAP password.
+**If you?ve forgotten your LDAP password or want to update it, you can reset it yourself in a few simple steps:**
+
+### **? Step-by-Step Instructions**
+
+1. **Visit the Helpdesk Website**  
+    **? [https://helpdesk.svc.aganitha.ai](https://helpdesk.svc.aganitha.ai)**
+
+2. **Login to the Helpdesk**  
+    **Use these temporary credentials:**
+
+   * **Username: `aganitha`**
+
+   * **Password: `aganitha@work`**
+
+3. **Request a Reset Link**
+
+   * **Enter your LDAP username: `<your_ldap_username>`**
+
+   * **Press Enter to send a reset link to your work email ID**
+
+4. **Reset Your Password**
+
+   * **Open the email from the helpdesk**
+
+   * **Click on the reset link and follow the instructions to create a new password**
 
 ---
 
-## **? Need Help?**
-
-If you face any issues, reach out to the **IT Team** via this chat space. We're here to help\!
+**? Need Help?**  
+ **If you face any issues during this process, please reach out in this chat space for assistance.**
 
 ---
-
-**Best regards,**  
- **? IT Team**
 
