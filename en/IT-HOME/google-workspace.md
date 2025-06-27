@@ -2,7 +2,7 @@
 title: google-workspace
 description: 
 published: true
-date: 2025-06-27T10:23:07.417Z
+date: 2025-06-27T10:25:47.175Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T09:02:10.003Z
