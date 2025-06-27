@@ -2,7 +2,7 @@
 title: under-development
 description: 
 published: true
-date: 2025-06-27T06:46:53.987Z
+date: 2025-06-27T06:57:43.303Z
 tags: 
 editor: code
 dateCreated: 2025-05-22T09:02:35.402Z
@@ -11,36 +11,37 @@ dateCreated: 2025-05-22T09:02:35.402Z
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Under Development</title>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <div class="container">
-    <div class="icon-container">
-      <div class="development-icon">⚙</div>
+    <div class="container">
+        <div class="icon-container">
+            <svg class="development-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        
+        <h1 class="title">Under Development</h1>
+        
+        <p class="subtitle">
+            This page is currently being built. The content for this section is<br>
+            in development and will be available soon.
+        </p>
+        
+        <button type="button" class="go-back-btn" id="goBackBtn">
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Go Back
+        </button>
+        
+        <a href="/home" class="home-btn">Return to Home</a>
     </div>
-    <h1 class="title">Under Development</h1>
-    <p class="subtitle">
-      This page is currently being built. The content for this section is<br>
-      in development and will be available soon.
-    </p>
-    <button id="goBack" onclick="goBack()">← Go Back</button>
-    <button id="goHome" onclick="goHome()">Return to Home</button>
-  </div>
-
-  <script>
-    function goBack() {
-      if (window.history.length > 1) {
-        window.history.back();
-      } else {
-        alert("No previous page to go back to.");
-      }
-    }
-
-    function goHome() {
-      window.location.href = "https://example.com/home"; // Replace with your home page URL
-    }
-  </script>
 </body>
 </html>
