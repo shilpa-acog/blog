@@ -2,7 +2,7 @@
 title: IT
 description: 
 published: true
-date: 2025-05-08T07:57:42.122Z
+date: 2025-06-28T08:44:50.413Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-05T13:03:33.267Z
@@ -11,9 +11,6 @@ dateCreated: 2025-03-05T13:03:33.267Z
 # IT-HOME  
 
 Welcome to the **IT-HOME** page. This serves as a central hub for IT-related documentation, providing quick access to essential topics like GitHub, Password Reset, and SSH.  
-
-## 📂 Pages  
-This is a biderectional test
 
 ### 📌 <a href="/IT-HOME/Github">Github</a>  
 This section covers GitHub usage, including repository management, access control, and best practices for collaboration. Learn how to:  
