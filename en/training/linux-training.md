@@ -2,7 +2,7 @@
 title: linux-trainings
 description: 
 published: true
-date: 2025-06-30T10:51:04.633Z
+date: 2025-06-30T10:51:46.837Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-30T10:46:41.677Z
