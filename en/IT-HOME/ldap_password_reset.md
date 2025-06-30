@@ -2,7 +2,7 @@
 title: ldap_password_reset
 description: 
 published: true
-date: 2025-05-22T07:46:17.039Z
+date: 2025-06-30T10:04:45.548Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-22T07:40:15.878Z
@@ -22,13 +22,13 @@ dateCreated: 2025-05-22T07:40:15.878Z
 
 **LDAP accounts are essential for:**
 
-* **Centralized Identity Management ? All user information is stored in one directory.**
+* **Centralized Identity Management : All user information is stored in one directory.**
 
-* **Improved Security ? Access control and password policies are enforced uniformly.**
+* **Improved Security : Access control and password policies are enforced uniformly.**
 
-* **Simplified Login Experience ? One account to access multiple platforms and internal tools.**
+* **Simplified Login Experience : One account to access multiple platforms and internal tools.**
 
-* **Collaboration ? Enables user group management, resource sharing, and controlled access.**
+* **Collaboration : Enables user group management, resource sharing, and controlled access.**
 
 ---
 
@@ -40,7 +40,7 @@ dateCreated: 2025-05-22T07:40:15.878Z
 
 ## **How to Reset Your LDAP Password**
 
-**If you?ve forgotten your LDAP password or want to update it, you can reset it yourself by following these steps:**
+**If you've forgotten your LDAP password or want to update it, you can reset it yourself by following these steps:**
 
 ### **Step-by-Step Instructions**
 
