@@ -2,7 +2,7 @@
 title: linux-trainings
 description: 
 published: true
-date: 2025-06-30T10:46:41.677Z
+date: 2025-06-30T10:51:04.633Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-30T10:46:41.677Z
@@ -24,5 +24,5 @@ Please complete these Linux training modules:
 ### Training Coverage
 This assignment includes three Linux training resources:
 - **Classroom material**: [Google Classroom](https://classroom.google.com/c/NTIyNjQyODM3Njcy)
-- **Bootcamp portal**: Linux Basics
-- **Online training platform**: Training Portal
+- **Bootcamp portal**: [Linux Basics](https://bootcamps.own1.aganitha.ai/linux/basics/)
+- **Online training platform**: [Training Portal](https://training.demos.aganitha.ai/linux/) Contact IT Team for credentials.
