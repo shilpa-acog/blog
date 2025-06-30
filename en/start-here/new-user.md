@@ -2,7 +2,7 @@
 title: new-user
 description: 
 published: true
-date: 2025-06-30T12:16:40.921Z
+date: 2025-06-30T12:39:43.409Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-30T12:16:40.921Z
