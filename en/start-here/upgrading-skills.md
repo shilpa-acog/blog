@@ -2,7 +2,7 @@
 title: upgrading-skills
 description: 
 published: true
-date: 2025-06-30T12:41:58.885Z
+date: 2025-06-30T12:42:37.487Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-30T12:41:58.885Z
