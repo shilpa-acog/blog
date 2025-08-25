@@ -2,7 +2,7 @@
 title: it-faq
 description: 
 published: true
-date: 2025-08-25T08:47:29.941Z
+date: 2025-08-25T08:49:56.717Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:38:24.783Z
@@ -230,10 +230,8 @@ dateCreated: 2025-05-12T05:38:24.783Z
       <li>Try opening the page in Incognito mode or another browser to rule out cached credentials or cookies.</li>
       <li>Check firewall rules or VPN settings — internal LAN may have restrictions while external networks (like mobile hotspot) work fine.</li>
       <li>Confirm SSL certificates for the proxy are valid and not expired (open URL in browser and check certificate details).</li>
-      <li>Flush DNS cache on macOS: <code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder</code>.</li>
       <li>Test tracing the route from inside Aganitha network:<br><code>traceroute own4.aganitha.ai</code>  
           This helps identify at which hop the connection is getting dropped.</li>
-      <li>If issue persists, check reverse proxy logs on server side (e.g., Nginx or Apache logs) to see if requests are reaching the server.</li>
     </ul>
   </div>
 </details>
