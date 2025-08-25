@@ -2,7 +2,7 @@
 title: it-faq
 description: 
 published: true
-date: 2025-08-25T05:02:28.165Z
+date: 2025-08-25T05:09:01.658Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:38:24.783Z
@@ -198,30 +198,30 @@ dateCreated: 2025-05-12T05:38:24.783Z
                 </p>
             </details>
           <details>
-                <summary>own4 not working in vscode but working in terminal ?</summary>
-                <p>
-                    You need to exit from VScode (quit from menu, not just close the window clicking X button), then connect from terminal and do rm -fr $HOME/.vscode* , then connect using a fresh vscode session. Don't use history to connect, history that shows up in the middle when VCScode opens).
-                </p> 
-            </details>
+  <summary>Unable to access own4 through web?</summary>
+  <div>
+    <p>
+      Many times people have faced the problem of not being able to connect to machines from VSCode.  
+      You can login from the terminal but VSCode keeps erroring out.  
+      To resolve that, do these steps (taking example of OWN4):
+    </p>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+      <li>Disconnect OWN4 login from VSCode</li>
+      <li>Login to OWN4 from terminal</li>
+      <li>Remove <code>$HOME/.vscode-server</code> (<code>rm -fr ~/.vscode-server</code>)</li>
+      <li>Restart VSCode (don’t just close with the X button; use <b>Exit</b> from the menu)</li>
+      <li>Connect using a fresh VSCode session:
+        <ul style="list-style-type: circle; margin-left: 20px;">
+          <li>Use the lower-left corner and choose <b>Connect to Host</b></li>
+          <li>Do not use the history list that appears in the middle when VSCode opens</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</details>
+
           <details>
   <summary>Unable to access own4 through web?</summary>
-  <p>
-    Many times people have faced the problem of not being able to connect to machines from VSCode.  
-    You can login from the terminal but VSCode keeps erroring out.  
-    To resolve that, do these steps (taking example of OWN4):
-  </p>
-  <ul>
-    <li>Disconnect OWN4 login from VSCode</li>
-    <li>Login to OWN4 from terminal</li>
-    <li>Remove <code>$HOME/.vscode-server</code> (<code>rm -fr ~/.vscode-server</code>)</li>
-    <li>Restart VSCode (don’t just close with the X button; use <b>Exit</b> from the menu)</li>
-    <li>Connect using a fresh VSCode session:
-      <ul>
-        <li>Use the lower-left corner and choose <b>Connect to Host</b></li>
-        <li>Do not use the history list that appears in the middle when VSCode opens</li>
-      </ul>
-    </li>
-  </ul>
 </details>
           <details>
             <summary> Need Access for any of our organisation's Repos ?</summary>
