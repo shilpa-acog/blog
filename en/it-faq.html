@@ -2,7 +2,7 @@
 title: it-faq
 description: 
 published: true
-date: 2025-07-08T09:16:13.873Z
+date: 2025-08-25T05:02:08.582Z
 tags: 
 editor: code
 dateCreated: 2025-05-12T05:38:24.783Z
@@ -204,11 +204,25 @@ dateCreated: 2025-05-12T05:38:24.783Z
                 </p> 
             </details>
           <details>
-                <summary>Unable to access own4 through web  ?</summary>
-                <p>
-                   Enabling local network access to chrome and iterm from privacy and security of apple settings, Try incognito, if it won't work reinstall chrome browser. 
-                </p> 
-            </details>
+  <summary>Unable to access own4 through web?</summary>
+  <p>
+    Many times people have faced the problem of not being able to connect to machines from VSCode.  
+    You can login from the terminal but VSCode keeps erroring out.  
+    To resolve that, do these steps (taking example of OWN4):
+  </p>
+  <ul>
+    <li>Disconnect OWN4 login from VSCode</li>
+    <li>Login to OWN4 from terminal</li>
+    <li>Remove <code>$HOME/.vscode-server</code> (<code>rm -fr ~/.vscode-server</code>)</li>
+    <li>Restart VSCode (don’t just close with the X button; use <b>Exit</b> from the menu)</li>
+    <li>Connect using a fresh VSCode session:
+      <ul>
+        <li>Use the lower-left corner and choose <b>Connect to Host</b></li>
+        <li>Do not use the history list that appears in the middle when VSCode opens</li>
+      </ul>
+    </li>
+  </ul>
+</details>
           <details>
             <summary> Need Access for any of our organisation's Repos ?</summary>
             <p>
